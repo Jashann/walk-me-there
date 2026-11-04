@@ -148,7 +148,7 @@ Things and sizes alone were 94.8%, 85.7% and 85.0%. It got more facts right than
 
 ## Built during the hackathon
 
-Everything in this repository was written during the Meta Global AI Developer Hackathon (October 27 to November 4, 2026). No earlier code was reused. Libraries: three.js, ws, Vite, puppeteer-core. All colours, ripples, skies and clouds are drawn in code; there are no texture files. The project is not affiliated with Mojang or Minecraft; the Minecraft export writes a plain data pack.
+Libraries: three.js, ws, Vite, puppeteer-core. All colours, ripples, skies and clouds are drawn in code; there are no texture files. The project is not affiliated with Mojang or Minecraft; the Minecraft export writes a plain data pack.
 
 Milestones:
 
