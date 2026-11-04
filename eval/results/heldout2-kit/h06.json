@@ -1,0 +1,39 @@
+{
+ "id": "h06",
+ "setting": "Grandparents' ger in a fenced yard (khashaa) in the Bayankhoshuu ger district, Ulaanbaatar, Mongolia, about 2005",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 21,
+    "total": 23
+   },
+   "relation": {
+    "pass": 16,
+    "total": 18
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 38,
+   "total": 42,
+   "extras": [
+    "toilet_pit",
+    "bagana_left",
+    "bagana_right"
+   ],
+   "failed": [
+    "there is a street -> nothing in the build carries this tag",
+    "there is a two orange posts (bagana) -> nothing in the build carries this tag",
+    "the roof crown ring (toono) is on top of the two orange posts (bagana) -> missing bagana",
+    "the two orange posts (bagana) is next to the iron stove (zuukh) -> missing bagana"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "61/62",
+  "usd": 0.519492,
+  "ms": 158467,
+  "elements": 24,
+  "error": null
+ }
+}

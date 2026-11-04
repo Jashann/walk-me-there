@@ -1,0 +1,637 @@
+{
+  "id": "s09",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "An aunt's courtyard house (dar) in the Fes medina near Batha, Morocco, 1990s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "My aunt's house in Fes, in the medina, near Batha. This is the nineties. People say riad, but it was a dar really, no garden, just a courtyard with tiles."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "How did you find it?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "Oh, you'd never find it alone. Down a derb, a narrow alley, so narrow you touch both walls. The door was a big wooden door with a brass knocker, a hand of Fatima."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "And inside?"
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "Inside the door you don't go straight in. There's a passage that turns, a bent corridor, the skifa, so people in the street can't see into the house. You go in, turn left, then right, then you're in the courtyard."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "Describe the courtyard."
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "Square, all zellij tiles, green and white, and a fountain in the middle, a little one, not always working. It's open to the sky, and when you look up there's the gallery on the first floor going all around."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "The rooms downstairs?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "Three sides of the courtyard had a long room each, very long and narrow, opening onto the courtyard. The one straight across from where you come in was the salon, with the sedari, the long sofas along the walls, all the way round. That's where guests sat."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "And on the sides?"
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "Left, the room where my aunt and uncle slept. Right, um, right was the kitchen. Hmm. No. The kitchen was a small room in the corner, behind the right room. The right room was where the TV was, the family room."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "Okay, so the kitchen's tucked away."
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "Yes, small, dark, a gas cooker with the butagaz bottle, and a tiny window high up. And a door to a little storeroom."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "What about behind you, the side with the entrance?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "That side had the stairs, going up from the corner by the passage, and the toilet under the stairs."
+    },
+    {
+      "turnId": 16,
+      "speaker": "B",
+      "transcript": "How big was the courtyard?"
+    },
+    {
+      "turnId": 17,
+      "speaker": "A",
+      "transcript": "Not big. Maybe six metres each side. The long rooms were maybe three metres deep."
+    },
+    {
+      "turnId": 18,
+      "speaker": "B",
+      "transcript": "Upstairs?"
+    },
+    {
+      "turnId": 19,
+      "speaker": "A",
+      "transcript": "The stairs go up, steep, tiled, to the gallery, with a wooden railing, and off the gallery more rooms. My cousins' rooms. I slept in the one over the salon with my cousin Samira and we talked all night."
+    },
+    {
+      "turnId": 20,
+      "speaker": "B",
+      "transcript": "Was there more above?"
+    },
+    {
+      "turnId": 21,
+      "speaker": "A",
+      "transcript": "The stairs keep going to the roof, the stah. The terrace. Flat, with a low wall. That's where the washing went, and there was a little room up there for the washing machine."
+    },
+    {
+      "turnId": 22,
+      "speaker": "B",
+      "transcript": "What could you see from up there?"
+    },
+    {
+      "turnId": 23,
+      "speaker": "A",
+      "transcript": "Nothing much, the sky. And you'd hear the call to prayer from five or six places at once, I couldn't tell you from which direction."
+    },
+    {
+      "turnId": 24,
+      "speaker": "B",
+      "transcript": "Anything else in the courtyard?"
+    },
+    {
+      "turnId": 25,
+      "speaker": "A",
+      "transcript": "Two orange trees? No, no, that was another house, my friend's. In ours, a big pot with a jasmine by the salon. And a birdcage with my uncle's canary, hanging by the family room."
+    },
+    {
+      "turnId": 26,
+      "speaker": "B",
+      "transcript": "Did the house smell of anything?"
+    },
+    {
+      "turnId": 27,
+      "speaker": "A",
+      "transcript": "Mint, and gas, and somebody always frying something."
+    }
+  ],
+  "key": {
+    "entrance": "front_door",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "derb",
+        "kind": "street",
+        "name": "derb, narrow alley",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "front_door",
+        "kind": "door",
+        "name": "big wooden front door",
+        "turns": [
+          3,
+          5
+        ]
+      },
+      {
+        "id": "knocker",
+        "kind": "object",
+        "name": "brass hand of Fatima knocker",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "skifa",
+        "kind": "room",
+        "name": "skifa, bent entrance corridor",
+        "turns": [
+          5,
+          15
+        ]
+      },
+      {
+        "id": "courtyard",
+        "kind": "courtyard",
+        "name": "tiled courtyard open to the sky",
+        "turns": [
+          5,
+          7,
+          9,
+          17
+        ]
+      },
+      {
+        "id": "fountain",
+        "kind": "other",
+        "name": "small fountain",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "gallery",
+        "kind": "upper_floor",
+        "name": "first-floor gallery around the courtyard",
+        "turns": [
+          7,
+          19
+        ]
+      },
+      {
+        "id": "salon",
+        "kind": "room",
+        "name": "salon, long reception room",
+        "turns": [
+          9,
+          19,
+          25
+        ]
+      },
+      {
+        "id": "sedari",
+        "kind": "furniture",
+        "name": "sedari, long sofas",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "bedroom",
+        "kind": "room",
+        "name": "aunt and uncle's bedroom",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "family_room",
+        "kind": "room",
+        "name": "family room with the TV",
+        "turns": [
+          11,
+          25
+        ]
+      },
+      {
+        "id": "tv",
+        "kind": "object",
+        "name": "TV",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "small corner kitchen",
+        "turns": [
+          11,
+          13
+        ]
+      },
+      {
+        "id": "cooker",
+        "kind": "stove",
+        "name": "gas cooker",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "gas_bottle",
+        "kind": "object",
+        "name": "butagaz bottle",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "kitchen_window",
+        "kind": "window",
+        "name": "tiny high window",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "storeroom_door",
+        "kind": "door",
+        "name": "door to the storeroom",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "storeroom",
+        "kind": "storage",
+        "name": "little storeroom",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "stairs",
+        "kind": "stairs",
+        "name": "steep tiled stairs",
+        "turns": [
+          15,
+          19,
+          21
+        ]
+      },
+      {
+        "id": "toilet",
+        "kind": "room",
+        "name": "toilet under the stairs",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "railing",
+        "kind": "other",
+        "name": "wooden gallery railing",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "upper_rooms",
+        "kind": "room",
+        "name": "cousins' rooms off the gallery",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "samira_room",
+        "kind": "room",
+        "name": "room over the salon",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "roof_terrace",
+        "kind": "roof_terrace",
+        "name": "stah, flat roof terrace",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "id": "low_wall",
+        "kind": "wall",
+        "name": "low wall around the terrace",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "id": "laundry_room",
+        "kind": "room",
+        "name": "little room for the washing machine",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "id": "washing_machine",
+        "kind": "object",
+        "name": "washing machine",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "id": "jasmine",
+        "kind": "plant",
+        "name": "jasmine in a big pot",
+        "turns": [
+          25
+        ]
+      },
+      {
+        "id": "birdcage",
+        "kind": "object",
+        "name": "birdcage",
+        "turns": [
+          25
+        ]
+      },
+      {
+        "id": "canary",
+        "kind": "animal",
+        "name": "uncle's canary",
+        "turns": [
+          25
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "front_door",
+        "rel": "opens_into",
+        "b": "skifa",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "skifa",
+        "rel": "opens_into",
+        "b": "courtyard",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "fountain",
+        "rel": "inside",
+        "b": "courtyard",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "salon",
+        "rel": "behind",
+        "b": "courtyard",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "salon",
+        "rel": "across_from",
+        "b": "skifa",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "sedari",
+        "rel": "inside",
+        "b": "salon",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "sedari",
+        "rel": "against_wall_of",
+        "b": "salon",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "bedroom",
+        "rel": "left_of",
+        "b": "courtyard",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "family_room",
+        "rel": "right_of",
+        "b": "courtyard",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "tv",
+        "rel": "inside",
+        "b": "family_room",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "behind",
+        "b": "family_room",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "cooker",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "gas_bottle",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "opens_into",
+        "b": "storeroom",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "stairs",
+        "rel": "in_front_of",
+        "b": "courtyard",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "stairs",
+        "rel": "next_to",
+        "b": "skifa",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "toilet",
+        "rel": "below",
+        "b": "stairs",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "gallery",
+        "rel": "opens_into",
+        "b": "upper_rooms",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "samira_room",
+        "rel": "on_top_of",
+        "b": "salon",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "laundry_room",
+        "rel": "inside",
+        "b": "roof_terrace",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "a": "washing_machine",
+        "rel": "inside",
+        "b": "laundry_room",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "a": "jasmine",
+        "rel": "next_to",
+        "b": "salon",
+        "turns": [
+          25
+        ]
+      },
+      {
+        "a": "birdcage",
+        "rel": "next_to",
+        "b": "family_room",
+        "turns": [
+          25
+        ]
+      },
+      {
+        "a": "canary",
+        "rel": "inside",
+        "b": "birdcage",
+        "turns": [
+          25
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "courtyard",
+        "dim": "length",
+        "metres": 6.0,
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "courtyard",
+        "dim": "width",
+        "metres": 6.0,
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "salon",
+        "dim": "width",
+        "metres": 3.0,
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "bedroom",
+        "dim": "width",
+        "metres": 3.0,
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "family_room",
+        "dim": "width",
+        "metres": 3.0,
+        "turns": [
+          17
+        ]
+      }
+    ]
+  }
+}

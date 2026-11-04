@@ -1,0 +1,32 @@
+{
+ "id": "s05",
+ "setting": "A mother's family thatched L-shaped farmhouse (magariya) in a village near Tono, Iwate, Japan, early 1960s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 31,
+    "total": 31
+   },
+   "relation": {
+    "pass": 31,
+    "total": 31
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 65,
+   "total": 65,
+   "extras": [
+    "ceiling_over_irori"
+   ],
+   "failed": []
+  },
+  "rounds": 4,
+  "ownChecks": "80/80",
+  "usd": 0.758744,
+  "ms": 340778,
+  "elements": 32,
+  "error": null
+ }
+}

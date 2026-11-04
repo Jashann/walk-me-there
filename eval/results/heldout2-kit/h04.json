@@ -1,0 +1,34 @@
+{
+ "id": "h04",
+ "setting": "Family compound house (abusua fie) shared by many households in Asawase, Kumasi, Ghana, childhood until 1994",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 36,
+    "total": 37
+   },
+   "relation": {
+    "pass": 38,
+    "total": 40
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 77,
+   "total": 80,
+   "extras": [],
+   "failed": [
+    "there is a back wall of mother's room -> nothing in the build carries this tag",
+    "the mother's big bed is against the wall of the back wall of mother's room -> missing mother_room_back_wall",
+    "the back wall of mother's room is across from the door of mother's room -> missing mother_room_back_wall"
+   ]
+  },
+  "rounds": 3,
+  "ownChecks": "82/82",
+  "usd": 0.69357545,
+  "ms": 229902,
+  "elements": 36,
+  "error": null
+ }
+}

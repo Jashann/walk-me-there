@@ -1,0 +1,308 @@
+[
+ {
+  "id": "2026-10-30-64e4a6",
+  "title": "Bibi Ji's house with the vehra",
+  "language": "Punjabi",
+  "usd": 0.361,
+  "builds": [
+   {
+    "round": 0,
+    "passed": 30,
+    "total": 32,
+    "usd": 0.083072,
+    "failed": [
+     {
+      "text": "the very big neem tree is inside the big open courtyard",
+      "detail": "neem_tree stands from 2.5 to 11.3 m across and -0.3 to 13.0 m in; courtyard covers -7.5 to 7.5 m across and 0.5 to 12.5 m in"
+     },
+     {
+      "text": "the wooden ladder is against the wall of the grain room",
+      "detail": "0.8 m apart (touching means within 0.5 m)"
+     }
+    ]
+   },
+   {
+    "round": 1,
+    "passed": 32,
+    "total": 32,
+    "usd": 0.0493344,
+    "failed": []
+   },
+   {
+    "round": 2,
+    "passed": 32,
+    "total": 32,
+    "usd": 0.14318,
+    "failed": []
+   }
+  ],
+  "final": {
+   "passed": 32,
+   "total": 32,
+   "failed": []
+  }
+ },
+ {
+  "id": "2026-10-30-3aebe1",
+  "title": "Our haveli in Lahore near Mochi Gate",
+  "language": "Punjabi",
+  "usd": 0.721,
+  "builds": [
+   {
+    "round": 0,
+    "passed": 23,
+    "total": 24,
+    "usd": 0.190356,
+    "failed": [
+     {
+      "text": "the peepal tree is next to the big wooden door",
+      "detail": "2.5 m apart (next to means within 2 m)"
+     }
+    ]
+   },
+   {
+    "round": 1,
+    "passed": 24,
+    "total": 24,
+    "usd": 0.141592,
+    "failed": []
+   },
+   {
+    "round": 2,
+    "passed": 24,
+    "total": 24,
+    "usd": 0.320044,
+    "failed": []
+   }
+  ],
+  "final": {
+   "passed": 24,
+   "total": 24,
+   "failed": []
+  }
+ },
+ {
+  "id": "2026-10-30-0166d1",
+  "title": "Mi pueblo, la plaza del centro",
+  "language": "Spanish",
+  "usd": 0.534,
+  "builds": [
+   {
+    "round": 0,
+    "passed": 19,
+    "total": 21,
+    "usd": 0.130692,
+    "failed": [
+     {
+      "text": "the bell towers is on top of the church",
+      "detail": "bell_towers from 0.0 to 16.8 m up, church from 0.0 to 6.5 m up; footprints overlap"
+     },
+     {
+      "text": "the arches is inside the municipal presidency building",
+      "detail": "arches stands from -19.5 to -3.5 m across and 11.0 to 11.5 m in; town_hall covers -20.5 to -2.5 m across and 1.5 to 10.5 m in"
+     }
+    ]
+   },
+   {
+    "round": 1,
+    "passed": 21,
+    "total": 21,
+    "usd": 0.106224,
+    "failed": []
+   },
+   {
+    "round": 2,
+    "passed": 21,
+    "total": 21,
+    "usd": 0.24178,
+    "failed": []
+   }
+  ],
+  "final": {
+   "passed": 21,
+   "total": 21,
+   "failed": []
+  }
+ },
+ {
+  "id": "2026-10-30-50cfc0",
+  "title": "My primary school in Ibadan",
+  "language": "English",
+  "usd": 1.072,
+  "builds": [
+   {
+    "round": 0,
+    "passed": 40,
+    "total": 41,
+    "usd": 0.179388,
+    "failed": [
+     {
+      "text": "you can walk in through the School gate",
+      "detail": "the entrance is closed or too narrow to walk through"
+     }
+    ]
+   },
+   {
+    "round": 1,
+    "passed": 40,
+    "total": 41,
+    "usd": 0.077872,
+    "failed": [
+     {
+      "text": "you can walk in through the School gate",
+      "detail": "the entrance is closed or too narrow to walk through"
+     }
+    ]
+   },
+   {
+    "round": 2,
+    "passed": 40,
+    "total": 41,
+    "usd": 0.14966,
+    "failed": [
+     {
+      "text": "you can walk in through the School gate",
+      "detail": "the entrance is closed or too narrow to walk through"
+     }
+    ]
+   },
+   {
+    "round": 3,
+    "passed": 41,
+    "total": 41,
+    "usd": 0.1156768,
+    "failed": []
+   },
+   {
+    "round": 4,
+    "passed": 41,
+    "total": 41,
+    "usd": 0.344708,
+    "failed": []
+   }
+  ],
+  "final": {
+   "passed": 41,
+   "total": 41,
+   "failed": []
+  }
+ },
+ {
+  "id": "2026-10-30-ad136a",
+  "title": "Korona shopping street on a straight road",
+  "language": "Japanese",
+  "usd": 0.301,
+  "builds": [
+   {
+    "round": 0,
+    "passed": 23,
+    "total": 23,
+    "usd": 0.118412,
+    "failed": []
+   },
+   {
+    "round": 1,
+    "passed": 23,
+    "total": 23,
+    "usd": 0.12182,
+    "failed": []
+   }
+  ],
+  "final": {
+   "passed": 23,
+   "total": 23,
+   "failed": []
+  }
+ },
+ {
+  "id": "2026-10-30-734377",
+  "title": "Castle on a hill with dragon tower",
+  "language": "English",
+  "usd": 1.157,
+  "builds": [
+   {
+    "round": 0,
+    "passed": 21,
+    "total": 29,
+    "usd": 0.225064,
+    "failed": [
+     {
+      "text": "the castle is on top of the hill",
+      "detail": "castle from 0.0 to 8.3 m up, hill from 0.0 to 4.0 m up; footprints overlap"
+     },
+     {
+      "text": "the corner tower 1 is inside the castle",
+      "detail": "tower_1 stands from -16.0 to -10.0 m across and 16.0 to 22.0 m in; castle covers -13.0 to 13.0 m across and 19.0 to 43.0 m in"
+     },
+     {
+      "text": "the corner tower 2 is inside the castle",
+      "detail": "tower_2 stands from 10.0 to 16.0 m across and 16.0 to 22.0 m in; castle covers -13.0 to 13.0 m across and 19.0 to 43.0 m in"
+     },
+     {
+      "text": "the corner tower 3 is inside the castle",
+      "detail": "tower_3 stands from -16.0 to -10.0 m across and 40.0 to 46.0 m in; castle covers -13.0 to 13.0 m across and 19.0 to 43.0 m in"
+     },
+     {
+      "text": "the corner tower 4 is inside the castle",
+      "detail": "tower_4 stands from 10.0 to 16.0 m across and 40.0 to 46.0 m in; castle covers -13.0 to 13.0 m across and 19.0 to 43.0 m in"
+     },
+     {
+      "text": "the secret tunnel is next to the fountain",
+      "detail": "2.5 m apart (next to means within 2 m)"
+     },
+     {
+      "text": "the secret tunnel is below the moat with lava",
+      "detail": "secret_tunnel from 0.0 to 4.0 m up, moat from 0.0 to 2.0 m up"
+     },
+     {
+      "text": "you can walk in through the drawbridge",
+      "detail": "the entrance is closed or too narrow to walk through"
+     }
+    ]
+   },
+   {
+    "round": 1,
+    "passed": 28,
+    "total": 29,
+    "usd": 0.1624336,
+    "failed": [
+     {
+      "text": "you can walk in through the drawbridge",
+      "detail": "the entrance is closed or too narrow to walk through"
+     }
+    ]
+   },
+   {
+    "round": 2,
+    "passed": 28,
+    "total": 29,
+    "usd": 0.12906,
+    "failed": [
+     {
+      "text": "you can walk in through the drawbridge",
+      "detail": "the entrance is closed or too narrow to walk through"
+     }
+    ]
+   },
+   {
+    "round": 3,
+    "passed": 28,
+    "total": 29,
+    "usd": 0.0839416,
+    "failed": [
+     {
+      "text": "you can walk in through the drawbridge",
+      "detail": "the entrance is closed or too narrow to walk through"
+     }
+    ]
+   }
+  ],
+  "final": {
+   "passed": 28,
+   "total": 29,
+   "failed": [
+    "you can walk in through the drawbridge"
+   ]
+  }
+ }
+]

@@ -1,0 +1,120 @@
+{
+ "id": "s09",
+ "setting": "An aunt's courtyard house (dar) in the Fes medina near Batha, Morocco, 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 24,
+    "total": 30
+   },
+   "relation": {
+    "pass": 21,
+    "total": 24
+   },
+   "size": {
+    "pass": 5,
+    "total": 5
+   },
+   "pass": 50,
+   "total": 59,
+   "extras": [],
+   "failed": [
+    "there is a brass hand of Fatima knocker -> no blocks carry this tag",
+    "there is a TV -> no blocks carry this tag",
+    "there is a butagaz bottle -> no blocks carry this tag",
+    "there is a door to the storeroom -> no blocks carry this tag",
+    "there is a wooden gallery railing -> no blocks carry this tag",
+    "there is a room over the salon -> no blocks carry this tag",
+    "the TV is inside the family room with the TV -> missing tv",
+    "the butagaz bottle is inside the small corner kitchen -> missing gas_bottle",
+    "the room over the salon is on top of the salon, long reception room -> missing samira_room"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "62/62",
+  "usd": 0.7877786500000001,
+  "ms": 266220,
+  "elements": 24,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 26,
+    "total": 30
+   },
+   "relation": {
+    "pass": 24,
+    "total": 24
+   },
+   "size": {
+    "pass": 5,
+    "total": 5
+   },
+   "pass": 55,
+   "total": 59,
+   "extras": [
+    "washing_laundry"
+   ],
+   "failed": [
+    "there is a derb, narrow alley -> no blocks carry this tag",
+    "there is a tiny high window -> no blocks carry this tag",
+    "there is a door to the storeroom -> no blocks carry this tag",
+    "there is a low wall around the terrace -> no blocks carry this tag"
+   ]
+  },
+  "usd": 0.2527592,
+  "ms": 82562,
+  "elements": 27,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 21,
+    "total": 30
+   },
+   "relation": {
+    "pass": 9,
+    "total": 24
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 32,
+   "total": 56,
+   "extras": [],
+   "failed": [
+    "there is a brass hand of Fatima knocker -> no blocks carry this tag",
+    "there is a salon, long reception room -> no blocks carry this tag",
+    "there is a aunt and uncle's bedroom -> no blocks carry this tag",
+    "there is a family room with the TV -> no blocks carry this tag",
+    "there is a small corner kitchen -> no blocks carry this tag",
+    "there is a door to the storeroom -> no blocks carry this tag",
+    "there is a little storeroom -> no blocks carry this tag",
+    "there is a wooden gallery railing -> no blocks carry this tag",
+    "there is a uncle's canary -> no blocks carry this tag",
+    "the salon, long reception room is further in than the tiled courtyard open to the sky -> missing salon",
+    "the salon, long reception room is across from the skifa, bent entrance corridor -> missing salon",
+    "the sedari, long sofas is inside the salon, long reception room -> missing salon",
+    "the sedari, long sofas is against the wall of the salon, long reception room -> missing salon",
+    "the aunt and uncle's bedroom is left of the tiled courtyard open to the sky -> missing bedroom",
+    "the family room with the TV is right of the tiled courtyard open to the sky -> missing family_room",
+    "the TV is inside the family room with the TV -> missing family_room",
+    "the small corner kitchen is further in than the family room with the TV -> missing kitchen",
+    "the gas cooker is inside the small corner kitchen -> missing kitchen",
+    "the butagaz bottle is inside the small corner kitchen -> missing kitchen",
+    "the small corner kitchen opens into the little storeroom -> missing kitchen",
+    "the room over the salon is on top of the salon, long reception room -> missing salon",
+    "the jasmine in a big pot is next to the salon, long reception room -> missing salon",
+    "the birdcage is next to the family room with the TV -> missing family_room",
+    "the uncle's canary is inside the birdcage -> missing canary"
+   ]
+  },
+  "usd": 0.3799688,
+  "ms": 135624,
+  "elements": 21,
+  "error": null
+ }
+}

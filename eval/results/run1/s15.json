@@ -1,0 +1,89 @@
+{
+ "id": "s15",
+ "setting": "A grandmother's adobe house in the countryside near San Carlos, Ñuble, Chile, 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 14,
+    "total": 15
+   },
+   "relation": {
+    "pass": 10,
+    "total": 10
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 26,
+   "total": 27,
+   "extras": [],
+   "failed": [
+    "there is a bedroom doors onto the corredor -> no blocks carry this tag"
+   ]
+  },
+  "rounds": 1,
+  "ownChecks": "49/49",
+  "usd": 0.14742545,
+  "ms": 71086,
+  "elements": 17,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 15,
+    "total": 15
+   },
+   "relation": {
+    "pass": 10,
+    "total": 10
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 27,
+   "total": 27,
+   "extras": [],
+   "failed": []
+  },
+  "usd": 0.1033632,
+  "ms": 40656,
+  "elements": 18,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 14,
+    "total": 15
+   },
+   "relation": {
+    "pass": 8,
+    "total": 10
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 24,
+   "total": 27,
+   "extras": [
+    "dirt_path",
+    "bedroom_left_2",
+    "bedroom_right_1",
+    "bedroom_right_2"
+   ],
+   "failed": [
+    "there is a road -> no blocks carry this tag",
+    "the tranquera, wooden farm gate is next to the road -> missing road",
+    "the bedrooms on both sides of the comedor is next to the comedor, dining room -> gap between them is 5.0 m (next to means within 2 m)"
+   ]
+  },
+  "usd": 0.1994472,
+  "ms": 78132,
+  "elements": 18,
+  "error": null
+ }
+}

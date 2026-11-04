@@ -1,0 +1,48 @@
+{
+ "id": "s02",
+ "setting": "An uncle's compound with a face-me-I-face-you bungalow in Mushin, Lagos, Nigeria, early 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 17,
+    "total": 20
+   },
+   "relation": {
+    "pass": 19,
+    "total": 23
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 38,
+   "total": 45,
+   "extras": [
+    "room_left_1",
+    "room_right_1",
+    "room_left_2",
+    "room_right_2",
+    "room_left_3",
+    "room_right_3",
+    "room_right_4",
+    "toilet_1",
+    "toilet_2"
+   ],
+   "failed": [
+    "there is a uncle's compound -> no blocks carry this tag",
+    "there is a rooms facing each other, four on each side of the corridor -> no blocks carry this tag",
+    "there is a two toilets -> no blocks carry this tag",
+    "the rooms facing each other, four on each side of the corridor is next to the long central corridor -> missing other_rooms",
+    "the two toilets is further in than the bungalow, main building -> missing toilets",
+    "the two toilets is next to the open shared kitchen area at the back -> missing toilets",
+    "the two toilets is left of the open shared kitchen area at the back -> missing toilets"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "85/85",
+  "usd": 0.28679565,
+  "ms": 110443,
+  "elements": 26,
+  "error": null
+ }
+}

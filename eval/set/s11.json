@@ -1,0 +1,582 @@
+{
+  "id": "s11",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A family's nipa house on posts in a barrio outside Catbalogan, Samar, Philippines, early 1980s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "Our house in Samar, in a barrio outside Catbalogan, early eighties. A nipa house, bahay kubo, bamboo floor, nipa roof, up on wooden posts maybe this high, like my shoulder. Six feet, maybe."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "And under the house?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "The silong, underneath. That's where the pigs were, and the chickens, and my father's tools and his boat paddles. The pigs were right under the kitchen."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "How did you get up?"
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "A bamboo ladder, the hagdan, at the front, up to the door. In front of the house there was a little yard with a santan bush, and then the road."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "What's inside?"
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "One main room, the sala, and that's where we slept also, everyone on mats, banig, rolled up in the day. On the left there was a small room, the only room with a door, my parents'."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "The kitchen?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "At the back. The kitchen, the kusina, with the clay stove, the kalan, and the banggerahan, the dish rack. And out from the kitchen the batalan, an open platform, bamboo slats, where you wash the dishes and take a bath with a timba, a pail. Water came from a well at the back, near the bananas."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "Bananas?"
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "Banana plants behind the house. And a coconut tree, a big one, on the right side. When there was a typhoon my father would worry about that one falling on us."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "Was there furniture?"
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "A bench, a long bamboo bench along the front wall, under the window. A small altar with the Santo Niño, in the corner of the sala. And a radio. That's it."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "How big was the sala?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "Small. Maybe five of us could lie down side by side. I'd say four metres across."
+    },
+    {
+      "turnId": 16,
+      "speaker": "B",
+      "transcript": "Did the floor make noise?"
+    },
+    {
+      "turnId": 17,
+      "speaker": "A",
+      "transcript": "Every step. And you could see the chickens through the gaps."
+    }
+  ],
+  "key": {
+    "entrance": "door",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "bahay kubo, nipa house",
+        "turns": [
+          1,
+          11
+        ]
+      },
+      {
+        "id": "roof",
+        "kind": "roof",
+        "name": "nipa roof",
+        "turns": [
+          1
+        ]
+      },
+      {
+        "id": "posts",
+        "kind": "other",
+        "name": "wooden posts",
+        "turns": [
+          1
+        ]
+      },
+      {
+        "id": "silong",
+        "kind": "other",
+        "name": "silong, space under the house",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "pigs",
+        "kind": "animal",
+        "name": "pigs",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "chickens",
+        "kind": "animal",
+        "name": "chickens",
+        "turns": [
+          3,
+          17
+        ]
+      },
+      {
+        "id": "tools",
+        "kind": "object",
+        "name": "father's tools",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "paddles",
+        "kind": "object",
+        "name": "boat paddles",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "ladder",
+        "kind": "ladder",
+        "name": "hagdan, bamboo ladder",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "door",
+        "kind": "door",
+        "name": "front door at the top of the ladder",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "yard",
+        "kind": "courtyard",
+        "name": "little front yard",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "santan_bush",
+        "kind": "plant",
+        "name": "santan bush",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "road",
+        "kind": "street",
+        "name": "road",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "sala",
+        "kind": "room",
+        "name": "sala, main room",
+        "turns": [
+          7,
+          13,
+          15
+        ]
+      },
+      {
+        "id": "mats",
+        "kind": "bed",
+        "name": "banig sleeping mats",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "parents_room",
+        "kind": "room",
+        "name": "parents' small room",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "parents_door",
+        "kind": "door",
+        "name": "door of the parents' room",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "kusina, kitchen",
+        "turns": [
+          3,
+          9
+        ]
+      },
+      {
+        "id": "kalan",
+        "kind": "stove",
+        "name": "kalan, clay stove",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "dish_rack",
+        "kind": "shelf",
+        "name": "banggerahan, dish rack",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "batalan",
+        "kind": "other",
+        "name": "batalan, open bamboo washing platform",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "timba",
+        "kind": "object",
+        "name": "timba, pail",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "well",
+        "kind": "well",
+        "name": "well",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "bananas",
+        "kind": "plant",
+        "name": "banana plants",
+        "turns": [
+          9,
+          11
+        ]
+      },
+      {
+        "id": "coconut_tree",
+        "kind": "tree",
+        "name": "big coconut tree",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "bench",
+        "kind": "furniture",
+        "name": "long bamboo bench",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "window",
+        "kind": "window",
+        "name": "window over the bench",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "altar",
+        "kind": "furniture",
+        "name": "small altar",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "santo_nino",
+        "kind": "object",
+        "name": "Santo Niño image",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "radio",
+        "kind": "object",
+        "name": "radio",
+        "turns": [
+          13
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "house",
+        "rel": "on_top_of",
+        "b": "posts",
+        "turns": [
+          1
+        ]
+      },
+      {
+        "a": "silong",
+        "rel": "below",
+        "b": "house",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "pigs",
+        "rel": "inside",
+        "b": "silong",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "chickens",
+        "rel": "inside",
+        "b": "silong",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "tools",
+        "rel": "inside",
+        "b": "silong",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "paddles",
+        "rel": "inside",
+        "b": "silong",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "pigs",
+        "rel": "below",
+        "b": "kitchen",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "ladder",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "yard",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "santan_bush",
+        "rel": "inside",
+        "b": "yard",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "road",
+        "rel": "in_front_of",
+        "b": "yard",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "door",
+        "rel": "opens_into",
+        "b": "sala",
+        "turns": [
+          5,
+          7
+        ]
+      },
+      {
+        "a": "mats",
+        "rel": "inside",
+        "b": "sala",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "parents_room",
+        "rel": "left_of",
+        "b": "sala",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "parents_door",
+        "rel": "opens_into",
+        "b": "parents_room",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "behind",
+        "b": "sala",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "kalan",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "dish_rack",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "batalan",
+        "rel": "next_to",
+        "b": "kitchen",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "behind",
+        "b": "house",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "next_to",
+        "b": "bananas",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "bananas",
+        "rel": "behind",
+        "b": "house",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "coconut_tree",
+        "rel": "right_of",
+        "b": "house",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "bench",
+        "rel": "against_wall_of",
+        "b": "sala",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "bench",
+        "rel": "below",
+        "b": "window",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "altar",
+        "rel": "inside",
+        "b": "sala",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "santo_nino",
+        "rel": "on_top_of",
+        "b": "altar",
+        "turns": [
+          13
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "posts",
+        "dim": "height",
+        "metres": 1.8288,
+        "turns": [
+          1
+        ]
+      },
+      {
+        "id": "sala",
+        "dim": "width",
+        "metres": 4.0,
+        "turns": [
+          15
+        ]
+      }
+    ]
+  }
+}

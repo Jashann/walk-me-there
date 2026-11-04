@@ -1,0 +1,571 @@
+{
+  "id": "s06",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A grandmother's nalukettu ancestral house (tharavad) in a village outside Thrissur, Kerala, India, 1980s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "So this is my ammamma's tharavad, in a village outside Thrissur. A nalukettu, which means four blocks, four wings around an open courtyard in the middle, the nadumuttam."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "How do you get in?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "There's a padippura first, a gatehouse, with a small tiled roof, at the edge of the property, on the road. Then a long path through the coconut trees to the house. Maybe a hundred feet of path, sand, white sand."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "And then?"
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "At the front of the house there's the poomukham, the front verandah, with the chaaru kasera, the long easy chair, my grandfather's. Nobody sat in it after he died, it just stayed there."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "The door?"
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "From the poomukham a heavy wooden door, very low, you had to bow, into the inner verandah around the nadumuttam. The courtyard was open to the sky, sunk down a little, and rain fell straight in. We'd sit on the edge and put our feet in the water during monsoon."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "What's around the courtyard?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "The verandah runs all the way round, and the rooms open off it. On the right side was the kitchen wing, the adukkala. On the left, the rooms where the women slept. And at the back, straight across from the door, the pooja room, and the ara, the storeroom."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "Tell me about the kitchen."
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "Dark, smoky, a big hearth, the aduppu, against the wall, and the big brass and bronze vessels hung up. A door from the kitchen went out the back to the well. The well was right outside the kitchen."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "Was there anything in the courtyard?"
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "A tulasi thara, the little platform with the tulsi plant, in the center. No wait, that was in front of the house, in the front yard, not inside. Inside the nadumuttam there was nothing, just the stone floor and the rain."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "Okay. Stairs?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "There was a narrow wooden staircase in the left wing going up to an upper room, the mattuppavu, where my uncle stayed when he came from the Gulf. Steep, almost a ladder."
+    },
+    {
+      "turnId": 16,
+      "speaker": "B",
+      "transcript": "How big was the courtyard?"
+    },
+    {
+      "turnId": 17,
+      "speaker": "A",
+      "transcript": "Small, actually. Maybe fifteen feet square. The verandah around it was maybe six feet wide."
+    },
+    {
+      "turnId": 18,
+      "speaker": "B",
+      "transcript": "Anything else?"
+    },
+    {
+      "turnId": 19,
+      "speaker": "A",
+      "transcript": "The pond. There was a kulam, a family bathing pond, behind the house, past the well. Steps going down into it. And cows in a shed on the left of the path."
+    },
+    {
+      "turnId": 20,
+      "speaker": "B",
+      "transcript": "Cows near the house?"
+    },
+    {
+      "turnId": 21,
+      "speaker": "A",
+      "transcript": "Not that near, halfway along the path. A cow chased me once."
+    }
+  ],
+  "key": {
+    "entrance": "padippura",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "nalukettu house",
+        "turns": [
+          1,
+          5,
+          13,
+          19
+        ]
+      },
+      {
+        "id": "nadumuttam",
+        "kind": "courtyard",
+        "name": "nadumuttam, open central courtyard",
+        "turns": [
+          1,
+          7,
+          13,
+          17
+        ]
+      },
+      {
+        "id": "padippura",
+        "kind": "gate",
+        "name": "padippura, tiled-roof gatehouse",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "road",
+        "kind": "street",
+        "name": "road",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "path",
+        "kind": "path",
+        "name": "sand path to the house",
+        "turns": [
+          3,
+          19,
+          21
+        ]
+      },
+      {
+        "id": "coconut_trees",
+        "kind": "tree",
+        "name": "coconut trees along the path",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "poomukham",
+        "kind": "verandah",
+        "name": "poomukham, front verandah",
+        "turns": [
+          5,
+          7
+        ]
+      },
+      {
+        "id": "easy_chair",
+        "kind": "furniture",
+        "name": "chaaru kasera, grandfather's easy chair",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "front_door",
+        "kind": "door",
+        "name": "low heavy wooden door",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "id": "inner_verandah",
+        "kind": "verandah",
+        "name": "inner verandah around the courtyard",
+        "turns": [
+          7,
+          9,
+          17
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "adukkala, kitchen wing",
+        "turns": [
+          9,
+          11
+        ]
+      },
+      {
+        "id": "women_rooms",
+        "kind": "room",
+        "name": "rooms where the women slept",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "pooja_room",
+        "kind": "room",
+        "name": "pooja room",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "ara",
+        "kind": "storage",
+        "name": "ara, storeroom",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "aduppu",
+        "kind": "stove",
+        "name": "aduppu, big hearth",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "vessels",
+        "kind": "object",
+        "name": "brass and bronze vessels",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "kitchen_back_door",
+        "kind": "door",
+        "name": "back door from the kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "well",
+        "kind": "well",
+        "name": "well outside the kitchen",
+        "turns": [
+          11,
+          19
+        ]
+      },
+      {
+        "id": "front_yard",
+        "kind": "courtyard",
+        "name": "front yard",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "tulasi_thara",
+        "kind": "plant",
+        "name": "tulasi thara, platform with a tulsi plant",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "staircase",
+        "kind": "stairs",
+        "name": "narrow wooden staircase",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "mattuppavu",
+        "kind": "upper_floor",
+        "name": "mattuppavu, upper room",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "kulam",
+        "kind": "other",
+        "name": "kulam, family bathing pond",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "kulam_steps",
+        "kind": "stairs",
+        "name": "steps down into the pond",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "cow_shed",
+        "kind": "animal_shed",
+        "name": "cow shed",
+        "turns": [
+          19,
+          21
+        ]
+      },
+      {
+        "id": "cows",
+        "kind": "animal",
+        "name": "cows",
+        "turns": [
+          19
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "padippura",
+        "rel": "next_to",
+        "b": "road",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "coconut_trees",
+        "rel": "next_to",
+        "b": "path",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "poomukham",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "easy_chair",
+        "rel": "inside",
+        "b": "poomukham",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "front_door",
+        "rel": "opens_into",
+        "b": "inner_verandah",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "inner_verandah",
+        "rel": "next_to",
+        "b": "nadumuttam",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "right_of",
+        "b": "nadumuttam",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "women_rooms",
+        "rel": "left_of",
+        "b": "nadumuttam",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "pooja_room",
+        "rel": "behind",
+        "b": "nadumuttam",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "pooja_room",
+        "rel": "across_from",
+        "b": "front_door",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "ara",
+        "rel": "behind",
+        "b": "nadumuttam",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "aduppu",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "aduppu",
+        "rel": "against_wall_of",
+        "b": "kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "vessels",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "next_to",
+        "b": "kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "front_yard",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "tulasi_thara",
+        "rel": "inside",
+        "b": "front_yard",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "tulasi_thara",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "staircase",
+        "rel": "left_of",
+        "b": "nadumuttam",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "kulam",
+        "rel": "behind",
+        "b": "house",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "kulam",
+        "rel": "behind",
+        "b": "well",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "kulam_steps",
+        "rel": "inside",
+        "b": "kulam",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "cow_shed",
+        "rel": "left_of",
+        "b": "path",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "cows",
+        "rel": "inside",
+        "b": "cow_shed",
+        "turns": [
+          19
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "path",
+        "dim": "length",
+        "metres": 30.48,
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "nadumuttam",
+        "dim": "length",
+        "metres": 4.572,
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "nadumuttam",
+        "dim": "width",
+        "metres": 4.572,
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "inner_verandah",
+        "dim": "width",
+        "metres": 1.8288,
+        "turns": [
+          17
+        ]
+      }
+    ]
+  }
+}

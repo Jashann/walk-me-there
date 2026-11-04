@@ -1,0 +1,124 @@
+{
+ "id": "s11",
+ "setting": "A family's nipa house on posts in a barrio outside Catbalogan, Samar, Philippines, early 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 30,
+    "total": 30
+   },
+   "relation": {
+    "pass": 27,
+    "total": 27
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 59,
+   "total": 59,
+   "extras": [
+    "front_wall"
+   ],
+   "failed": []
+  },
+  "rounds": 4,
+  "ownChecks": "66/67",
+  "usd": 0.5287604,
+  "ms": 177708,
+  "elements": 31,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 28,
+    "total": 30
+   },
+   "relation": {
+    "pass": 14,
+    "total": 27
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 44,
+   "total": 59,
+   "extras": [
+    "bamboo_floor"
+   ],
+   "failed": [
+    "there is a bahay kubo, nipa house -> no blocks carry this tag",
+    "there is a window over the bench -> no blocks carry this tag",
+    "the bahay kubo, nipa house is on top of the wooden posts -> missing house",
+    "the silong, space under the house is below the bahay kubo, nipa house -> missing house",
+    "the pigs is below the kusina, kitchen -> pigs y 1..2, kitchen y 6..11",
+    "the hagdan, bamboo ladder is nearer the entrance than the bahay kubo, nipa house -> missing house",
+    "the little front yard is nearer the entrance than the bahay kubo, nipa house -> missing house",
+    "the kalan, clay stove is inside the kusina, kitchen -> kalan spans x -5..-4, z 21..22; kitchen spans x -6..5, z 18..18",
+    "the banggerahan, dish rack is inside the kusina, kitchen -> dish_rack spans x 0..3, z 22..22; kitchen spans x -6..5, z 18..18",
+    "the batalan, open bamboo washing platform is next to the kusina, kitchen -> gap between them is 2.5 m (next to means within 2 m)",
+    "the well is further in than the bahay kubo, nipa house -> missing house",
+    "the banana plants is further in than the bahay kubo, nipa house -> missing house",
+    "the big coconut tree is right of the bahay kubo, nipa house -> missing house",
+    "the long bamboo bench is below the window over the bench -> missing window",
+    "the small altar is inside the sala, main room -> altar spans x 5..5, z 11..11; sala spans x -1..4, z 11..17"
+   ]
+  },
+  "usd": 0.1182752,
+  "ms": 39648,
+  "elements": 29,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 26,
+    "total": 30
+   },
+   "relation": {
+    "pass": 8,
+    "total": 27
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 35,
+   "total": 58,
+   "extras": [
+    "bamboo_floor"
+   ],
+   "failed": [
+    "there is a bahay kubo, nipa house -> no blocks carry this tag",
+    "there is a sala, main room -> no blocks carry this tag",
+    "there is a parents' small room -> no blocks carry this tag",
+    "there is a kusina, kitchen -> no blocks carry this tag",
+    "the bahay kubo, nipa house is on top of the wooden posts -> missing house",
+    "the silong, space under the house is below the bahay kubo, nipa house -> missing house",
+    "the pigs is below the kusina, kitchen -> missing kitchen",
+    "the hagdan, bamboo ladder is nearer the entrance than the bahay kubo, nipa house -> missing house",
+    "the little front yard is nearer the entrance than the bahay kubo, nipa house -> missing house",
+    "the front door at the top of the ladder opens into the sala, main room -> missing sala",
+    "the banig sleeping mats is inside the sala, main room -> missing sala",
+    "the parents' small room is left of the sala, main room -> missing parents_room",
+    "the door of the parents' room opens into the parents' small room -> missing parents_room",
+    "the kusina, kitchen is further in than the sala, main room -> missing kitchen",
+    "the kalan, clay stove is inside the kusina, kitchen -> missing kitchen",
+    "the banggerahan, dish rack is inside the kusina, kitchen -> missing kitchen",
+    "the batalan, open bamboo washing platform is next to the kusina, kitchen -> missing kitchen",
+    "the well is further in than the bahay kubo, nipa house -> missing house",
+    "the banana plants is further in than the bahay kubo, nipa house -> missing house",
+    "the big coconut tree is right of the bahay kubo, nipa house -> missing house",
+    "the long bamboo bench is against the wall of the sala, main room -> missing sala",
+    "the long bamboo bench is below the window over the bench -> bench y 6..6, window y 7..10",
+    "the small altar is inside the sala, main room -> missing sala"
+   ]
+  },
+  "usd": 0.2870592,
+  "ms": 178318,
+  "elements": 27,
+  "error": null
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": "s12",
+ "setting": "A grandfather's courtyard house in al-Qaymariyya, Old City of Damascus, Syria, 1990s to 2004",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 28,
+    "total": 31
+   },
+   "relation": {
+    "pass": 24,
+    "total": 26
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 55,
+   "total": 60,
+   "extras": [],
+   "failed": [
+    "there is a small door set in the big door -> no blocks carry this tag",
+    "there is a jars of makdous and jam -> no blocks carry this tag",
+    "there is a few steps up to the liwan -> no blocks carry this tag",
+    "the small door set in the big door is inside the big wooden street door -> missing small_door",
+    "the jars of makdous and jam is inside the mouneh room for winter stores -> missing jars"
+   ]
+  },
+  "rounds": 3,
+  "ownChecks": "67/67",
+  "usd": 0.5531115000000001,
+  "ms": 184048,
+  "elements": 28,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 28,
+    "total": 31
+   },
+   "relation": {
+    "pass": 22,
+    "total": 26
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 53,
+   "total": 60,
+   "extras": [
+    "painted_wooden_ceiling"
+   ],
+   "failed": [
+    "there is a small door set in the big door -> no blocks carry this tag",
+    "there is a few steps up to the liwan -> no blocks carry this tag",
+    "there is a big windows onto the courtyard -> no blocks carry this tag",
+    "the small door set in the big door is inside the big wooden street door -> missing small_door",
+    "the gas stove is inside the kitchen -> gas_stove spans x 14..15, z 20..21; kitchen spans x 8..8, z 18..33",
+    "the big stone sink is inside the kitchen -> sink spans x 14..15, z 23..24; kitchen spans x 8..8, z 18..33",
+    "the jars of makdous and jam is inside the mouneh room for winter stores -> jars spans x 11..14, z 28..32; mouneh_room spans x 8..15, z 25..25"
+   ]
+  },
+  "usd": 0.2046192,
+  "ms": 83212,
+  "elements": 29,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 29,
+    "total": 31
+   },
+   "relation": {
+    "pass": 24,
+    "total": 26
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 56,
+   "total": 60,
+   "extras": [
+    "painted_wooden_ceiling",
+    "liwan_arch"
+   ],
+   "failed": [
+    "there is a big wooden street door -> no blocks carry this tag",
+    "there is a small door set in the big door -> no blocks carry this tag",
+    "the small door set in the big door is inside the big wooden street door -> missing small_door",
+    "the big wooden street door opens into the dihliz, bent entrance corridor -> missing big_door"
+   ]
+  },
+  "usd": 0.4575336,
+  "ms": 198647,
+  "elements": 31,
+  "error": null
+ }
+}

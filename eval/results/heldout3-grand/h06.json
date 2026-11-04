@@ -1,0 +1,32 @@
+{
+ "id": "h06",
+ "setting": "Grandparents' ger in a fenced yard (khashaa) in the Bayankhoshuu ger district, Ulaanbaatar, Mongolia, about 2005",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 22,
+    "total": 23
+   },
+   "relation": {
+    "pass": 18,
+    "total": 18
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 41,
+   "total": 42,
+   "extras": [],
+   "failed": [
+    "there is a street -> nothing in the build carries this tag"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "56/57",
+  "usd": 0.43991440000000004,
+  "ms": 126613,
+  "elements": 22,
+  "error": null
+ }
+}

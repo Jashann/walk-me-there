@@ -1,0 +1,36 @@
+{
+ "id": "h01",
+ "setting": "Maternal grandparents' village house with a courtyard and roof room near Jalandhar, Punjab, 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 24,
+    "total": 25
+   },
+   "relation": {
+    "pass": 25,
+    "total": 26
+   },
+   "size": {
+    "pass": 5,
+    "total": 5
+   },
+   "pass": 54,
+   "total": 56,
+   "extras": [
+    "buffalo_rani",
+    "buffalo_other"
+   ],
+   "failed": [
+    "there is a two buffaloes -> nothing in the build carries this tag",
+    "the two buffaloes is inside the buffalo shed (pashuaan wala kotha) -> missing buffaloes"
+   ]
+  },
+  "rounds": 3,
+  "ownChecks": "74/74",
+  "usd": 0.606582,
+  "ms": 228241,
+  "elements": 26,
+  "error": null
+ }
+}

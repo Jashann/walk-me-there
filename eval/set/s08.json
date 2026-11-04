@@ -1,0 +1,486 @@
+{
+  "id": "s08",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A grandmother's room-and-kitchen tenement flat, two up, on Langlands Road, Govan, Glasgow, 1950s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "It was a room and kitchen in Govan, two up, on Langlands Road. My granny's. I was there most of the fifties."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "Two up?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "Second floor. You go in the close, that's the entry from the street, through to the stair, stone stair, and up two flights. Her door was on the left at the top. There were three doors on each landing."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "What's behind her door?"
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "A wee lobby, tiny, just enough for the coats on hooks. Then the kitchen straight ahead and the room on the right."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "The kitchen?"
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "The kitchen was where everything happened. The range, the black range, she blackleaded it every week, that was on the wall facing you, with the fire in it. The sink was on the left, under the window, the jawbox, we called it, and you looked out at the back court and the middens."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "Middens?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "The bin shelters, in the back court. The washhouse was out there too, and the drying greens."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "Where did people sleep?"
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "There was a bed recess in the kitchen, the set-in bed, on the right wall, with a curtain across. Granny and Grandad slept there, in the kitchen, by the fire. The room, the other room, was for best, and for us weans when we stayed over. There was another bed recess in there too."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "Bathroom?"
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "No bathroom. The toilet was on the half landing, out on the stair, shared with the other two families on her landing. Freezing in winter. You washed at the jawbox."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "Size?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "The kitchen, maybe fourteen feet by twelve? The room was a bit smaller. The ceilings were high though, ten feet, maybe more."
+    },
+    {
+      "turnId": 16,
+      "speaker": "B",
+      "transcript": "Was anyone else in the flat?"
+    },
+    {
+      "turnId": 17,
+      "speaker": "A",
+      "transcript": "My Uncle Davie, when he was between lodgings. On a camp bed in the lobby, which, I told you, was tiny."
+    }
+  ],
+  "key": {
+    "entrance": "flat_door",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "flat",
+        "kind": "other",
+        "name": "room-and-kitchen flat, two up",
+        "turns": [
+          1,
+          15
+        ]
+      },
+      {
+        "id": "street",
+        "kind": "street",
+        "name": "street",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "close",
+        "kind": "path",
+        "name": "close, entry passage from the street",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "stair",
+        "kind": "stairs",
+        "name": "stone common stair",
+        "turns": [
+          3,
+          13
+        ]
+      },
+      {
+        "id": "landing",
+        "kind": "other",
+        "name": "landing at the top of the second flight",
+        "turns": [
+          3,
+          13
+        ]
+      },
+      {
+        "id": "flat_door",
+        "kind": "door",
+        "name": "granny's front door",
+        "turns": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": "lobby",
+        "kind": "room",
+        "name": "wee lobby",
+        "turns": [
+          5,
+          17
+        ]
+      },
+      {
+        "id": "coat_hooks",
+        "kind": "object",
+        "name": "coats on hooks",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "kitchen",
+        "turns": [
+          5,
+          7,
+          11,
+          15
+        ]
+      },
+      {
+        "id": "best_room",
+        "kind": "room",
+        "name": "the room, kept for best",
+        "turns": [
+          5,
+          11,
+          15
+        ]
+      },
+      {
+        "id": "range",
+        "kind": "stove",
+        "name": "black range with the fire",
+        "turns": [
+          7,
+          11
+        ]
+      },
+      {
+        "id": "sink",
+        "kind": "object",
+        "name": "jawbox sink",
+        "turns": [
+          7,
+          13
+        ]
+      },
+      {
+        "id": "kitchen_window",
+        "kind": "window",
+        "name": "kitchen window onto the back court",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "back_court",
+        "kind": "courtyard",
+        "name": "back court",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "id": "middens",
+        "kind": "other",
+        "name": "middens, bin shelters",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "id": "washhouse",
+        "kind": "other",
+        "name": "washhouse",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "drying_greens",
+        "kind": "other",
+        "name": "drying greens",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "kitchen_bed_recess",
+        "kind": "bed",
+        "name": "set-in bed recess in the kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "bed_curtain",
+        "kind": "object",
+        "name": "curtain across the bed recess",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "room_bed_recess",
+        "kind": "bed",
+        "name": "second bed recess in the room",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "toilet",
+        "kind": "room",
+        "name": "shared toilet on the half landing",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "camp_bed",
+        "kind": "bed",
+        "name": "Uncle Davie's camp bed",
+        "turns": [
+          17
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "close",
+        "rel": "opens_into",
+        "b": "stair",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "flat_door",
+        "rel": "left_of",
+        "b": "landing",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "flat_door",
+        "rel": "opens_into",
+        "b": "lobby",
+        "turns": [
+          4,
+          5
+        ]
+      },
+      {
+        "a": "coat_hooks",
+        "rel": "inside",
+        "b": "lobby",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "behind",
+        "b": "lobby",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "best_room",
+        "rel": "right_of",
+        "b": "lobby",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "range",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "range",
+        "rel": "against_wall_of",
+        "b": "kitchen",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "sink",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "sink",
+        "rel": "left_of",
+        "b": "kitchen",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "sink",
+        "rel": "below",
+        "b": "kitchen_window",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "middens",
+        "rel": "inside",
+        "b": "back_court",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "washhouse",
+        "rel": "inside",
+        "b": "back_court",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "drying_greens",
+        "rel": "inside",
+        "b": "back_court",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "kitchen_bed_recess",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "kitchen_bed_recess",
+        "rel": "right_of",
+        "b": "kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "kitchen_bed_recess",
+        "rel": "against_wall_of",
+        "b": "kitchen",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "kitchen_bed_recess",
+        "rel": "next_to",
+        "b": "range",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "room_bed_recess",
+        "rel": "inside",
+        "b": "best_room",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "toilet",
+        "rel": "next_to",
+        "b": "stair",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "camp_bed",
+        "rel": "inside",
+        "b": "lobby",
+        "turns": [
+          17
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "kitchen",
+        "dim": "length",
+        "metres": 4.2672,
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "kitchen",
+        "dim": "width",
+        "metres": 3.6576,
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "flat",
+        "dim": "height",
+        "metres": 3.048,
+        "turns": [
+          15
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+ "id": "s07",
+ "setting": "A family's railroad apartment, third floor of a walk-up on Java Street, Greenpoint, Brooklyn, 1970s to early 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 12,
+    "total": 15
+   },
+   "relation": {
+    "pass": 11,
+    "total": 13
+   },
+   "size": {
+    "pass": 6,
+    "total": 6
+   },
+   "pass": 29,
+   "total": 34,
+   "extras": [
+    "front_window_1",
+    "front_window_2",
+    "pull_chain"
+   ],
+   "failed": [
+    "there is a walk-up building -> no blocks carry this tag",
+    "there is a Java Street -> no blocks carry this tag",
+    "there is a two windows on the street -> no blocks carry this tag",
+    "the railroad apartment is inside the walk-up building -> missing building",
+    "the couch is below the two windows on the street -> missing windows"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "44/44",
+  "usd": 0.2058592,
+  "ms": 175218,
+  "elements": 15,
+  "error": null
+ }
+}

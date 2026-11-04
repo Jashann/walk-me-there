@@ -1,0 +1,420 @@
+{
+  "id": "s01",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A grandmother's mud-floored courtyard house in a village near Moga, Punjab, India, 1980s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "B",
+      "transcript": "So where do you want to start?"
+    },
+    {
+      "turnId": 2,
+      "speaker": "A",
+      "transcript": "Okay, um, so you come in from the gali, the lane, through this big wooden gate. Blue, it was painted blue. My dadi, my grandmother, she'd be sitting right there inside the gate on a manji, that's a cot, like a woven cot."
+    },
+    {
+      "turnId": 3,
+      "speaker": "B",
+      "transcript": "And then?"
+    },
+    {
+      "turnId": 4,
+      "speaker": "A",
+      "transcript": "Then you're in the vehra, the courtyard. It was big, I think maybe forty feet from the gate to the back rooms. Kacha floor, just mud, she'd plaster it with mud and gobar, cow dung, every week."
+    },
+    {
+      "turnId": 5,
+      "speaker": "B",
+      "transcript": "What's around the courtyard?"
+    },
+    {
+      "turnId": 6,
+      "speaker": "A",
+      "transcript": "Straight ahead at the back there were two rooms, side by side. The one on the left was where everyone slept in winter, and the right one had the big sandook, the trunk with all the dowry things, and the bedding piled up."
+    },
+    {
+      "turnId": 7,
+      "speaker": "B",
+      "transcript": "Okay. Kitchen?"
+    },
+    {
+      "turnId": 8,
+      "speaker": "A",
+      "transcript": "The kitchen was, um, on the right as you come in. No wait. Sorry. The kitchen was on the left, by the gate. The right side had the buffaloes. Yeah. On the left the chulha, the clay stove, under a little roof, open on one side. That was the kitchen."
+    },
+    {
+      "turnId": 9,
+      "speaker": "B",
+      "transcript": "So animals on the right."
+    },
+    {
+      "turnId": 10,
+      "speaker": "A",
+      "transcript": "Right side, two buffaloes and a calf, and their khurli, the feeding trough. It smelled, but you got used to it."
+    },
+    {
+      "turnId": 11,
+      "speaker": "B",
+      "transcript": "Was there water in the courtyard?"
+    },
+    {
+      "turnId": 12,
+      "speaker": "A",
+      "transcript": "There was a handpump, a nalka, in the courtyard, sort of toward the kitchen. We'd fight over who had to pump."
+    },
+    {
+      "turnId": 13,
+      "speaker": "B",
+      "transcript": "Any trees?"
+    },
+    {
+      "turnId": 14,
+      "speaker": "A",
+      "transcript": "A neem tree, near the buffaloes. Big one. My chacha fell out of it once and broke his arm."
+    },
+    {
+      "turnId": 15,
+      "speaker": "B",
+      "transcript": "Did the house have a roof you could go up on?"
+    },
+    {
+      "turnId": 16,
+      "speaker": "A",
+      "transcript": "Yeah, there were steps, brick steps going up to the roof, up the outside wall of the sleeping room, the left one. In summer we all slept up there."
+    },
+    {
+      "turnId": 17,
+      "speaker": "B",
+      "transcript": "How big were the rooms?"
+    },
+    {
+      "turnId": 18,
+      "speaker": "A",
+      "transcript": "Not big. You could fit maybe two cots in the sleeping room end to end, that's it. Oh and the ceiling had wooden beams, the shateer, you could count them lying down."
+    }
+  ],
+  "key": {
+    "entrance": "gate",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "lane",
+        "kind": "street",
+        "name": "gali, the lane outside",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "id": "gate",
+        "kind": "gate",
+        "name": "big blue wooden gate",
+        "turns": [
+          2,
+          8
+        ]
+      },
+      {
+        "id": "manji",
+        "kind": "cot",
+        "name": "manji, woven cot inside the gate",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "id": "courtyard",
+        "kind": "courtyard",
+        "name": "vehra, mud-floored courtyard",
+        "turns": [
+          4,
+          12
+        ]
+      },
+      {
+        "id": "sleeping_room",
+        "kind": "room",
+        "name": "left back room, winter sleeping room",
+        "turns": [
+          6,
+          16,
+          18
+        ]
+      },
+      {
+        "id": "store_room",
+        "kind": "room",
+        "name": "right back room with the trunk and bedding",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "sandook",
+        "kind": "chest",
+        "name": "sandook, dowry trunk",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "bedding",
+        "kind": "object",
+        "name": "piled bedding",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "kitchen area",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "chulha",
+        "kind": "stove",
+        "name": "chulha, clay stove",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "kitchen_roof",
+        "kind": "roof",
+        "name": "little roof over the chulha, open on one side",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "buffaloes",
+        "kind": "animal",
+        "name": "two buffaloes",
+        "turns": [
+          8,
+          10
+        ]
+      },
+      {
+        "id": "calf",
+        "kind": "animal",
+        "name": "calf",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "khurli",
+        "kind": "object",
+        "name": "khurli, feeding trough",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "handpump",
+        "kind": "handpump",
+        "name": "nalka, handpump",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "id": "neem_tree",
+        "kind": "tree",
+        "name": "big neem tree",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "id": "steps",
+        "kind": "stairs",
+        "name": "brick steps up to the roof",
+        "turns": [
+          16
+        ]
+      },
+      {
+        "id": "roof",
+        "kind": "roof",
+        "name": "roof where everyone slept in summer",
+        "turns": [
+          15,
+          16
+        ]
+      },
+      {
+        "id": "beams",
+        "kind": "other",
+        "name": "shateer, wooden ceiling beams",
+        "turns": [
+          18
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "gate",
+        "rel": "opens_into",
+        "b": "courtyard",
+        "turns": [
+          2,
+          4
+        ]
+      },
+      {
+        "a": "manji",
+        "rel": "next_to",
+        "b": "gate",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "a": "sleeping_room",
+        "rel": "behind",
+        "b": "courtyard",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "store_room",
+        "rel": "behind",
+        "b": "courtyard",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "sleeping_room",
+        "rel": "left_of",
+        "b": "store_room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "sandook",
+        "rel": "inside",
+        "b": "store_room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "bedding",
+        "rel": "inside",
+        "b": "store_room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "left_of",
+        "b": "courtyard",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "next_to",
+        "b": "gate",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "chulha",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "chulha",
+        "rel": "below",
+        "b": "kitchen_roof",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "buffaloes",
+        "rel": "right_of",
+        "b": "courtyard",
+        "turns": [
+          8,
+          10
+        ]
+      },
+      {
+        "a": "calf",
+        "rel": "right_of",
+        "b": "courtyard",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "khurli",
+        "rel": "right_of",
+        "b": "courtyard",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "handpump",
+        "rel": "inside",
+        "b": "courtyard",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "a": "neem_tree",
+        "rel": "next_to",
+        "b": "buffaloes",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "a": "steps",
+        "rel": "against_wall_of",
+        "b": "sleeping_room",
+        "turns": [
+          16
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "courtyard",
+        "dim": "length",
+        "metres": 12.192,
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "sleeping_room",
+        "dim": "length",
+        "metres": 4.0,
+        "turns": [
+          18
+        ]
+      }
+    ]
+  }
+}

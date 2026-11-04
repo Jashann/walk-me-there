@@ -1,0 +1,33 @@
+{
+ "id": "s01",
+ "setting": "A grandmother's mud-floored courtyard house in a village near Moga, Punjab, India, 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 18,
+    "total": 19
+   },
+   "relation": {
+    "pass": 16,
+    "total": 17
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 36,
+   "total": 38,
+   "extras": [],
+   "failed": [
+    "there is a calf -> no blocks carry this tag",
+    "the calf is right of the vehra, mud-floored courtyard -> missing calf"
+   ]
+  },
+  "rounds": 1,
+  "ownChecks": "52/52",
+  "usd": 0.15267494999999998,
+  "ms": 76716,
+  "elements": 18,
+  "error": null
+ }
+}

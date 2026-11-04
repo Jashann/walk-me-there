@@ -1,0 +1,36 @@
+{
+ "id": "h08",
+ "setting": "Grandmother's sandstone central-hall house with arches and a red tile roof in a Chouf village above Deir el Qamar, Lebanon, 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 38,
+    "total": 39
+   },
+   "relation": {
+    "pass": 33,
+    "total": 34
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 74,
+   "total": 76,
+   "extras": [
+    "front_window_left",
+    "front_window_right"
+   ],
+   "failed": [
+    "there is a two front windows -> nothing in the build carries this tag",
+    "the two front windows is next to the wooden front door -> missing front_windows"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "94/94",
+  "usd": 0.6999475000000001,
+  "ms": 177250,
+  "elements": 40,
+  "error": null
+ }
+}

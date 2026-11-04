@@ -1,0 +1,38 @@
+{
+ "id": "s15",
+ "setting": "A grandmother's adobe house in the countryside near San Carlos, Ñuble, Chile, 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 15,
+    "total": 15
+   },
+   "relation": {
+    "pass": 10,
+    "total": 10
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 27,
+   "total": 27,
+   "extras": [
+    "bedroom_left_2",
+    "dirt_path",
+    "bedroom_right_1",
+    "bedroom_right_2",
+    "bedroom_door_2",
+    "bedroom_door_3",
+    "bedroom_door_4"
+   ],
+   "failed": []
+  },
+  "rounds": 1,
+  "ownChecks": "58/58",
+  "usd": 0.1498637,
+  "ms": 73916,
+  "elements": 22,
+  "error": null
+ }
+}

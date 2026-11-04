@@ -1,0 +1,101 @@
+{
+ "id": "s08",
+ "setting": "A grandmother's room-and-kitchen tenement flat, two up, on Langlands Road, Govan, Glasgow, 1950s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 19,
+    "total": 22
+   },
+   "relation": {
+    "pass": 20,
+    "total": 21
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 41,
+   "total": 45,
+   "extras": [],
+   "failed": [
+    "there is a room-and-kitchen flat, two up -> no blocks carry this tag",
+    "there is a coats on hooks -> no blocks carry this tag",
+    "there is a curtain across the bed recess -> no blocks carry this tag",
+    "the coats on hooks is inside the wee lobby -> missing coat_hooks"
+   ]
+  },
+  "rounds": 3,
+  "ownChecks": "49/49",
+  "usd": 0.6166632,
+  "ms": 238443,
+  "elements": 19,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 20,
+    "total": 22
+   },
+   "relation": {
+    "pass": 17,
+    "total": 21
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 39,
+   "total": 45,
+   "extras": [
+    "landing_doors",
+    "fire"
+   ],
+   "failed": [
+    "there is a room-and-kitchen flat, two up -> no blocks carry this tag",
+    "there is a street -> no blocks carry this tag",
+    "the granny's front door is left of the landing at the top of the second flight -> flat_door centre (11.5, 21.0), landing centre (10.0, 17.5) in x,z",
+    "the jawbox sink is below the kitchen window onto the back court -> sink y 13..13, kitchen_window y 15..17",
+    "the set-in bed recess in the kitchen is inside the kitchen -> kitchen_bed_recess spans x 15..19, z 28..33; kitchen spans x 8..14, z 26..34",
+    "the second bed recess in the room is inside the the room, kept for best -> room_bed_recess spans x 14..19, z 26..30; best_room spans x 13..19, z 20..25"
+   ]
+  },
+  "usd": 0.2853432,
+  "ms": 113108,
+  "elements": 22,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 19,
+    "total": 22
+   },
+   "relation": {
+    "pass": 20,
+    "total": 21
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 41,
+   "total": 45,
+   "extras": [
+    "half_landing",
+    "other_landing_doors"
+   ],
+   "failed": [
+    "there is a room-and-kitchen flat, two up -> no blocks carry this tag",
+    "there is a street -> no blocks carry this tag",
+    "there is a kitchen window onto the back court -> no blocks carry this tag",
+    "the jawbox sink is below the kitchen window onto the back court -> missing kitchen_window"
+   ]
+  },
+  "usd": 0.49459280000000005,
+  "ms": 222253,
+  "elements": 21,
+  "error": null
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "id": "s04",
+ "setting": "A grandmother's thatched khata in a village near Poltava, Ukraine, 1950s to 1960s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 26
+   },
+   "relation": {
+    "pass": 18,
+    "total": 22
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 43,
+   "total": 50,
+   "extras": [],
+   "failed": [
+    "there is a icons -> no blocks carry this tag",
+    "there is a embroidered towels -> no blocks carry this tag",
+    "there is a cow -> no blocks carry this tag",
+    "the icons is inside the pokuttya, holy corner -> missing icons",
+    "the embroidered towels is inside the pokuttya, holy corner -> missing towels",
+    "the table is nearer the entrance than the icons -> missing icons",
+    "the cow is inside the cow barn -> missing cow"
+   ]
+  },
+  "rounds": 3,
+  "ownChecks": "52/52",
+  "usd": 0.4443389,
+  "ms": 137111,
+  "elements": 23,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 24,
+    "total": 26
+   },
+   "relation": {
+    "pass": 16,
+    "total": 22
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 42,
+   "total": 50,
+   "extras": [
+    "zhuravel_crane",
+    "lezhanka"
+   ],
+   "failed": [
+    "there is a yard -> no blocks carry this tag",
+    "there is a cow -> no blocks carry this tag",
+    "the path across the yard to the door is inside the yard -> missing yard",
+    "the pokuttya, holy corner is across from the pich, big white stove with the lezhanka on top -> 4.6 m apart, gap 3 blocks",
+    "the embroidered towels is inside the pokuttya, holy corner -> towels spans x -13..-13, z 40..40; pokuttya spans x -15..-14, z 39..40",
+    "the well with the zhuravel pole is inside the yard -> missing yard",
+    "the cow barn is right of the yard -> missing yard",
+    "the cow is inside the cow barn -> missing cow"
+   ]
+  },
+  "usd": 0.1875552,
+  "ms": 71911,
+  "elements": 26,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 19,
+    "total": 26
+   },
+   "relation": {
+    "pass": 1,
+    "total": 22
+   },
+   "size": {
+    "pass": 0,
+    "total": 0
+   },
+   "pass": 20,
+   "total": 48,
+   "extras": [
+    "zhuravel",
+    "lezhanka"
+   ],
+   "failed": [
+    "there is a yard -> no blocks carry this tag",
+    "there is a sinyi, cold entry -> no blocks carry this tag",
+    "there is a big room, the khata itself -> no blocks carry this tag",
+    "there is a komora, food storeroom -> no blocks carry this tag",
+    "there is a icons -> no blocks carry this tag",
+    "there is a embroidered towels -> no blocks carry this tag",
+    "there is a cow -> no blocks carry this tag",
+    "the path across the yard to the door is inside the yard -> missing yard",
+    "the house door opens into the sinyi, cold entry -> missing sinyi",
+    "the buckets is inside the sinyi, cold entry -> missing sinyi",
+    "the tools is inside the sinyi, cold entry -> missing sinyi",
+    "the big room, the khata itself is left of the sinyi, cold entry -> missing big_room",
+    "the komora, food storeroom is right of the sinyi, cold entry -> missing komora",
+    "the pich, big white stove with the lezhanka on top is inside the big room, the khata itself -> missing big_room",
+    "the pokuttya, holy corner is inside the big room, the khata itself -> missing big_room",
+    "the pokuttya, holy corner is across from the pich, big white stove with the lezhanka on top -> 4.7 m apart, gap 3 blocks",
+    "the icons is inside the pokuttya, holy corner -> missing icons",
+    "the embroidered towels is inside the pokuttya, holy corner -> missing towels",
+    "the long bench is against the wall of the big room, the khata itself -> missing big_room",
+    "the long bench is below the windows with blue frames -> bench y 1..1, windows y 2..5",
+    "the table is nearer the entrance than the icons -> missing icons",
+    "the grandmother's bed is against the wall of the big room, the khata itself -> missing big_room",
+    "the well with the zhuravel pole is inside the yard -> missing yard",
+    "the well with the zhuravel pole is next to the gate in the fence -> gap between them is 4.5 m (next to means within 2 m)",
+    "the cow barn is right of the yard -> missing yard",
+    "the cow is inside the cow barn -> missing cow",
+    "the attic under the thatch is below the thatched roof -> attic y 6..9, roof y 7..12",
+    "the ladder to the attic is inside the sinyi, cold entry -> missing sinyi"
+   ]
+  },
+  "usd": 0.2558408,
+  "ms": 64703,
+  "elements": 21,
+  "error": null
+ }
+}

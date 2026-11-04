@@ -1,0 +1,14 @@
+{
+  "note": "Synthetic development fixture written by the developer to exercise the pipeline. Not a real person's description.",
+  "turns": [
+    {"turnId": 1, "speaker": "A", "startMs": 0, "endMs": 6000, "transcript": "So you came in through a big wooden gate, a double door, painted blue."},
+    {"turnId": 2, "speaker": "A", "startMs": 6000, "endMs": 14000, "transcript": "Inside the gate there was the courtyard, the vehra, all open, with a mud floor that my mother plastered every week."},
+    {"turnId": 3, "speaker": "B", "startMs": 14000, "endMs": 16000, "transcript": "And where was the hand pump?"},
+    {"turnId": 4, "speaker": "A", "startMs": 16000, "endMs": 23000, "transcript": "The nalka was on the left side of the courtyard, near the gate, and next to it was the chulha where we cooked."},
+    {"turnId": 5, "speaker": "A", "startMs": 23000, "endMs": 33000, "transcript": "At the back of the courtyard there were two rooms side by side. The one on the right was your grandmother's room, the one on the left was where we kept the grain."},
+    {"turnId": 6, "speaker": "A", "startMs": 33000, "endMs": 40000, "transcript": "Her room was maybe twelve feet by ten feet. She had her manji in there against the back wall."},
+    {"turnId": 7, "speaker": "A", "startMs": 40000, "endMs": 47000, "transcript": "On the right side of the courtyard there was a neem tree, a big one, it shaded half the vehra in summer."},
+    {"turnId": 8, "speaker": "B", "startMs": 47000, "endMs": 49000, "transcript": "Did you go on the roof?"},
+    {"turnId": 9, "speaker": "A", "startMs": 49000, "endMs": 57000, "transcript": "Yes, there was a wooden ladder against the wall of the grain room and we slept on the roof in summer."}
+  ]
+}

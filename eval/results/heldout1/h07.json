@@ -1,0 +1,140 @@
+{
+ "id": "h07",
+ "setting": "Parents' adobe farmhouse with a patio and stone corral in a highland community above Urcos, Cusco, Peru, childhood until 1991",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 39,
+    "total": 41
+   },
+   "relation": {
+    "pass": 29,
+    "total": 31
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 69,
+   "total": 73,
+   "extras": [
+    "haba_field"
+   ],
+   "failed": [
+    "there is a kitchen back wall -> no blocks carry this tag",
+    "there is a lambs -> no blocks carry this tag",
+    "the clay stove (q'oncha) is against the wall of the kitchen back wall -> missing kitchen_back_wall",
+    "the lambs is inside the thatched lamb shelter -> missing lambs"
+   ]
+  },
+  "rounds": 3,
+  "ownChecks": "88/88",
+  "usd": 0.4499995,
+  "ms": 158786,
+  "elements": 40,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 32,
+    "total": 41
+   },
+   "relation": {
+    "pass": 18,
+    "total": 31
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 51,
+   "total": 73,
+   "extras": [
+    "stored_goods",
+    "chuno_potatoes"
+   ],
+   "failed": [
+    "there is a road -> no blocks carry this tag",
+    "there is a opening in the stone wall -> no blocks carry this tag",
+    "there is a long building with two rooms -> no blocks carry this tag",
+    "there is a tools -> no blocks carry this tag",
+    "there is a sleeping room door -> no blocks carry this tag",
+    "there is a kitchen back wall -> no blocks carry this tag",
+    "there is a corral stone wall -> no blocks carry this tag",
+    "there is a lambs -> no blocks carry this tag",
+    "there is a spring (pukyu) -> no blocks carry this tag",
+    "the opening in the stone wall opens into the patio (open yard) -> missing wall_opening",
+    "the long building with two rooms is across from the opening in the stone wall -> missing long_building",
+    "the separate kitchen house is right of the opening in the stone wall -> missing wall_opening",
+    "the corral (kancha) is further in than the long building with two rooms -> missing long_building",
+    "the eucalyptus tree is left of the opening in the stone wall -> missing wall_opening",
+    "the sleeping room is inside the long building with two rooms -> missing long_building",
+    "the store room is inside the long building with two rooms -> missing long_building",
+    "the tools is inside the store room -> missing tools",
+    "the sheepskins is next to the sleeping room door -> missing sleeping_room_door",
+    "the clay stove (q'oncha) is against the wall of the kitchen back wall -> missing kitchen_back_wall",
+    "the lambs is inside the thatched lamb shelter -> missing lambs",
+    "the ichu straw roof is on top of the long building with two rooms -> missing long_building",
+    "the big flat stone is next to the sleeping room door -> missing sleeping_room_door"
+   ]
+  },
+  "usd": 0.1604392,
+  "ms": 59611,
+  "elements": 34,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 34,
+    "total": 41
+   },
+   "relation": {
+    "pass": 17,
+    "total": 31
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 52,
+   "total": 73,
+   "extras": [
+    "broad_bean_field",
+    "potatoes_for_chuno",
+    "stored_potatoes",
+    "stored_chuno",
+    "stored_seeds",
+    "stored_maize"
+   ],
+   "failed": [
+    "there is a road -> no blocks carry this tag",
+    "there is a opening in the stone wall -> no blocks carry this tag",
+    "there is a long building with two rooms -> no blocks carry this tag",
+    "there is a sleeping room door -> no blocks carry this tag",
+    "there is a small high window -> no blocks carry this tag",
+    "there is a kitchen back wall -> no blocks carry this tag",
+    "there is a lambs -> no blocks carry this tag",
+    "the opening in the stone wall opens into the patio (open yard) -> missing wall_opening",
+    "the long building with two rooms is across from the opening in the stone wall -> missing long_building",
+    "the separate kitchen house is right of the opening in the stone wall -> missing wall_opening",
+    "the corral (kancha) is further in than the long building with two rooms -> missing long_building",
+    "the eucalyptus tree is left of the opening in the stone wall -> missing wall_opening",
+    "the sleeping room is inside the long building with two rooms -> missing long_building",
+    "the store room is inside the long building with two rooms -> missing long_building",
+    "the sheepskins is next to the sleeping room door -> missing sleeping_room_door",
+    "the clay stove (q'oncha) is against the wall of the kitchen back wall -> missing kitchen_back_wall",
+    "the guinea pigs (cuyes) is inside the separate kitchen house -> guinea_pigs spans x 14..21, z 9..14; kitchen spans x 13..19, z 8..15",
+    "the thatched lamb shelter is inside the corral (kancha) -> lamb_shelter spans x -20..-14, z 62..68; corral spans x -19..18, z 30..67",
+    "the lambs is inside the thatched lamb shelter -> missing lambs",
+    "the ichu straw roof is on top of the long building with two rooms -> missing long_building",
+    "the big flat stone is next to the sleeping room door -> missing sleeping_room_door"
+   ]
+  },
+  "usd": 0.326644,
+  "ms": 130462,
+  "elements": 40,
+  "error": null
+ }
+}

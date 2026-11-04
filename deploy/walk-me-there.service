@@ -1,0 +1,13 @@
+[Unit]
+Description=Walk Me There
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/walk-me-there
+EnvironmentFile=/opt/walk-me-there/.env
+ExecStart=/usr/bin/node server/server.ts
+Restart=always
+User=wmt
+
+[Install]
+WantedBy=multi-user.target

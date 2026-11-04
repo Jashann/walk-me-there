@@ -1,0 +1,109 @@
+{
+ "id": "h05",
+ "setting": "Grandmother's two-floor granite village house near Ponte de Lima in the Minho, Portugal, 1970s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 25
+   },
+   "relation": {
+    "pass": 20,
+    "total": 22
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 45,
+   "total": 49,
+   "extras": [],
+   "failed": [
+    "there is a upper floor -> no blocks carry this tag",
+    "there is a kitchen back wall -> no blocks carry this tag",
+    "the cow stable (corte) is below the upper floor -> missing upper_floor",
+    "the open fireplace (lareira) is against the wall of the kitchen back wall -> missing kitchen_back_wall"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "57/57",
+  "usd": 0.341375,
+  "ms": 139897,
+  "elements": 23,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 25
+   },
+   "relation": {
+    "pass": 18,
+    "total": 22
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 43,
+   "total": 49,
+   "extras": [],
+   "failed": [
+    "there is a upper floor -> no blocks carry this tag",
+    "there is a kitchen back wall -> no blocks carry this tag",
+    "the cow stable (corte) is below the upper floor -> missing upper_floor",
+    "the open fireplace (lareira) is against the wall of the kitchen back wall -> missing kitchen_back_wall",
+    "the big wooden chest (arca) is inside the grandmother's bedroom -> arca spans x -9..-8, z 28..28; avo_bedroom spans x -9..-1, z 23..27",
+    "the saint's cabinet (oratório) is inside the grandmother's bedroom -> oratorio spans x -10..-9, z 25..25; avo_bedroom spans x -9..-1, z 23..27"
+   ]
+  },
+  "usd": 0.166328,
+  "ms": 69328,
+  "elements": 25,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 20,
+    "total": 25
+   },
+   "relation": {
+    "pass": 9,
+    "total": 22
+   },
+   "size": {
+    "pass": 0,
+    "total": 0
+   },
+   "pass": 29,
+   "total": 47,
+   "extras": [],
+   "failed": [
+    "there is a upper floor -> no blocks carry this tag",
+    "there is a kitchen (cozinha) -> no blocks carry this tag",
+    "there is a kitchen back wall -> no blocks carry this tag",
+    "there is a speaker's bedroom -> no blocks carry this tag",
+    "there is a grandmother's bedroom -> no blocks carry this tag",
+    "the cow stable (corte) is below the upper floor -> missing upper_floor",
+    "the door from the varanda opens into the kitchen (cozinha) -> missing kitchen",
+    "the open fireplace (lareira) is inside the kitchen (cozinha) -> missing kitchen",
+    "the open fireplace (lareira) is against the wall of the kitchen back wall -> missing kitchen_back_wall",
+    "the long table is inside the kitchen (cozinha) -> missing kitchen",
+    "the two benches is inside the kitchen (cozinha) -> missing kitchen",
+    "the speaker's bedroom is left of the door from the varanda -> missing my_bedroom",
+    "the grandmother's bedroom is left of the door from the varanda -> missing avo_bedroom",
+    "the iron bed (speaker's) is inside the speaker's bedroom -> missing my_bedroom",
+    "the iron bed (grandmother's) is inside the grandmother's bedroom -> missing avo_bedroom",
+    "the big wooden chest (arca) is inside the grandmother's bedroom -> missing avo_bedroom",
+    "the saint's cabinet (oratório) is inside the grandmother's bedroom -> missing avo_bedroom",
+    "the bread oven (forno) is inside the kitchen (cozinha) -> missing kitchen"
+   ]
+  },
+  "usd": 0.3057472,
+  "ms": 128124,
+  "elements": 20,
+  "error": null
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "s05",
+ "setting": "A mother's family thatched L-shaped farmhouse (magariya) in a village near Tono, Iwate, Japan, early 1960s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 29,
+    "total": 31
+   },
+   "relation": {
+    "pass": 29,
+    "total": 31
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 61,
+   "total": 65,
+   "extras": [
+    "ceiling"
+   ],
+   "failed": [
+    "there is a hanging scroll -> no blocks carry this tag",
+    "there is a silkworms -> no blocks carry this tag",
+    "the hanging scroll is inside the tokonoma alcove -> missing scroll",
+    "the silkworms is inside the silkworm loft -> missing silkworms"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "69/71",
+  "usd": 0.8364255500000001,
+  "ms": 292158,
+  "elements": 30,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 26,
+    "total": 31
+   },
+   "relation": {
+    "pass": 22,
+    "total": 31
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 51,
+   "total": 65,
+   "extras": [
+    "grandfathers_seat",
+    "smoked_ceiling",
+    "silkworm_trays"
+   ],
+   "failed": [
+    "there is a L-shaped magariya farmhouse -> no blocks carry this tag",
+    "there is a umaya, stable sticking out at the front -> no blocks carry this tag",
+    "there is a hanging scroll -> no blocks carry this tag",
+    "there is a silkworms -> no blocks carry this tag",
+    "there is a yard in front of the main door -> no blocks carry this tag",
+    "the big sliding wooden main door is right of the umaya, stable sticking out at the front -> missing stable",
+    "the umaya, stable sticking out at the front is left of the doma, packed-earth floor area -> missing stable",
+    "the brown horse is inside the umaya, stable sticking out at the front -> missing stable",
+    "the tokonoma alcove is inside the zashiki, best tatami room -> tokonoma spans x -6..-5, z 32..33; zashiki spans x -7..-2, z 26..32",
+    "the hanging scroll is inside the tokonoma alcove -> missing scroll",
+    "the silkworm loft is on top of the umaya, stable sticking out at the front -> missing stable",
+    "the silkworms is inside the silkworm loft -> missing silkworms",
+    "the pine is inside the small garden -> pine spans x -12..-8, z 36..40; garden spans x -7..2, z 36..40",
+    "the road in front is nearer the entrance than the L-shaped magariya farmhouse -> missing house"
+   ]
+  },
+  "usd": 0.1422152,
+  "ms": 57911,
+  "elements": 29,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 28,
+    "total": 31
+   },
+   "relation": {
+    "pass": 29,
+    "total": 31
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 60,
+   "total": 65,
+   "extras": [
+    "smoke_blackened_ceiling",
+    "yokoza"
+   ],
+   "failed": [
+    "there is a L-shaped magariya farmhouse -> no blocks carry this tag",
+    "there is a silkworms -> no blocks carry this tag",
+    "there is a yard in front of the main door -> no blocks carry this tag",
+    "the silkworms is inside the silkworm loft -> missing silkworms",
+    "the road in front is nearer the entrance than the L-shaped magariya farmhouse -> missing house"
+   ]
+  },
+  "usd": 0.2596768,
+  "ms": 101525,
+  "elements": 30,
+  "error": null
+ }
+}

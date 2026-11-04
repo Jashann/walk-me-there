@@ -1,0 +1,471 @@
+{
+  "id": "s02",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "An uncle's compound with a face-me-I-face-you bungalow in Mushin, Lagos, Nigeria, early 1990s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "So this is my uncle's compound in Mushin, early nineties. You enter from the street through a metal gate, black, with spikes on top."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "What's inside the gate?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "There's an open space, like a yard, concrete. And one car, my uncle's Peugeot 504, it was always parked there on the right. Nobody else had a car."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "And the house itself?"
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "The main building is straight ahead, a bungalow. Inside it's what we call face-me-I-face-you. One long corridor down the middle and rooms on both sides, facing each other. I think four on each side? Five. No, four, four on each side."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "Which was yours?"
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "We were the last room on the left, at the end of the corridor. Me, my mum, my two sisters, one room. It was maybe twelve feet by ten. My mum hung a curtain to make a corner for herself."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "Where did people cook?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "Behind the building, at the back, there was an open kitchen area. Everybody cooked there on kerosene stoves, and you had your own stove, and you'd better not touch someone else's."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "Bathroom?"
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "The toilets and the bathroom were also at the back, right next to the kitchen area, on the left side of it. Two toilets for maybe thirty people. Morning was war."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "Water?"
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "There was a well by the kitchen area. Later they put a big black water tank up on a metal stand next to the well, and then the well was just for washing."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "Anything in the front yard besides the car?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "A mango tree, left side of the yard, by the wall. The children sat under it after school. And Mama Bisi had a small kiosk where she sold sweets, built into the wall right by the gate."
+    },
+    {
+      "turnId": 16,
+      "speaker": "B",
+      "transcript": "Sounds busy."
+    },
+    {
+      "turnId": 17,
+      "speaker": "A",
+      "transcript": "It was busy. Always noise, children, music, the landlord shouting about rent."
+    }
+  ],
+  "key": {
+    "entrance": "gate",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "compound",
+        "kind": "compound",
+        "name": "uncle's compound",
+        "turns": [
+          1
+        ]
+      },
+      {
+        "id": "street",
+        "kind": "street",
+        "name": "street outside the gate",
+        "turns": [
+          1
+        ]
+      },
+      {
+        "id": "gate",
+        "kind": "gate",
+        "name": "black metal gate with spikes",
+        "turns": [
+          1,
+          15
+        ]
+      },
+      {
+        "id": "yard",
+        "kind": "courtyard",
+        "name": "concrete front yard",
+        "turns": [
+          3,
+          15
+        ]
+      },
+      {
+        "id": "car",
+        "kind": "object",
+        "name": "uncle's Peugeot 504",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "main_building",
+        "kind": "other",
+        "name": "bungalow, main building",
+        "turns": [
+          5,
+          9,
+          11
+        ]
+      },
+      {
+        "id": "corridor",
+        "kind": "room",
+        "name": "long central corridor",
+        "turns": [
+          5,
+          7
+        ]
+      },
+      {
+        "id": "other_rooms",
+        "kind": "room",
+        "name": "rooms facing each other, four on each side of the corridor",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "family_room",
+        "kind": "room",
+        "name": "family's room, last on the left",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "curtain",
+        "kind": "object",
+        "name": "curtain making a corner",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "kitchen_area",
+        "kind": "kitchen",
+        "name": "open shared kitchen area at the back",
+        "turns": [
+          9,
+          11,
+          13
+        ]
+      },
+      {
+        "id": "kerosene_stoves",
+        "kind": "stove",
+        "name": "kerosene stoves",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "toilets",
+        "kind": "room",
+        "name": "two toilets",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "bathroom",
+        "kind": "room",
+        "name": "bathroom",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "well",
+        "kind": "well",
+        "name": "well",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "water_tank",
+        "kind": "water_tank",
+        "name": "big black water tank",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "tank_stand",
+        "kind": "other",
+        "name": "metal stand under the tank",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "mango_tree",
+        "kind": "tree",
+        "name": "mango tree",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "boundary_wall",
+        "kind": "boundary_wall",
+        "name": "compound wall",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "kiosk",
+        "kind": "other",
+        "name": "Mama Bisi's kiosk built into the wall",
+        "turns": [
+          15
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "gate",
+        "rel": "opens_into",
+        "b": "yard",
+        "turns": [
+          1,
+          3
+        ]
+      },
+      {
+        "a": "car",
+        "rel": "inside",
+        "b": "yard",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "car",
+        "rel": "right_of",
+        "b": "yard",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "main_building",
+        "rel": "behind",
+        "b": "yard",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "corridor",
+        "rel": "inside",
+        "b": "main_building",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "other_rooms",
+        "rel": "next_to",
+        "b": "corridor",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "family_room",
+        "rel": "left_of",
+        "b": "corridor",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "family_room",
+        "rel": "inside",
+        "b": "main_building",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "curtain",
+        "rel": "inside",
+        "b": "family_room",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "kitchen_area",
+        "rel": "behind",
+        "b": "main_building",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "kerosene_stoves",
+        "rel": "inside",
+        "b": "kitchen_area",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "toilets",
+        "rel": "behind",
+        "b": "main_building",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "bathroom",
+        "rel": "behind",
+        "b": "main_building",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "toilets",
+        "rel": "next_to",
+        "b": "kitchen_area",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "bathroom",
+        "rel": "next_to",
+        "b": "kitchen_area",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "toilets",
+        "rel": "left_of",
+        "b": "kitchen_area",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "bathroom",
+        "rel": "left_of",
+        "b": "kitchen_area",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "next_to",
+        "b": "kitchen_area",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "water_tank",
+        "rel": "next_to",
+        "b": "well",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "water_tank",
+        "rel": "on_top_of",
+        "b": "tank_stand",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "mango_tree",
+        "rel": "left_of",
+        "b": "yard",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "mango_tree",
+        "rel": "next_to",
+        "b": "boundary_wall",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "kiosk",
+        "rel": "next_to",
+        "b": "gate",
+        "turns": [
+          15
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "family_room",
+        "dim": "length",
+        "metres": 3.6576,
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "family_room",
+        "dim": "width",
+        "metres": 3.048,
+        "turns": [
+          7
+        ]
+      }
+    ]
+  }
+}

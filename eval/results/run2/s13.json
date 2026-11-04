@@ -1,0 +1,37 @@
+{
+ "id": "s13",
+ "setting": "A grandfather's farmstead near Bielsk Podlaski, Podlasie, Poland, 1970s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 32,
+    "total": 33
+   },
+   "relation": {
+    "pass": 25,
+    "total": 26
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 60,
+   "total": 62,
+   "extras": [
+    "chain",
+    "apple_trees",
+    "plum_trees"
+   ],
+   "failed": [
+    "there is a windows with white surrounds -> no blocks carry this tag",
+    "the holy pictures is against the wall of the izba, big good room -> gap between them is 1.0 m (touching means within 0.5 m)"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "82/82",
+  "usd": 0.35965990000000003,
+  "ms": 122716,
+  "elements": 35,
+  "error": null
+ }
+}

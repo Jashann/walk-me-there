@@ -1,0 +1,450 @@
+{
+  "id": "s10",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A mother's government-built house on posts in Happy Valley, Iqaluit, Nunavut, Canada, mid 1990s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "B",
+      "transcript": "Which house is this?"
+    },
+    {
+      "turnId": 2,
+      "speaker": "A",
+      "transcript": "My anaana's house in Iqaluit, my mom's, in Happy Valley, mid-nineties. One of those blue government houses, up on posts because of the permafrost, so there's three or four wooden steps up to the door."
+    },
+    {
+      "turnId": 3,
+      "speaker": "B",
+      "transcript": "And the door?"
+    },
+    {
+      "turnId": 4,
+      "speaker": "A",
+      "transcript": "The door faced the bay, which is, um, south. South, yeah. Then you're in the porch, the cold porch, where all the boots and parkas are, and the chest freezer, my uncle's pride."
+    },
+    {
+      "turnId": 5,
+      "speaker": "B",
+      "transcript": "Then?"
+    },
+    {
+      "turnId": 6,
+      "speaker": "A",
+      "transcript": "Then a second door into the kitchen and living room. It's all one room. Kitchen on the right, couch and TV on the left by the big window. My uncle was always on that couch."
+    },
+    {
+      "turnId": 7,
+      "speaker": "B",
+      "transcript": "Bedrooms?"
+    },
+    {
+      "turnId": 8,
+      "speaker": "A",
+      "transcript": "Down a short hallway at the back. Three bedrooms, and the bathroom at the end. I shared the middle bedroom with two cousins, a bunk bed and a mattress on the floor."
+    },
+    {
+      "turnId": 9,
+      "speaker": "B",
+      "transcript": "Anything special in the house?"
+    },
+    {
+      "turnId": 10,
+      "speaker": "A",
+      "transcript": "A qulliq, the stone lamp. My grandmother kept it on a shelf in the living room, not lit usually, only for special days. And there was always cardboard down on the kitchen floor, for when she used the ulu."
+    },
+    {
+      "turnId": 11,
+      "speaker": "B",
+      "transcript": "How big was it?"
+    },
+    {
+      "turnId": 12,
+      "speaker": "A",
+      "transcript": "Small. The main room maybe twenty feet long. You could lie four people head to toe across it, we did that at Christmas."
+    }
+  ],
+  "key": {
+    "entrance": "front_door",
+    "entrance_faces": "south",
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "blue government house",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "id": "posts",
+        "kind": "other",
+        "name": "posts under the house",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "id": "steps",
+        "kind": "stairs",
+        "name": "three or four wooden steps",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "id": "front_door",
+        "kind": "door",
+        "name": "front door facing the bay",
+        "turns": [
+          2,
+          4
+        ]
+      },
+      {
+        "id": "bay",
+        "kind": "other",
+        "name": "the bay",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "porch",
+        "kind": "room",
+        "name": "cold porch",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "boots",
+        "kind": "object",
+        "name": "boots",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "parkas",
+        "kind": "object",
+        "name": "parkas",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "freezer",
+        "kind": "object",
+        "name": "chest freezer",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "inner_door",
+        "kind": "door",
+        "name": "second door into the main room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "main_room",
+        "kind": "room",
+        "name": "combined kitchen and living room",
+        "turns": [
+          6,
+          10,
+          12
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "kitchen side of the main room",
+        "turns": [
+          6,
+          10
+        ]
+      },
+      {
+        "id": "couch",
+        "kind": "furniture",
+        "name": "couch",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "tv",
+        "kind": "object",
+        "name": "TV",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "big_window",
+        "kind": "window",
+        "name": "big window",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "hallway",
+        "kind": "room",
+        "name": "short hallway",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "middle_bedroom",
+        "kind": "room",
+        "name": "middle bedroom",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "other_bedrooms",
+        "kind": "room",
+        "name": "the other two bedrooms",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "bathroom",
+        "kind": "room",
+        "name": "bathroom at the end of the hallway",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "bunk_bed",
+        "kind": "bed",
+        "name": "bunk bed",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "mattress",
+        "kind": "bed",
+        "name": "mattress on the floor",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "qulliq",
+        "kind": "object",
+        "name": "qulliq, stone lamp",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "shelf",
+        "kind": "shelf",
+        "name": "shelf in the living room",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "cardboard",
+        "kind": "object",
+        "name": "cardboard on the kitchen floor",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "ulu",
+        "kind": "object",
+        "name": "ulu",
+        "turns": [
+          10
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "house",
+        "rel": "on_top_of",
+        "b": "posts",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "a": "steps",
+        "rel": "in_front_of",
+        "b": "front_door",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "a": "front_door",
+        "rel": "opens_into",
+        "b": "porch",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "boots",
+        "rel": "inside",
+        "b": "porch",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "parkas",
+        "rel": "inside",
+        "b": "porch",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "freezer",
+        "rel": "inside",
+        "b": "porch",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "inner_door",
+        "rel": "opens_into",
+        "b": "main_room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "inside",
+        "b": "main_room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "right_of",
+        "b": "main_room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "couch",
+        "rel": "left_of",
+        "b": "main_room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "tv",
+        "rel": "left_of",
+        "b": "main_room",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "couch",
+        "rel": "next_to",
+        "b": "big_window",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "tv",
+        "rel": "next_to",
+        "b": "big_window",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "hallway",
+        "rel": "behind",
+        "b": "main_room",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "bathroom",
+        "rel": "behind",
+        "b": "hallway",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "bunk_bed",
+        "rel": "inside",
+        "b": "middle_bedroom",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "mattress",
+        "rel": "inside",
+        "b": "middle_bedroom",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "qulliq",
+        "rel": "on_top_of",
+        "b": "shelf",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "shelf",
+        "rel": "inside",
+        "b": "main_room",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "cardboard",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          10
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "main_room",
+        "dim": "length",
+        "metres": 6.096,
+        "turns": [
+          12
+        ]
+      }
+    ]
+  }
+}

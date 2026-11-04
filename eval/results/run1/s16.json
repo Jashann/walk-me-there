@@ -1,0 +1,95 @@
+{
+ "id": "s16",
+ "setting": "A maternal grandfather's brick courtyard house in a village near Gujrat, Punjab, Pakistan, 2000s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 25
+   },
+   "relation": {
+    "pass": 26,
+    "total": 27
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 52,
+   "total": 55,
+   "extras": [],
+   "failed": [
+    "there is a brick pakka house -> no blocks carry this tag",
+    "there is a verandah pillars -> no blocks carry this tag",
+    "the haveli, cattle yard is across from the brick pakka house -> missing house"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "61/61",
+  "usd": 0.3152809,
+  "ms": 116170,
+  "elements": 23,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 20,
+    "total": 25
+   },
+   "relation": {
+    "pass": 25,
+    "total": 27
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 48,
+   "total": 55,
+   "extras": [],
+   "failed": [
+    "there is a brick pakka house -> no blocks carry this tag",
+    "there is a low wall around the roof -> no blocks carry this tag",
+    "there is a haveli, cattle yard -> no blocks carry this tag",
+    "there is a buffaloes -> no blocks carry this tag",
+    "there is a gali, lane -> no blocks carry this tag",
+    "the haveli, cattle yard is across from the brick pakka house -> missing cattle_yard",
+    "the buffaloes is inside the haveli, cattle yard -> missing buffaloes"
+   ]
+  },
+  "usd": 0.2096392,
+  "ms": 83001,
+  "elements": 20,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 25
+   },
+   "relation": {
+    "pass": 25,
+    "total": 27
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 51,
+   "total": 55,
+   "extras": [],
+   "failed": [
+    "there is a brick pakka house -> no blocks carry this tag",
+    "there is a buffaloes -> no blocks carry this tag",
+    "the haveli, cattle yard is across from the brick pakka house -> missing house",
+    "the buffaloes is inside the haveli, cattle yard -> missing buffaloes"
+   ]
+  },
+  "usd": 0.31952,
+  "ms": 124990,
+  "elements": 23,
+  "error": null
+ }
+}

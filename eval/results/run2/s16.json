@@ -1,0 +1,30 @@
+{
+ "id": "s16",
+ "setting": "A maternal grandfather's brick courtyard house in a village near Gujrat, Punjab, Pakistan, 2000s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 25,
+    "total": 25
+   },
+   "relation": {
+    "pass": 27,
+    "total": 27
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 55,
+   "total": 55,
+   "extras": [],
+   "failed": []
+  },
+  "rounds": 3,
+  "ownChecks": "69/69",
+  "usd": 0.49775365,
+  "ms": 180011,
+  "elements": 25,
+  "error": null
+ }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "walk-me-there",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Describe a house out loud and walk through it, block by block, with every block tied to the words that put it there.",
+  "scripts": {
+    "dev": "node --watch server/server.ts",
+    "web": "vite web",
+    "build": "vite build web",
+    "start": "node server/server.ts",
+    "test": "node --test test/checks.test.ts test/sandbox.test.ts"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.16.0",
+    "three": "^0.186.1",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/three": "^0.186.0",
+    "@types/ws": "^8.18.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "engines": {
+    "node": ">=26"
+  }
+}

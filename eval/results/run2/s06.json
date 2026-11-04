@@ -1,0 +1,33 @@
+{
+ "id": "s06",
+ "setting": "A grandmother's nalukettu ancestral house (tharavad) in a village outside Thrissur, Kerala, India, 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 26,
+    "total": 26
+   },
+   "relation": {
+    "pass": 24,
+    "total": 24
+   },
+   "size": {
+    "pass": 4,
+    "total": 4
+   },
+   "pass": 54,
+   "total": 54,
+   "extras": [
+    "padippura_roof",
+    "tulsi_plant"
+   ],
+   "failed": []
+  },
+  "rounds": 2,
+  "ownChecks": "71/71",
+  "usd": 0.34322645000000007,
+  "ms": 158057,
+  "elements": 28,
+  "error": null
+ }
+}

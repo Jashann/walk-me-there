@@ -1,0 +1,695 @@
+{
+  "id": "s05",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A mother's family thatched L-shaped farmhouse (magariya) in a village near Tono, Iwate, Japan, early 1960s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "B",
+      "transcript": "Where was this?"
+    },
+    {
+      "turnId": 2,
+      "speaker": "A",
+      "transcript": "In Iwate, in the north, a village near Tono. My mother's family house. I stayed there summers, like, '62, '63, until I was maybe twelve."
+    },
+    {
+      "turnId": 3,
+      "speaker": "B",
+      "transcript": "What did it look like from outside?"
+    },
+    {
+      "turnId": 4,
+      "speaker": "A",
+      "transcript": "Big thatched roof, very steep, kayabuki. And it was shaped like an L, because the stable stuck out at the front. That type they call magariya, the bent house."
+    },
+    {
+      "turnId": 5,
+      "speaker": "B",
+      "transcript": "Where did you go in?"
+    },
+    {
+      "turnId": 6,
+      "speaker": "A",
+      "transcript": "The main door was, uh, a big sliding wooden door, at the corner where... no. Not the corner. It was on the front, just to the right of where the stable stuck out. You slide it, and you're in the doma."
+    },
+    {
+      "turnId": 7,
+      "speaker": "B",
+      "transcript": "The doma?"
+    },
+    {
+      "turnId": 8,
+      "speaker": "A",
+      "transcript": "The earth floor part. Packed earth, dark, it smelled of smoke and horse. It was big, I'd say twenty feet deep, going back into the house."
+    },
+    {
+      "turnId": 9,
+      "speaker": "B",
+      "transcript": "And the stable was off that?"
+    },
+    {
+      "turnId": 10,
+      "speaker": "A",
+      "transcript": "Yes, the umaya, the stable, was on the left of the doma, you could look right at the horse while you took your shoes off. There was one horse, a brown one, and my grandfather talked to it more than to us."
+    },
+    {
+      "turnId": 11,
+      "speaker": "B",
+      "transcript": "What else was in the doma?"
+    },
+    {
+      "turnId": 12,
+      "speaker": "A",
+      "transcript": "The kamado, the cooking stove, clay, with two or three holes for pots. That was on the right side of the doma, against the wall. And a big water jar next to it. Water came from the well outside, I'll get to that."
+    },
+    {
+      "turnId": 13,
+      "speaker": "B",
+      "transcript": "Okay."
+    },
+    {
+      "turnId": 14,
+      "speaker": "A",
+      "transcript": "Then further in, from the doma you step up. There's a step, a wooden step, and then you're on the wooden floor, the itanoma, and in the middle of that is the irori, the sunken hearth."
+    },
+    {
+      "turnId": 15,
+      "speaker": "B",
+      "transcript": "The fire in the floor."
+    },
+    {
+      "turnId": 16,
+      "speaker": "A",
+      "transcript": "Yes, square, with the jizai-kagi, the hook, hanging down from the ceiling over it. Everyone sat around it. Grandfather's place was the far side, facing the doma, the yokoza. Nobody else sat there, ever."
+    },
+    {
+      "turnId": 17,
+      "speaker": "B",
+      "transcript": "Where did you sleep?"
+    },
+    {
+      "turnId": 18,
+      "speaker": "A",
+      "transcript": "Behind the itanoma there were the tatami rooms. Two, I think? Three. There were three. The zashiki, the best room, was on the left, at the back, with the tokonoma, the alcove with the scroll. The butsudan, the family altar, was in the room next to it. I slept with my cousins in the third one, on the right, futons all in a row."
+    },
+    {
+      "turnId": 19,
+      "speaker": "B",
+      "transcript": "How big were those?"
+    },
+    {
+      "turnId": 20,
+      "speaker": "A",
+      "transcript": "The zashiki was eight tatami. Eight mats, so, about twelve feet by twelve. Ours was six mats."
+    },
+    {
+      "turnId": 21,
+      "speaker": "B",
+      "transcript": "Was there an upstairs?"
+    },
+    {
+      "turnId": 22,
+      "speaker": "A",
+      "transcript": "Sort of. Above the stable and the doma there was a loft where they raised silkworms. You climbed up a ladder from the doma. Very hot up there, and the sound, the silkworms eating, like rain."
+    },
+    {
+      "turnId": 23,
+      "speaker": "B",
+      "transcript": "Outside the house?"
+    },
+    {
+      "turnId": 24,
+      "speaker": "A",
+      "transcript": "The engawa, the wooden veranda, ran along the outside of the zashiki, on the garden side. The garden was small, a pine, a stone lantern. The well was, um, somewhere round the side. Near the kitchen side I think, but I'm not sure anymore."
+    },
+    {
+      "turnId": 25,
+      "speaker": "B",
+      "transcript": "Toilet?"
+    },
+    {
+      "turnId": 26,
+      "speaker": "A",
+      "transcript": "Outside. A separate little hut, across the yard from the main door. Terrifying at night."
+    },
+    {
+      "turnId": 27,
+      "speaker": "B",
+      "transcript": "Anything else you remember?"
+    },
+    {
+      "turnId": 28,
+      "speaker": "A",
+      "transcript": "The ceiling over the irori was black from smoke, you couldn't see the wood. And the rice fields started right after the road in front."
+    }
+  ],
+  "key": {
+    "entrance": "main_door",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "L-shaped magariya farmhouse",
+        "turns": [
+          4,
+          28
+        ]
+      },
+      {
+        "id": "roof",
+        "kind": "roof",
+        "name": "steep kayabuki thatched roof",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "stable",
+        "kind": "animal_shed",
+        "name": "umaya, stable sticking out at the front",
+        "turns": [
+          4,
+          6,
+          10,
+          22
+        ]
+      },
+      {
+        "id": "main_door",
+        "kind": "door",
+        "name": "big sliding wooden main door",
+        "turns": [
+          6,
+          26
+        ]
+      },
+      {
+        "id": "doma",
+        "kind": "room",
+        "name": "doma, packed-earth floor area",
+        "turns": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          22
+        ]
+      },
+      {
+        "id": "horse",
+        "kind": "animal",
+        "name": "brown horse",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "kamado",
+        "kind": "stove",
+        "name": "kamado, clay cooking stove",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "id": "water_jar",
+        "kind": "object",
+        "name": "big water jar",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "id": "well",
+        "kind": "well",
+        "name": "well outside",
+        "turns": [
+          12,
+          24
+        ]
+      },
+      {
+        "id": "step",
+        "kind": "other",
+        "name": "wooden step up from the doma",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "id": "itanoma",
+        "kind": "room",
+        "name": "itanoma, wooden-floored room",
+        "turns": [
+          14,
+          18
+        ]
+      },
+      {
+        "id": "irori",
+        "kind": "stove",
+        "name": "irori, sunken square hearth",
+        "turns": [
+          14,
+          16,
+          28
+        ]
+      },
+      {
+        "id": "kettle_hook",
+        "kind": "object",
+        "name": "jizai-kagi, hook hanging from the ceiling",
+        "turns": [
+          16
+        ]
+      },
+      {
+        "id": "zashiki",
+        "kind": "room",
+        "name": "zashiki, best tatami room",
+        "turns": [
+          18,
+          20,
+          24
+        ]
+      },
+      {
+        "id": "tokonoma",
+        "kind": "niche",
+        "name": "tokonoma alcove",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "id": "scroll",
+        "kind": "object",
+        "name": "hanging scroll",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "id": "butsudan_room",
+        "kind": "room",
+        "name": "tatami room with the family altar",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "id": "butsudan",
+        "kind": "furniture",
+        "name": "butsudan, family altar",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "id": "cousins_room",
+        "kind": "room",
+        "name": "third tatami room where the cousins slept",
+        "turns": [
+          18,
+          20
+        ]
+      },
+      {
+        "id": "futons",
+        "kind": "bed",
+        "name": "futons in a row",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "id": "loft",
+        "kind": "upper_floor",
+        "name": "silkworm loft",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "id": "ladder",
+        "kind": "ladder",
+        "name": "ladder up to the loft",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "id": "silkworms",
+        "kind": "animal",
+        "name": "silkworms",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "id": "engawa",
+        "kind": "verandah",
+        "name": "engawa, wooden veranda",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "id": "garden",
+        "kind": "other",
+        "name": "small garden",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "id": "pine",
+        "kind": "tree",
+        "name": "pine",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "id": "stone_lantern",
+        "kind": "object",
+        "name": "stone lantern",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "id": "yard",
+        "kind": "courtyard",
+        "name": "yard in front of the main door",
+        "turns": [
+          26
+        ]
+      },
+      {
+        "id": "toilet_hut",
+        "kind": "other",
+        "name": "separate toilet hut",
+        "turns": [
+          26
+        ]
+      },
+      {
+        "id": "road",
+        "kind": "street",
+        "name": "road in front",
+        "turns": [
+          28
+        ]
+      },
+      {
+        "id": "rice_fields",
+        "kind": "field",
+        "name": "rice fields",
+        "turns": [
+          28
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "main_door",
+        "rel": "right_of",
+        "b": "stable",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "main_door",
+        "rel": "opens_into",
+        "b": "doma",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "stable",
+        "rel": "left_of",
+        "b": "doma",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "horse",
+        "rel": "inside",
+        "b": "stable",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "kamado",
+        "rel": "inside",
+        "b": "doma",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "a": "kamado",
+        "rel": "right_of",
+        "b": "doma",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "a": "kamado",
+        "rel": "against_wall_of",
+        "b": "doma",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "a": "water_jar",
+        "rel": "next_to",
+        "b": "kamado",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "a": "itanoma",
+        "rel": "behind",
+        "b": "doma",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "a": "irori",
+        "rel": "inside",
+        "b": "itanoma",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "a": "irori",
+        "rel": "below",
+        "b": "kettle_hook",
+        "turns": [
+          16
+        ]
+      },
+      {
+        "a": "zashiki",
+        "rel": "behind",
+        "b": "itanoma",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "butsudan_room",
+        "rel": "behind",
+        "b": "itanoma",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "cousins_room",
+        "rel": "behind",
+        "b": "itanoma",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "zashiki",
+        "rel": "left_of",
+        "b": "cousins_room",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "butsudan_room",
+        "rel": "next_to",
+        "b": "zashiki",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "tokonoma",
+        "rel": "inside",
+        "b": "zashiki",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "scroll",
+        "rel": "inside",
+        "b": "tokonoma",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "butsudan",
+        "rel": "inside",
+        "b": "butsudan_room",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "futons",
+        "rel": "inside",
+        "b": "cousins_room",
+        "turns": [
+          18
+        ]
+      },
+      {
+        "a": "loft",
+        "rel": "on_top_of",
+        "b": "stable",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "a": "loft",
+        "rel": "on_top_of",
+        "b": "doma",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "a": "ladder",
+        "rel": "inside",
+        "b": "doma",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "a": "silkworms",
+        "rel": "inside",
+        "b": "loft",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "a": "engawa",
+        "rel": "next_to",
+        "b": "zashiki",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "a": "engawa",
+        "rel": "next_to",
+        "b": "garden",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "a": "pine",
+        "rel": "inside",
+        "b": "garden",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "a": "stone_lantern",
+        "rel": "inside",
+        "b": "garden",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "a": "toilet_hut",
+        "rel": "across_from",
+        "b": "main_door",
+        "turns": [
+          26
+        ]
+      },
+      {
+        "a": "road",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          28
+        ]
+      },
+      {
+        "a": "rice_fields",
+        "rel": "next_to",
+        "b": "road",
+        "turns": [
+          28
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "doma",
+        "dim": "length",
+        "metres": 6.096,
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "zashiki",
+        "dim": "length",
+        "metres": 3.6576,
+        "turns": [
+          20
+        ]
+      },
+      {
+        "id": "zashiki",
+        "dim": "width",
+        "metres": 3.6576,
+        "turns": [
+          20
+        ]
+      }
+    ]
+  }
+}

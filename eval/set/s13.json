@@ -1,0 +1,615 @@
+{
+  "id": "s13",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A grandfather's farmstead near Bielsk Podlaski, Podlasie, Poland, 1970s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "My dziadek's farm, near Bielsk Podlaski, seventies. The house was wooden, painted, uh, kind of green, with white around the windows. A gate from the road into the yard, the podwórko."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "What was around the yard?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "The yard was square, with the buildings around it. The house on the left as you come through the gate, the stodoła, the barn, straight ahead on the far side, and the obora, the cowshed, on the right. The pigsty next to the cowshed."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "How many cows?"
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "Four cows, a horse, and the pigs. And a dog on a chain by the gate, Burek. All the dogs were called Burek."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "The house?"
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "You go in through the sień, the entry hall, in the middle of the house. Left of that the kitchen, and right of it the big room, the izba. Or the other way. No, kitchen left, because the kitchen window looked at the gate."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "What was in the kitchen?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "The big kitchen stove with the iron plate on top, for cooking and for heat, against the wall between the kitchen and the sień. A table, benches, and a bucket of water on a stool by the kitchen door. The water came from the well in the yard, in front of the house."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "And the izba?"
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "The good room. A tiled stove in the corner, white tiles. The bed with the pillows piled up, like five pillows, my babcia was proud of them. Holy pictures on the walls. A wardrobe."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "Was there an attic or a cellar?"
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "Both. A ladder from the sień up to the strych, the attic, where they stored things for winter. And the cellar, the piwnica, not under the house, a separate one dug into the ground behind the barn."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "How big was the yard?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "Big. Maybe thirty metres across. The izba maybe five by four metres."
+    },
+    {
+      "turnId": 16,
+      "speaker": "B",
+      "transcript": "Anything else?"
+    },
+    {
+      "turnId": 17,
+      "speaker": "A",
+      "transcript": "Behind the house, the orchard, apples and plums. And Dziadek had six beehives in the orchard."
+    }
+  ],
+  "key": {
+    "entrance": "gate",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "green wooden house",
+        "turns": [
+          1,
+          3,
+          7,
+          9,
+          17
+        ]
+      },
+      {
+        "id": "windows",
+        "kind": "window",
+        "name": "windows with white surrounds",
+        "turns": [
+          1
+        ]
+      },
+      {
+        "id": "road",
+        "kind": "street",
+        "name": "road",
+        "turns": [
+          1
+        ]
+      },
+      {
+        "id": "gate",
+        "kind": "gate",
+        "name": "gate from the road",
+        "turns": [
+          1,
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "id": "yard",
+        "kind": "courtyard",
+        "name": "podwórko, square yard",
+        "turns": [
+          1,
+          3,
+          9,
+          15
+        ]
+      },
+      {
+        "id": "stodola",
+        "kind": "storage",
+        "name": "stodoła, barn",
+        "turns": [
+          3,
+          13
+        ]
+      },
+      {
+        "id": "obora",
+        "kind": "animal_shed",
+        "name": "obora, cowshed",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "pigsty",
+        "kind": "animal_shed",
+        "name": "pigsty",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "cows",
+        "kind": "animal",
+        "name": "four cows",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "horse",
+        "kind": "animal",
+        "name": "horse",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "pigs",
+        "kind": "animal",
+        "name": "pigs",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "dog",
+        "kind": "animal",
+        "name": "Burek, dog on a chain",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "sien",
+        "kind": "room",
+        "name": "sień, entry hall",
+        "turns": [
+          7,
+          9,
+          13
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "kitchen",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "id": "kitchen_window",
+        "kind": "window",
+        "name": "kitchen window",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "izba",
+        "kind": "room",
+        "name": "izba, big good room",
+        "turns": [
+          7,
+          11,
+          15
+        ]
+      },
+      {
+        "id": "kitchen_stove",
+        "kind": "stove",
+        "name": "kitchen stove with iron plate",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "table",
+        "kind": "furniture",
+        "name": "kitchen table",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "benches",
+        "kind": "furniture",
+        "name": "benches",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "bucket",
+        "kind": "object",
+        "name": "bucket of water",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "stool",
+        "kind": "furniture",
+        "name": "stool",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "kitchen_door",
+        "kind": "door",
+        "name": "kitchen door",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "well",
+        "kind": "well",
+        "name": "well",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "tiled_stove",
+        "kind": "stove",
+        "name": "white tiled stove",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "bed",
+        "kind": "bed",
+        "name": "bed with piled pillows",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "pillows",
+        "kind": "object",
+        "name": "pillows",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "pictures",
+        "kind": "object",
+        "name": "holy pictures",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "wardrobe",
+        "kind": "furniture",
+        "name": "wardrobe",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "ladder",
+        "kind": "ladder",
+        "name": "ladder to the attic",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "strych",
+        "kind": "upper_floor",
+        "name": "strych, attic",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "piwnica",
+        "kind": "storage",
+        "name": "piwnica, separate dug-in cellar",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "orchard",
+        "kind": "tree",
+        "name": "orchard of apples and plums",
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "beehives",
+        "kind": "other",
+        "name": "six beehives",
+        "turns": [
+          17
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "gate",
+        "rel": "opens_into",
+        "b": "yard",
+        "turns": [
+          1
+        ]
+      },
+      {
+        "a": "house",
+        "rel": "left_of",
+        "b": "yard",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "stodola",
+        "rel": "behind",
+        "b": "yard",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "obora",
+        "rel": "right_of",
+        "b": "yard",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "pigsty",
+        "rel": "next_to",
+        "b": "obora",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "dog",
+        "rel": "next_to",
+        "b": "gate",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "sien",
+        "rel": "inside",
+        "b": "house",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "left_of",
+        "b": "sien",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "izba",
+        "rel": "right_of",
+        "b": "sien",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "kitchen_stove",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "kitchen_stove",
+        "rel": "against_wall_of",
+        "b": "kitchen",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "table",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "benches",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "bucket",
+        "rel": "on_top_of",
+        "b": "stool",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "stool",
+        "rel": "next_to",
+        "b": "kitchen_door",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "inside",
+        "b": "yard",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "tiled_stove",
+        "rel": "inside",
+        "b": "izba",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "bed",
+        "rel": "inside",
+        "b": "izba",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "pillows",
+        "rel": "on_top_of",
+        "b": "bed",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "pictures",
+        "rel": "against_wall_of",
+        "b": "izba",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "wardrobe",
+        "rel": "inside",
+        "b": "izba",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "ladder",
+        "rel": "inside",
+        "b": "sien",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "piwnica",
+        "rel": "behind",
+        "b": "stodola",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "orchard",
+        "rel": "behind",
+        "b": "house",
+        "turns": [
+          17
+        ]
+      },
+      {
+        "a": "beehives",
+        "rel": "inside",
+        "b": "orchard",
+        "turns": [
+          17
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "yard",
+        "dim": "width",
+        "metres": 30.0,
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "izba",
+        "dim": "length",
+        "metres": 5.0,
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "izba",
+        "dim": "width",
+        "metres": 4.0,
+        "turns": [
+          15
+        ]
+      }
+    ]
+  }
+}

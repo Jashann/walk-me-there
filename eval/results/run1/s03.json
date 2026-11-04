@@ -1,0 +1,90 @@
+{
+ "id": "s03",
+ "setting": "A grandfather's adobe ranch house outside Jerez, Zacatecas, Mexico, 1970s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 11,
+    "total": 11
+   },
+   "relation": {
+    "pass": 10,
+    "total": 10
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 22,
+   "total": 22,
+   "extras": [
+    "kitchen_back_wall"
+   ],
+   "failed": []
+  },
+  "rounds": 2,
+  "ownChecks": "33/33",
+  "usd": 0.1951622,
+  "ms": 65125,
+  "elements": 12,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 9,
+    "total": 11
+   },
+   "relation": {
+    "pass": 8,
+    "total": 10
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 18,
+   "total": 22,
+   "extras": [],
+   "failed": [
+    "there is a horses -> no blocks carry this tag",
+    "there is a goats -> no blocks carry this tag",
+    "the horses is inside the corral -> missing horses",
+    "the goats is inside the corral -> missing goats"
+   ]
+  },
+  "usd": 0.094268,
+  "ms": 27992,
+  "elements": 9,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 9,
+    "total": 11
+   },
+   "relation": {
+    "pass": 8,
+    "total": 10
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 18,
+   "total": 22,
+   "extras": [],
+   "failed": [
+    "there is a horses -> no blocks carry this tag",
+    "there is a goats -> no blocks carry this tag",
+    "the horses is inside the corral -> missing horses",
+    "the goats is inside the corral -> missing goats"
+   ]
+  },
+  "usd": 0.21768159999999998,
+  "ms": 66924,
+  "elements": 10,
+  "error": null
+ }
+}

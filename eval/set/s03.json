@@ -1,0 +1,249 @@
+{
+  "id": "s03",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A grandfather's adobe ranch house outside Jerez, Zacatecas, Mexico, 1970s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "B",
+      "transcript": "Tell me about the rancho."
+    },
+    {
+      "turnId": 2,
+      "speaker": "A",
+      "transcript": "Ay, okay. My grandfather's rancho, outside Jerez, in Zacatecas. Adobe house, one floor, long, like a line of rooms. You walk in through the portal, the porch, it runs the whole front of the house."
+    },
+    {
+      "turnId": 3,
+      "speaker": "B",
+      "transcript": "What did the porch face?"
+    },
+    {
+      "turnId": 4,
+      "speaker": "A",
+      "transcript": "The front of the house faced, um, east? Yes, east, because the sun came straight onto the portal in the morning and my grandfather sat there with his coffee."
+    },
+    {
+      "turnId": 5,
+      "speaker": "B",
+      "transcript": "And the rooms?"
+    },
+    {
+      "turnId": 6,
+      "speaker": "A",
+      "transcript": "From the portal there's a door into the sala, the main room, in the middle. The bedrooms were to the right of the sala, and the kitchen to the left. The kitchen had a fogón, a wood stove, built of adobe, against the back wall."
+    },
+    {
+      "turnId": 7,
+      "speaker": "B",
+      "transcript": "Anything outside?"
+    },
+    {
+      "turnId": 8,
+      "speaker": "A",
+      "transcript": "Behind the house, the corral, for the horses and some goats. And a well somewhere out back, I don't remember exactly where."
+    },
+    {
+      "turnId": 9,
+      "speaker": "B",
+      "transcript": "Size of the house?"
+    },
+    {
+      "turnId": 10,
+      "speaker": "A",
+      "transcript": "The portal was long, maybe sixty feet. The sala, you could fit twelve people eating in there, we did at Christmas."
+    }
+  ],
+  "key": {
+    "entrance": "portal",
+    "entrance_faces": "east",
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "one-storey adobe house",
+        "turns": [
+          2,
+          8
+        ]
+      },
+      {
+        "id": "portal",
+        "kind": "verandah",
+        "name": "portal, porch along the whole front",
+        "turns": [
+          2,
+          4,
+          6,
+          10
+        ]
+      },
+      {
+        "id": "front_door",
+        "kind": "door",
+        "name": "door from the portal into the sala",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "sala",
+        "kind": "room",
+        "name": "sala, main room in the middle",
+        "turns": [
+          6,
+          10
+        ]
+      },
+      {
+        "id": "bedrooms",
+        "kind": "room",
+        "name": "bedrooms",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "kitchen",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "fogon",
+        "kind": "stove",
+        "name": "fogón, adobe wood stove",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "corral",
+        "kind": "animal_shed",
+        "name": "corral",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "horses",
+        "kind": "animal",
+        "name": "horses",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "goats",
+        "kind": "animal",
+        "name": "goats",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "well",
+        "kind": "well",
+        "name": "well out back",
+        "turns": [
+          8
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "portal",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "a": "front_door",
+        "rel": "next_to",
+        "b": "portal",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "front_door",
+        "rel": "opens_into",
+        "b": "sala",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "bedrooms",
+        "rel": "right_of",
+        "b": "sala",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "left_of",
+        "b": "sala",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "fogon",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "fogon",
+        "rel": "against_wall_of",
+        "b": "kitchen",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "corral",
+        "rel": "behind",
+        "b": "house",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "horses",
+        "rel": "inside",
+        "b": "corral",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "goats",
+        "rel": "inside",
+        "b": "corral",
+        "turns": [
+          8
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "portal",
+        "dim": "length",
+        "metres": 18.288,
+        "turns": [
+          10
+        ]
+      }
+    ]
+  }
+}

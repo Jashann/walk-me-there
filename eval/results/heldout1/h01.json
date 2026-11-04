@@ -1,0 +1,95 @@
+{
+ "id": "h01",
+ "setting": "Maternal grandparents' village house with a courtyard and roof room near Jalandhar, Punjab, 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 24,
+    "total": 25
+   },
+   "relation": {
+    "pass": 25,
+    "total": 26
+   },
+   "size": {
+    "pass": 5,
+    "total": 5
+   },
+   "pass": 54,
+   "total": 56,
+   "extras": [
+    "buffalo_rani",
+    "buffalo_other"
+   ],
+   "failed": [
+    "there is a two buffaloes -> no blocks carry this tag",
+    "the two buffaloes is inside the buffalo shed (pashuaan wala kotha) -> missing buffaloes"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "72/72",
+  "usd": 0.3460532,
+  "ms": 139941,
+  "elements": 26,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 25
+   },
+   "relation": {
+    "pass": 24,
+    "total": 26
+   },
+   "size": {
+    "pass": 5,
+    "total": 5
+   },
+   "pass": 52,
+   "total": 56,
+   "extras": [],
+   "failed": [
+    "there is a lane -> no blocks carry this tag",
+    "there is a open roof -> no blocks carry this tag",
+    "the cots (manjis) is on top of the open roof -> missing roof_terrace",
+    "the small door at the back opens into the buffalo shed (pashuaan wala kotha) -> gap between them is 1.0 m (touching means within 0.5 m)"
+   ]
+  },
+  "usd": 0.148348,
+  "ms": 57517,
+  "elements": 23,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 25
+   },
+   "relation": {
+    "pass": 23,
+    "total": 26
+   },
+   "size": {
+    "pass": 5,
+    "total": 5
+   },
+   "pass": 51,
+   "total": 56,
+   "extras": [],
+   "failed": [
+    "there is a open roof -> no blocks carry this tag",
+    "there is a little table -> no blocks carry this tag",
+    "the cots (manjis) is on top of the open roof -> missing roof_terrace",
+    "the black and white TV is on top of the little table -> missing tv_table",
+    "the little table is inside the sitting room (baithak) -> missing tv_table"
+   ]
+  },
+  "usd": 0.2059008,
+  "ms": 103616,
+  "elements": 23,
+  "error": null
+ }
+}

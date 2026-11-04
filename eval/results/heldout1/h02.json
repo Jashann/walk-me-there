@@ -1,0 +1,99 @@
+{
+ "id": "h02",
+ "setting": "A Sikh family's two-storey house with a basement suite in Newton, Surrey, BC, 2006 onward",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 26,
+    "total": 27
+   },
+   "relation": {
+    "pass": 17,
+    "total": 21
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 44,
+   "total": 49,
+   "extras": [],
+   "failed": [
+    "there is a upstairs -> no blocks carry this tag",
+    "the speaker's bedroom is inside the upstairs -> missing upper_floor",
+    "the parents' bedroom is inside the upstairs -> missing upper_floor",
+    "the sister's bedroom is inside the upstairs -> missing upper_floor",
+    "the washroom is inside the upstairs -> missing upper_floor"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "53/55",
+  "usd": 0.7656957,
+  "ms": 295974,
+  "elements": 26,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 25,
+    "total": 27
+   },
+   "relation": {
+    "pass": 17,
+    "total": 21
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 43,
+   "total": 49,
+   "extras": [],
+   "failed": [
+    "there is a street -> no blocks carry this tag",
+    "there is a upstairs -> no blocks carry this tag",
+    "the speaker's bedroom is inside the upstairs -> missing upper_floor",
+    "the parents' bedroom is inside the upstairs -> missing upper_floor",
+    "the sister's bedroom is inside the upstairs -> missing upper_floor",
+    "the washroom is inside the upstairs -> missing upper_floor"
+   ]
+  },
+  "usd": 0.1364392,
+  "ms": 61205,
+  "elements": 25,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 25,
+    "total": 27
+   },
+   "relation": {
+    "pass": 17,
+    "total": 21
+   },
+   "size": {
+    "pass": 0,
+    "total": 1
+   },
+   "pass": 42,
+   "total": 49,
+   "extras": [],
+   "failed": [
+    "there is a street -> no blocks carry this tag",
+    "there is a upstairs -> no blocks carry this tag",
+    "basement suite is about 2.134 m high -> built 0.5 m high",
+    "the speaker's bedroom is inside the upstairs -> missing upper_floor",
+    "the parents' bedroom is inside the upstairs -> missing upper_floor",
+    "the sister's bedroom is inside the upstairs -> missing upper_floor",
+    "the washroom is inside the upstairs -> missing upper_floor"
+   ]
+  },
+  "usd": 0.27501600000000004,
+  "ms": 112705,
+  "elements": 25,
+  "error": null
+ }
+}

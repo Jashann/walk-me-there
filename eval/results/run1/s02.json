@@ -1,0 +1,124 @@
+{
+ "id": "s02",
+ "setting": "An uncle's compound with a face-me-I-face-you bungalow in Mushin, Lagos, Nigeria, early 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 18,
+    "total": 20
+   },
+   "relation": {
+    "pass": 22,
+    "total": 23
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 42,
+   "total": 45,
+   "extras": [
+    "left_room_1",
+    "left_room_2",
+    "left_room_3",
+    "right_room_1",
+    "right_room_2",
+    "right_room_3",
+    "right_room_4"
+   ],
+   "failed": [
+    "there is a uncle's compound -> no blocks carry this tag",
+    "there is a rooms facing each other, four on each side of the corridor -> no blocks carry this tag",
+    "the rooms facing each other, four on each side of the corridor is next to the long central corridor -> missing other_rooms"
+   ]
+  },
+  "rounds": 3,
+  "ownChecks": "77/77",
+  "usd": 0.4343694,
+  "ms": 137741,
+  "elements": 25,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 17,
+    "total": 20
+   },
+   "relation": {
+    "pass": 20,
+    "total": 23
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 39,
+   "total": 45,
+   "extras": [
+    "gate_spikes",
+    "room_left_1",
+    "room_left_2",
+    "room_left_3",
+    "room_right_1",
+    "room_right_2",
+    "room_right_3",
+    "room_right_4"
+   ],
+   "failed": [
+    "there is a uncle's compound -> no blocks carry this tag",
+    "there is a street outside the gate -> no blocks carry this tag",
+    "there is a rooms facing each other, four on each side of the corridor -> no blocks carry this tag",
+    "the rooms facing each other, four on each side of the corridor is next to the long central corridor -> missing other_rooms",
+    "the curtain making a corner is inside the family's room, last on the left -> curtain spans x -8..-6, z 47..50; family_room spans x -8..-3, z 45..49",
+    "the two toilets is next to the open shared kitchen area at the back -> gap between them is 3.0 m (next to means within 2 m)"
+   ]
+  },
+  "usd": 0.1074056,
+  "ms": 44614,
+  "elements": 25,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 16,
+    "total": 20
+   },
+   "relation": {
+    "pass": 18,
+    "total": 23
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 36,
+   "total": 45,
+   "extras": [
+    "room_left_1",
+    "room_left_2",
+    "room_left_3",
+    "room_right_1",
+    "room_right_2",
+    "room_right_3",
+    "room_right_4"
+   ],
+   "failed": [
+    "there is a uncle's compound -> no blocks carry this tag",
+    "there is a street outside the gate -> no blocks carry this tag",
+    "there is a rooms facing each other, four on each side of the corridor -> no blocks carry this tag",
+    "there is a compound wall -> no blocks carry this tag",
+    "the rooms facing each other, four on each side of the corridor is next to the long central corridor -> missing other_rooms",
+    "the two toilets is next to the open shared kitchen area at the back -> gap between them is 6.0 m (next to means within 2 m)",
+    "the bathroom is next to the open shared kitchen area at the back -> gap between them is 6.0 m (next to means within 2 m)",
+    "the well is next to the open shared kitchen area at the back -> gap between them is 2.5 m (next to means within 2 m)",
+    "the mango tree is next to the compound wall -> missing boundary_wall"
+   ]
+  },
+  "usd": 0.22057680000000002,
+  "ms": 64922,
+  "elements": 23,
+  "error": null
+ }
+}

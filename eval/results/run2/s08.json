@@ -1,0 +1,35 @@
+{
+ "id": "s08",
+ "setting": "A grandmother's room-and-kitchen tenement flat, two up, on Langlands Road, Govan, Glasgow, 1950s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 22,
+    "total": 22
+   },
+   "relation": {
+    "pass": 21,
+    "total": 21
+   },
+   "size": {
+    "pass": 2,
+    "total": 3
+   },
+   "pass": 45,
+   "total": 46,
+   "extras": [
+    "tenement",
+    "half_landing"
+   ],
+   "failed": [
+    "room-and-kitchen flat, two up is about 3.048 m high -> built 0.5 m high"
+   ]
+  },
+  "rounds": 3,
+  "ownChecks": "59/59",
+  "usd": 0.5257367,
+  "ms": 247353,
+  "elements": 24,
+  "error": null
+ }
+}

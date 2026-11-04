@@ -1,0 +1,101 @@
+{
+ "id": "s07",
+ "setting": "A family's railroad apartment, third floor of a walk-up on Java Street, Greenpoint, Brooklyn, 1970s to early 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 12,
+    "total": 15
+   },
+   "relation": {
+    "pass": 11,
+    "total": 13
+   },
+   "size": {
+    "pass": 6,
+    "total": 6
+   },
+   "pass": 29,
+   "total": 34,
+   "extras": [],
+   "failed": [
+    "there is a walk-up building -> no blocks carry this tag",
+    "there is a Java Street -> no blocks carry this tag",
+    "there is a board over the tub used as a counter -> no blocks carry this tag",
+    "the railroad apartment is inside the walk-up building -> missing building",
+    "the board over the tub used as a counter is on top of the bathtub in the kitchen -> missing board"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "36/37",
+  "usd": 0.5573870999999999,
+  "ms": 201808,
+  "elements": 12,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 11,
+    "total": 15
+   },
+   "relation": {
+    "pass": 11,
+    "total": 13
+   },
+   "size": {
+    "pass": 4,
+    "total": 4
+   },
+   "pass": 26,
+   "total": 32,
+   "extras": [
+    "pull_chain"
+   ],
+   "failed": [
+    "there is a walk-up building -> no blocks carry this tag",
+    "there is a railroad apartment -> no blocks carry this tag",
+    "there is a Java Street -> no blocks carry this tag",
+    "there is a building stairs -> no blocks carry this tag",
+    "the railroad apartment is inside the walk-up building -> missing apartment",
+    "the couch is below the two windows on the street -> couch y 2..3, windows y 3..5"
+   ]
+  },
+  "usd": 0.1113232,
+  "ms": 33793,
+  "elements": 12,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 12,
+    "total": 15
+   },
+   "relation": {
+    "pass": 11,
+    "total": 13
+   },
+   "size": {
+    "pass": 4,
+    "total": 4
+   },
+   "pass": 27,
+   "total": 32,
+   "extras": [
+    "pull_chain"
+   ],
+   "failed": [
+    "there is a walk-up building -> no blocks carry this tag",
+    "there is a railroad apartment -> no blocks carry this tag",
+    "there is a Java Street -> no blocks carry this tag",
+    "the railroad apartment is inside the walk-up building -> missing apartment",
+    "the couch is below the two windows on the street -> couch y 2..3, windows y 3..5"
+   ]
+  },
+  "usd": 0.1965192,
+  "ms": 67786,
+  "elements": 13,
+  "error": null
+ }
+}

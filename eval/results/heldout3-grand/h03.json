@@ -1,0 +1,34 @@
+{
+ "id": "h03",
+ "setting": "Parents' narrow tube house (nhà ống) with a ground-floor shop in a lane in Đống Đa, Hanoi, until 2008",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 31,
+    "total": 31
+   },
+   "relation": {
+    "pass": 26,
+    "total": 27
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 60,
+   "total": 61,
+   "extras": [
+    "plant_pot"
+   ],
+   "failed": [
+    "the blue plastic water tank is on top of the roof terrace (sân thượng) -> blue_tank from 9.0 to 10.3 m up, roof_terrace from 6.3 to 6.5 m up; footprints do not overlap"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "70/73",
+  "usd": 0.9383373,
+  "ms": 257487,
+  "elements": 32,
+  "error": null
+ }
+}

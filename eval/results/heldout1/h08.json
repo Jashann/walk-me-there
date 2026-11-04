@@ -1,0 +1,109 @@
+{
+ "id": "h08",
+ "setting": "Grandmother's sandstone central-hall house with arches and a red tile roof in a Chouf village above Deir el Qamar, Lebanon, 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 37,
+    "total": 39
+   },
+   "relation": {
+    "pass": 33,
+    "total": 34
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 73,
+   "total": 76,
+   "extras": [
+    "front_left_window",
+    "front_right_window"
+   ],
+   "failed": [
+    "there is a three front arches -> no blocks carry this tag",
+    "there is a two front windows -> no blocks carry this tag",
+    "the two front windows is next to the wooden front door -> missing front_windows"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "95/96",
+  "usd": 0.98487295,
+  "ms": 330516,
+  "elements": 39,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 36,
+    "total": 39
+   },
+   "relation": {
+    "pass": 28,
+    "total": 34
+   },
+   "size": {
+    "pass": 2,
+    "total": 3
+   },
+   "pass": 66,
+   "total": 76,
+   "extras": [],
+   "failed": [
+    "there is a vine -> no blocks carry this tag",
+    "central hall (dar) is about 5 m high -> built 0.5 m high",
+    "there is a kitchen door -> no blocks carry this tag",
+    "there is a door from grandmother's room -> no blocks carry this tag",
+    "the vine is on top of the trellis ('arisheh) -> missing vine",
+    "the kitchen door is across from the wooden front door -> missing kitchen_door",
+    "the kitchen door opens into the kitchen -> missing kitchen_door",
+    "the small arch in the salon is inside the guest salon -> salon_arch spans x -11..-6, z 21..21; salon spans x -10..-6, z 13..20",
+    "the wall niche (kouweh) is inside the grandmother's bedroom -> kouweh spans x 10..11, z 15..17; teta_bedroom spans x 5..10, z 13..20",
+    "the door from grandmother's room opens into the second bedroom -> missing connecting_door"
+   ]
+  },
+  "usd": 0.22902,
+  "ms": 111265,
+  "elements": 36,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 37,
+    "total": 39
+   },
+   "relation": {
+    "pass": 24,
+    "total": 34
+   },
+   "size": {
+    "pass": 0,
+    "total": 0
+   },
+   "pass": 61,
+   "total": 73,
+   "extras": [],
+   "failed": [
+    "there is a central hall (dar) -> no blocks carry this tag",
+    "there is a door from grandmother's room -> no blocks carry this tag",
+    "the wooden front door opens into the central hall (dar) -> missing dar",
+    "the long sofa is inside the central hall (dar) -> missing dar",
+    "the low table is inside the central hall (dar) -> missing dar",
+    "the clay water jug (jarra) is inside the central hall (dar) -> missing dar",
+    "the photo of grandfather is inside the central hall (dar) -> missing dar",
+    "the oil lamp is inside the wall niche (kouweh) -> oil_lamp spans x 11..11, z 13..13; kouweh spans x 10..10, z 13..13",
+    "the door from grandmother's room opens into the second bedroom -> missing connecting_door",
+    "the kitchen is further in than the central hall (dar) -> missing dar",
+    "the old chimney is on top of the red tile roof (qirmid) -> chimney y 3..16, roof y 11..14, footprints overlap",
+    "the wood stove (sobia) is inside the central hall (dar) -> missing dar"
+   ]
+  },
+  "usd": 0.3627,
+  "ms": 136362,
+  "elements": 37,
+  "error": null
+ }
+}

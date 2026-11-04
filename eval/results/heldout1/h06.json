@@ -1,0 +1,104 @@
+{
+ "id": "h06",
+ "setting": "Grandparents' ger in a fenced yard (khashaa) in the Bayankhoshuu ger district, Ulaanbaatar, Mongolia, about 2005",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 22,
+    "total": 23
+   },
+   "relation": {
+    "pass": 18,
+    "total": 18
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 41,
+   "total": 42,
+   "extras": [
+    "khoimor",
+    "bagana_2"
+   ],
+   "failed": [
+    "there is a street -> no blocks carry this tag"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "66/66",
+  "usd": 0.34457825000000003,
+  "ms": 142349,
+  "elements": 24,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 20,
+    "total": 23
+   },
+   "relation": {
+    "pass": 15,
+    "total": 18
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 36,
+   "total": 42,
+   "extras": [
+    "hole_in_ground",
+    "dog_chain"
+   ],
+   "failed": [
+    "there is a fenced yard (khashaa) -> no blocks carry this tag",
+    "there is a street -> no blocks carry this tag",
+    "there is a five lattice wall sections (khana) -> no blocks carry this tag",
+    "the ger is inside the fenced yard (khashaa) -> missing khashaa",
+    "the blue metal gate opens into the fenced yard (khashaa) -> missing khashaa",
+    "the wooden outhouse is inside the fenced yard (khashaa) -> missing khashaa"
+   ]
+  },
+  "usd": 0.109796,
+  "ms": 44014,
+  "elements": 22,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 19,
+    "total": 23
+   },
+   "relation": {
+    "pass": 15,
+    "total": 18
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 35,
+   "total": 42,
+   "extras": [
+    "chain",
+    "outhouse_hole"
+   ],
+   "failed": [
+    "there is a fenced yard (khashaa) -> no blocks carry this tag",
+    "there is a street -> no blocks carry this tag",
+    "there is a door threshold -> no blocks carry this tag",
+    "there is a five lattice wall sections (khana) -> no blocks carry this tag",
+    "the ger is inside the fenced yard (khashaa) -> missing khashaa",
+    "the blue metal gate opens into the fenced yard (khashaa) -> missing khashaa",
+    "the wooden outhouse is inside the fenced yard (khashaa) -> missing khashaa"
+   ]
+  },
+  "usd": 0.2381392,
+  "ms": 94449,
+  "elements": 21,
+  "error": null
+ }
+}

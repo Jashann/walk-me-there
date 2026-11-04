@@ -1,0 +1,89 @@
+{
+ "id": "s01",
+ "setting": "A grandmother's mud-floored courtyard house in a village near Moga, Punjab, India, 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 16,
+    "total": 19
+   },
+   "relation": {
+    "pass": 15,
+    "total": 17
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 33,
+   "total": 38,
+   "extras": [],
+   "failed": [
+    "there is a piled bedding -> no blocks carry this tag",
+    "there is a little roof over the chulha, open on one side -> no blocks carry this tag",
+    "there is a shateer, wooden ceiling beams -> no blocks carry this tag",
+    "the piled bedding is inside the right back room with the trunk and bedding -> missing bedding",
+    "the chulha, clay stove is below the little roof over the chulha, open on one side -> missing kitchen_roof"
+   ]
+  },
+  "rounds": 1,
+  "ownChecks": "44/44",
+  "usd": 0.12654644999999998,
+  "ms": 56280,
+  "elements": 16,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 17,
+    "total": 19
+   },
+   "relation": {
+    "pass": 17,
+    "total": 17
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 36,
+   "total": 38,
+   "extras": [],
+   "failed": [
+    "there is a gali, the lane outside -> no blocks carry this tag",
+    "there is a roof where everyone slept in summer -> no blocks carry this tag"
+   ]
+  },
+  "usd": 0.10182,
+  "ms": 26785,
+  "elements": 17,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 18,
+    "total": 19
+   },
+   "relation": {
+    "pass": 17,
+    "total": 17
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 37,
+   "total": 38,
+   "extras": [],
+   "failed": [
+    "there is a gali, the lane outside -> no blocks carry this tag"
+   ]
+  },
+  "usd": 0.2251968,
+  "ms": 66681,
+  "elements": 18,
+  "error": null
+ }
+}

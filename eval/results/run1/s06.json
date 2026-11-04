@@ -1,0 +1,107 @@
+{
+ "id": "s06",
+ "setting": "A grandmother's nalukettu ancestral house (tharavad) in a village outside Thrissur, Kerala, India, 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 24,
+    "total": 26
+   },
+   "relation": {
+    "pass": 22,
+    "total": 24
+   },
+   "size": {
+    "pass": 4,
+    "total": 4
+   },
+   "pass": 50,
+   "total": 54,
+   "extras": [],
+   "failed": [
+    "there is a road -> no blocks carry this tag",
+    "there is a steps down into the pond -> no blocks carry this tag",
+    "the padippura, tiled-roof gatehouse is next to the road -> missing road",
+    "the steps down into the pond is inside the kulam, family bathing pond -> missing kulam_steps"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "59/59",
+  "usd": 0.37089010000000006,
+  "ms": 122490,
+  "elements": 24,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 26
+   },
+   "relation": {
+    "pass": 18,
+    "total": 24
+   },
+   "size": {
+    "pass": 3,
+    "total": 4
+   },
+   "pass": 44,
+   "total": 54,
+   "extras": [],
+   "failed": [
+    "there is a nalukettu house -> no blocks carry this tag",
+    "there is a road -> no blocks carry this tag",
+    "inner verandah around the courtyard is about 1.8288 m wide -> built 8.5 m wide",
+    "there is a front yard -> no blocks carry this tag",
+    "the padippura, tiled-roof gatehouse is next to the road -> missing road",
+    "the poomukham, front verandah is nearer the entrance than the nalukettu house -> missing house",
+    "the front yard is nearer the entrance than the nalukettu house -> missing front_yard",
+    "the tulasi thara, platform with a tulsi plant is inside the front yard -> missing front_yard",
+    "the tulasi thara, platform with a tulsi plant is nearer the entrance than the nalukettu house -> missing house",
+    "the kulam, family bathing pond is further in than the nalukettu house -> missing house"
+   ]
+  },
+  "usd": 0.21041120000000002,
+  "ms": 73594,
+  "elements": 23,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 22,
+    "total": 26
+   },
+   "relation": {
+    "pass": 17,
+    "total": 24
+   },
+   "size": {
+    "pass": 3,
+    "total": 4
+   },
+   "pass": 42,
+   "total": 54,
+   "extras": [],
+   "failed": [
+    "there is a nalukettu house -> no blocks carry this tag",
+    "there is a road -> no blocks carry this tag",
+    "inner verandah around the courtyard is about 1.8288 m wide -> built 8.5 m wide",
+    "there is a back door from the kitchen -> no blocks carry this tag",
+    "there is a front yard -> no blocks carry this tag",
+    "the padippura, tiled-roof gatehouse is next to the road -> missing road",
+    "the poomukham, front verandah is nearer the entrance than the nalukettu house -> missing house",
+    "the front yard is nearer the entrance than the nalukettu house -> missing front_yard",
+    "the tulasi thara, platform with a tulsi plant is inside the front yard -> missing front_yard",
+    "the tulasi thara, platform with a tulsi plant is nearer the entrance than the nalukettu house -> missing house",
+    "the kulam, family bathing pond is further in than the nalukettu house -> missing house",
+    "the steps down into the pond is inside the kulam, family bathing pond -> kulam_steps spans x 6..8, z 109..112; kulam spans x 2..12, z 112..122"
+   ]
+  },
+  "usd": 0.3552824,
+  "ms": 100219,
+  "elements": 22,
+  "error": null
+ }
+}

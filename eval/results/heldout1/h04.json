@@ -1,0 +1,130 @@
+{
+ "id": "h04",
+ "setting": "Family compound house (abusua fie) shared by many households in Asawase, Kumasi, Ghana, childhood until 1994",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 33,
+    "total": 37
+   },
+   "relation": {
+    "pass": 35,
+    "total": 40
+   },
+   "size": {
+    "pass": 2,
+    "total": 3
+   },
+   "pass": 70,
+   "total": 80,
+   "extras": [],
+   "failed": [
+    "there is a family compound house (abusua fie) -> no blocks carry this tag",
+    "there is a street -> no blocks carry this tag",
+    "courtyard (adiwo) is about 12.192 m long -> built 18.5 m long",
+    "there is a door of mother's room -> no blocks carry this tag",
+    "there is a back wall of mother's room -> no blocks carry this tag",
+    "the mother's big bed is against the wall of the back wall of mother's room -> missing mother_room_back_wall",
+    "the back wall of mother's room is across from the door of mother's room -> missing mother_room_back_wall",
+    "the wardrobe is next to the door of mother's room -> missing mother_room_door",
+    "the two big water drums is next to the door of mother's room -> missing mother_room_door",
+    "the shop window (hatch) opens into the street -> missing street"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "87/88",
+  "usd": 0.7017742499999999,
+  "ms": 245431,
+  "elements": 33,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 30,
+    "total": 37
+   },
+   "relation": {
+    "pass": 23,
+    "total": 40
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 56,
+   "total": 80,
+   "extras": [],
+   "failed": [
+    "there is a family compound house (abusua fie) -> no blocks carry this tag",
+    "there is a street -> no blocks carry this tag",
+    "there is a entrance passage -> no blocks carry this tag",
+    "there is a door of mother's room -> no blocks carry this tag",
+    "there is a back wall of mother's room -> no blocks carry this tag",
+    "there is a small gap beside grandfather's room -> no blocks carry this tag",
+    "there is a grandfather's door -> no blocks carry this tag",
+    "the entrance passage opens into the courtyard (adiwo) -> missing passage",
+    "the Auntie Akosua's room is left of the entrance passage -> missing passage",
+    "the Mr. Boateng's room is left of the entrance passage -> missing passage",
+    "the mother's room is left of the entrance passage -> missing passage",
+    "the mother's big bed is against the wall of the back wall of mother's room -> missing mother_room_back_wall",
+    "the back wall of mother's room is across from the door of mother's room -> missing mother_room_back_wall",
+    "the wardrobe is next to the door of mother's room -> missing mother_room_door",
+    "the coal pots is inside the courtyard (adiwo) -> coal_pots spans x -18..13, z 5..27; courtyard spans x -14..14, z 8..28",
+    "the kitchen room is right of the entrance passage -> missing passage",
+    "the two big water drums is next to the door of mother's room -> missing mother_room_door",
+    "the bathhouse is left of the entrance passage -> missing passage",
+    "the small gap beside grandfather's room is next to the grandfather's room -> missing gap",
+    "the grandfather's room is across from the entrance passage -> missing passage",
+    "the long wooden bench is next to the grandfather's door -> missing grandfather_door",
+    "the provision shop room is right of the entrance passage -> missing passage",
+    "the shop window (hatch) opens into the street -> missing street",
+    "the lodger's room is left of the entrance passage -> missing passage"
+   ]
+  },
+  "usd": 0.119168,
+  "ms": 44895,
+  "elements": 30,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 30,
+    "total": 37
+   },
+   "relation": {
+    "pass": 32,
+    "total": 40
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 65,
+   "total": 80,
+   "extras": [],
+   "failed": [
+    "there is a family compound house (abusua fie) -> no blocks carry this tag",
+    "there is a street -> no blocks carry this tag",
+    "there is a door of mother's room -> no blocks carry this tag",
+    "there is a back wall of mother's room -> no blocks carry this tag",
+    "there is a small gap beside grandfather's room -> no blocks carry this tag",
+    "there is a grandfather's door -> no blocks carry this tag",
+    "there is a shop window (hatch) -> no blocks carry this tag",
+    "the mother's big bed is against the wall of the back wall of mother's room -> missing mother_room_back_wall",
+    "the back wall of mother's room is across from the door of mother's room -> missing mother_room_back_wall",
+    "the wardrobe is next to the door of mother's room -> missing mother_room_door",
+    "the coal pots is inside the courtyard (adiwo) -> coal_pots spans x -10..10, z 9..35; courtyard spans x -11..11, z 7..33",
+    "the two big water drums is next to the door of mother's room -> missing mother_room_door",
+    "the small gap beside grandfather's room is next to the grandfather's room -> missing gap",
+    "the long wooden bench is next to the grandfather's door -> missing grandfather_door",
+    "the shop window (hatch) opens into the street -> missing shop_hatch"
+   ]
+  },
+  "usd": 0.3004536,
+  "ms": 126436,
+  "elements": 30,
+  "error": null
+ }
+}

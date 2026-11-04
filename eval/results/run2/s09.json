@@ -1,0 +1,35 @@
+{
+ "id": "s09",
+ "setting": "An aunt's courtyard house (dar) in the Fes medina near Batha, Morocco, 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 30,
+    "total": 30
+   },
+   "relation": {
+    "pass": 24,
+    "total": 24
+   },
+   "size": {
+    "pass": 3,
+    "total": 5
+   },
+   "pass": 57,
+   "total": 59,
+   "extras": [
+    "jasmine_pot"
+   ],
+   "failed": [
+    "tiled courtyard open to the sky is about 6 m long -> built 12.0 m long",
+    "tiled courtyard open to the sky is about 6 m wide -> built 9.0 m wide"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "75/78",
+  "usd": 0.9856438999999999,
+  "ms": 419143,
+  "elements": 31,
+  "error": null
+ }
+}

@@ -1,0 +1,301 @@
+{
+  "id": "s15",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A grandmother's adobe house in the countryside near San Carlos, Ñuble, Chile, 1980s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "B",
+      "transcript": "Where are we?"
+    },
+    {
+      "turnId": 2,
+      "speaker": "A",
+      "transcript": "In the campo near San Carlos, south of Chillán. My abuela's house, eighties. Adobe, with the red tile roof, the tejas. Long and low."
+    },
+    {
+      "turnId": 3,
+      "speaker": "B",
+      "transcript": "How did you come in?"
+    },
+    {
+      "turnId": 4,
+      "speaker": "A",
+      "transcript": "From the road, through a wooden tranquera, a farm gate, on the west side. Then up the dirt to the corredor, the long veranda along the front. The front looked west too, toward the road. We had the sun in our eyes every evening."
+    },
+    {
+      "turnId": 5,
+      "speaker": "B",
+      "transcript": "The inside?"
+    },
+    {
+      "turnId": 6,
+      "speaker": "A",
+      "transcript": "The door from the corredor goes into the comedor, the dining room, with the long table. Bedrooms on both sides of it, two on each side, I think. Each bedroom had its own door onto the corredor too."
+    },
+    {
+      "turnId": 7,
+      "speaker": "B",
+      "transcript": "Kitchen?"
+    },
+    {
+      "turnId": 8,
+      "speaker": "A",
+      "transcript": "The kitchen was apart, behind the house, a separate little building with the cocina a leña, the wood stove. That's where everyone really was, mate, sopaipillas, the gossip."
+    },
+    {
+      "turnId": 9,
+      "speaker": "B",
+      "transcript": "What was around the house?"
+    },
+    {
+      "turnId": 10,
+      "speaker": "A",
+      "transcript": "A parrón, a grape arbor, in front of the corredor, so it was shady. And the horno de barro, the clay oven for bread, out by the kitchen. A noria, no, not a noria, a pozo, a well, near the oven."
+    },
+    {
+      "turnId": 11,
+      "speaker": "B",
+      "transcript": "Size?"
+    },
+    {
+      "turnId": 12,
+      "speaker": "A",
+      "transcript": "The corredor was maybe twenty metres long. The comedor, five metres wide, maybe."
+    }
+  ],
+  "key": {
+    "entrance": "tranquera",
+    "entrance_faces": "west",
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "long low adobe house",
+        "turns": [
+          2,
+          8,
+          10
+        ]
+      },
+      {
+        "id": "roof",
+        "kind": "roof",
+        "name": "red tile roof, tejas",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "id": "road",
+        "kind": "street",
+        "name": "road",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "tranquera",
+        "kind": "gate",
+        "name": "tranquera, wooden farm gate",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "corredor",
+        "kind": "verandah",
+        "name": "corredor, long front veranda",
+        "turns": [
+          4,
+          6,
+          10,
+          12
+        ]
+      },
+      {
+        "id": "front_door",
+        "kind": "door",
+        "name": "door from the corredor into the comedor",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "comedor",
+        "kind": "room",
+        "name": "comedor, dining room",
+        "turns": [
+          6,
+          12
+        ]
+      },
+      {
+        "id": "table",
+        "kind": "furniture",
+        "name": "long table",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "bedrooms",
+        "kind": "room",
+        "name": "bedrooms on both sides of the comedor",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "bedroom_doors",
+        "kind": "door",
+        "name": "bedroom doors onto the corredor",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "separate kitchen building",
+        "turns": [
+          8,
+          10
+        ]
+      },
+      {
+        "id": "wood_stove",
+        "kind": "stove",
+        "name": "cocina a leña, wood stove",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "parron",
+        "kind": "plant",
+        "name": "parrón, grape arbor",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "horno",
+        "kind": "stove",
+        "name": "horno de barro, clay bread oven",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "well",
+        "kind": "well",
+        "name": "pozo, well",
+        "turns": [
+          10
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "tranquera",
+        "rel": "next_to",
+        "b": "road",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "corredor",
+        "rel": "in_front_of",
+        "b": "house",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "front_door",
+        "rel": "opens_into",
+        "b": "comedor",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "table",
+        "rel": "inside",
+        "b": "comedor",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "bedrooms",
+        "rel": "next_to",
+        "b": "comedor",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "behind",
+        "b": "house",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "wood_stove",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "parron",
+        "rel": "in_front_of",
+        "b": "corredor",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "horno",
+        "rel": "next_to",
+        "b": "kitchen",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "next_to",
+        "b": "horno",
+        "turns": [
+          10
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "corredor",
+        "dim": "length",
+        "metres": 20.0,
+        "turns": [
+          12
+        ]
+      },
+      {
+        "id": "comedor",
+        "dim": "width",
+        "metres": 5.0,
+        "turns": [
+          12
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+ "id": "s14",
+ "setting": "A maternal grandfather's homestead (bari) with a pond in a village in Munshiganj, Bangladesh, remembered winter visits",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 27,
+    "total": 32
+   },
+   "relation": {
+    "pass": 23,
+    "total": 29
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 53,
+   "total": 64,
+   "extras": [],
+   "failed": [
+    "there is a opening between the betel nut trees, no gate -> no blocks carry this tag",
+    "there is a tin roof of the boro ghor -> no blocks carry this tag",
+    "there is a raised mud plinth -> no blocks carry this tag",
+    "there is a mosquito net -> no blocks carry this tag",
+    "there is a little path through the bamboo -> no blocks carry this tag",
+    "the opening between the betel nut trees, no gate opens into the uthan, swept earth courtyard -> missing opening",
+    "the opening between the betel nut trees, no gate is next to the betel nut trees -> missing opening",
+    "the opening between the betel nut trees, no gate is nearer the entrance than the uthan, swept earth courtyard -> missing opening",
+    "the boro ghor, grandparents' big house is on top of the raised mud plinth -> missing plinth",
+    "the macha, bamboo storage loft is below the tin roof of the boro ghor -> missing tin_roof",
+    "the little path through the bamboo is inside the bamboo grove -> missing toilet_path"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "63/63",
+  "usd": 0.2812989,
+  "ms": 96931,
+  "elements": 27,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 27,
+    "total": 32
+   },
+   "relation": {
+    "pass": 18,
+    "total": 29
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 48,
+   "total": 64,
+   "extras": [],
+   "failed": [
+    "there is a bari, the whole homestead -> no blocks carry this tag",
+    "there is a opening between the betel nut trees, no gate -> no blocks carry this tag",
+    "there is a tin roof of the boro ghor -> no blocks carry this tag",
+    "there is a front room of the boro ghor -> no blocks carry this tag",
+    "there is a back room of the boro ghor -> no blocks carry this tag",
+    "the opening between the betel nut trees, no gate opens into the uthan, swept earth courtyard -> missing opening",
+    "the opening between the betel nut trees, no gate is next to the betel nut trees -> missing opening",
+    "the opening between the betel nut trees, no gate is nearer the entrance than the uthan, swept earth courtyard -> missing opening",
+    "the front room of the boro ghor is inside the boro ghor, grandparents' big house -> missing front_room",
+    "the back room of the boro ghor is inside the boro ghor, grandparents' big house -> missing back_room",
+    "the back room of the boro ghor is further in than the front room of the boro ghor -> missing back_room",
+    "the chouki, big wooden bed is inside the front room of the boro ghor -> missing front_room",
+    "the big bed in the back room is inside the back room of the boro ghor -> missing back_room",
+    "the macha, bamboo storage loft is below the tin roof of the boro ghor -> missing tin_roof",
+    "the toilet out in the bamboo is inside the bamboo grove -> toilet spans x -14..-8, z 100..105; bamboo_grove spans x -21..-1, z 79..97",
+    "the little path through the bamboo is inside the bamboo grove -> toilet_path spans x -12..-10, z 76..102; bamboo_grove spans x -21..-1, z 79..97"
+   ]
+  },
+  "usd": 0.1279112,
+  "ms": 50421,
+  "elements": 27,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 26,
+    "total": 32
+   },
+   "relation": {
+    "pass": 18,
+    "total": 29
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 47,
+   "total": 64,
+   "extras": [],
+   "failed": [
+    "there is a bari, the whole homestead -> no blocks carry this tag",
+    "there is a opening between the betel nut trees, no gate -> no blocks carry this tag",
+    "there is a tin roof of the boro ghor -> no blocks carry this tag",
+    "there is a raised mud plinth -> no blocks carry this tag",
+    "there is a front room of the boro ghor -> no blocks carry this tag",
+    "there is a back room of the boro ghor -> no blocks carry this tag",
+    "the opening between the betel nut trees, no gate opens into the uthan, swept earth courtyard -> missing opening",
+    "the opening between the betel nut trees, no gate is next to the betel nut trees -> missing opening",
+    "the opening between the betel nut trees, no gate is nearer the entrance than the uthan, swept earth courtyard -> missing opening",
+    "the boro ghor, grandparents' big house is on top of the raised mud plinth -> missing plinth",
+    "the front room of the boro ghor is inside the boro ghor, grandparents' big house -> missing front_room",
+    "the back room of the boro ghor is inside the boro ghor, grandparents' big house -> missing back_room",
+    "the back room of the boro ghor is further in than the front room of the boro ghor -> missing back_room",
+    "the chouki, big wooden bed is inside the front room of the boro ghor -> missing front_room",
+    "the big bed in the back room is inside the back room of the boro ghor -> missing back_room",
+    "the macha, bamboo storage loft is below the tin roof of the boro ghor -> missing tin_roof",
+    "the little path through the bamboo is inside the bamboo grove -> toilet_path spans x -13..-12, z 90..101; bamboo_grove spans x -20..-5, z 92..107"
+   ]
+  },
+  "usd": 0.2115056,
+  "ms": 65147,
+  "elements": 26,
+  "error": null
+ }
+}

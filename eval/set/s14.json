@@ -1,0 +1,688 @@
+{
+  "id": "s14",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A maternal grandfather's homestead (bari) with a pond in a village in Munshiganj, Bangladesh, remembered winter visits",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "My nanabari, my mother's father's house, in a village in Munshiganj. We went every winter, December, from Dhaka. Bari means the whole homestead, not one house. It's a group of houses around an uthan, a courtyard."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "How did you arrive?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "By boat, then walking. A path along the pond, a big pond, the pukur, and you come into the bari from the pond side. There was a ghat, brick steps going down into the pond, and that was really the front. The women bathed there in the morning."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "So the pond is at the front."
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "The pond is at the front, yes, and then the path goes up past the ghat into the uthan. No gate, just an opening between the betel nut trees."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "What's around the uthan?"
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "Four ghor, four houses, one on each side. Straight ahead, the big one, the boro ghor, my nana and nani's. Tin roof, on a raised mud plinth. With a verandah, the dawa, along the front of it."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "And left and right?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "On the left the house where my mama, my uncle, lived with his family. On the right the guest house, the kachari ghor, where we stayed, I think. Hmm, actually, no, we stayed in the boro ghor, in the back room. The kachari ghor was for the men, for visitors, my nana's friends playing cards."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "And the fourth side?"
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "The fourth side is the side you came in, the pond side, and there was no house there. I said four but it was three. Three houses. The opening was there."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "Kitchen?"
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "The rannaghor, a separate kitchen hut, behind the boro ghor, on the left. Clay chula, mud stoves, two of them, built into the floor. My nani cooked there before anyone was up."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "Animals?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "The cowshed, the goyal, was behind the kitchen. Two cows. And ducks, the ducks went down to the pond every morning in a line. And chickens everywhere."
+    },
+    {
+      "turnId": 16,
+      "speaker": "B",
+      "transcript": "What was in the uthan itself?"
+    },
+    {
+      "turnId": 17,
+      "speaker": "A",
+      "transcript": "Bare earth, swept, very clean, my nani swept it twice a day. In the middle the tulsi mancha, the little raised pot with the tulsi... no, wait, we're Muslim, no tulsi. That's my friend's house in Nadia. Sorry. In ours there was nothing in the middle. There was a jackfruit tree in the corner, by mama's house."
+    },
+    {
+      "turnId": 18,
+      "speaker": "B",
+      "transcript": "Okay. The boro ghor inside?"
+    },
+    {
+      "turnId": 19,
+      "speaker": "A",
+      "transcript": "Two rooms. The front room with a chouki, a big wooden bed, where nana sat, and a trunk under it. The back room, where we slept, with a big bed and the mosquito net. And a macha, a sort of loft, bamboo, up under the roof, for storing things. You climbed up with a little bamboo ladder."
+    },
+    {
+      "turnId": 20,
+      "speaker": "B",
+      "transcript": "How big was the uthan?"
+    },
+    {
+      "turnId": 21,
+      "speaker": "A",
+      "transcript": "Like a badminton court. Bigger. Maybe forty feet square. The boro ghor maybe thirty feet long."
+    },
+    {
+      "turnId": 22,
+      "speaker": "B",
+      "transcript": "Toilet?"
+    },
+    {
+      "turnId": 23,
+      "speaker": "A",
+      "transcript": "Way out at the back past the cowshed, in the bamboo. A little path through the bamboo grove. Scary at night."
+    },
+    {
+      "turnId": 24,
+      "speaker": "B",
+      "transcript": "Water for drinking?"
+    },
+    {
+      "turnId": 25,
+      "speaker": "A",
+      "transcript": "A tubewell, a handpump, next to the kitchen. The pond water was for washing only."
+    },
+    {
+      "turnId": 26,
+      "speaker": "B",
+      "transcript": "Anything else?"
+    },
+    {
+      "turnId": 27,
+      "speaker": "A",
+      "transcript": "The smell of pitha, the rice cakes, coming from the kitchen at five in the morning. That's what I remember most."
+    }
+  ],
+  "key": {
+    "entrance": "opening",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "bari",
+        "kind": "compound",
+        "name": "bari, the whole homestead",
+        "turns": [
+          1,
+          3
+        ]
+      },
+      {
+        "id": "uthan",
+        "kind": "courtyard",
+        "name": "uthan, swept earth courtyard",
+        "turns": [
+          1,
+          5,
+          17,
+          21
+        ]
+      },
+      {
+        "id": "path",
+        "kind": "path",
+        "name": "path along the pond into the uthan",
+        "turns": [
+          3,
+          5
+        ]
+      },
+      {
+        "id": "pukur",
+        "kind": "other",
+        "name": "pukur, big pond",
+        "turns": [
+          3,
+          5,
+          11,
+          15,
+          25
+        ]
+      },
+      {
+        "id": "ghat",
+        "kind": "stairs",
+        "name": "ghat, brick steps into the pond",
+        "turns": [
+          3,
+          5
+        ]
+      },
+      {
+        "id": "opening",
+        "kind": "other",
+        "name": "opening between the betel nut trees, no gate",
+        "turns": [
+          5,
+          11
+        ]
+      },
+      {
+        "id": "betel_trees",
+        "kind": "tree",
+        "name": "betel nut trees",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "boro_ghor",
+        "kind": "room",
+        "name": "boro ghor, grandparents' big house",
+        "turns": [
+          7,
+          9,
+          19,
+          21
+        ]
+      },
+      {
+        "id": "tin_roof",
+        "kind": "roof",
+        "name": "tin roof of the boro ghor",
+        "turns": [
+          7,
+          19
+        ]
+      },
+      {
+        "id": "plinth",
+        "kind": "other",
+        "name": "raised mud plinth",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "dawa",
+        "kind": "verandah",
+        "name": "dawa, verandah along the front of the boro ghor",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "mama_ghor",
+        "kind": "room",
+        "name": "uncle's house",
+        "turns": [
+          9,
+          17
+        ]
+      },
+      {
+        "id": "kachari_ghor",
+        "kind": "room",
+        "name": "kachari ghor, men's guest house",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "front_room",
+        "kind": "room",
+        "name": "front room of the boro ghor",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "back_room",
+        "kind": "room",
+        "name": "back room of the boro ghor",
+        "turns": [
+          9,
+          19
+        ]
+      },
+      {
+        "id": "chouki",
+        "kind": "bed",
+        "name": "chouki, big wooden bed",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "trunk",
+        "kind": "chest",
+        "name": "trunk under the chouki",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "big_bed",
+        "kind": "bed",
+        "name": "big bed in the back room",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "mosquito_net",
+        "kind": "object",
+        "name": "mosquito net",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "macha",
+        "kind": "storage",
+        "name": "macha, bamboo storage loft",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "bamboo_ladder",
+        "kind": "ladder",
+        "name": "little bamboo ladder to the macha",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "id": "rannaghor",
+        "kind": "kitchen",
+        "name": "rannaghor, separate kitchen hut",
+        "turns": [
+          13,
+          15,
+          25,
+          27
+        ]
+      },
+      {
+        "id": "chulas",
+        "kind": "stove",
+        "name": "two clay chulas built into the floor",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "goyal",
+        "kind": "animal_shed",
+        "name": "goyal, cowshed",
+        "turns": [
+          15,
+          23
+        ]
+      },
+      {
+        "id": "cows",
+        "kind": "animal",
+        "name": "two cows",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "ducks",
+        "kind": "animal",
+        "name": "ducks",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "chickens",
+        "kind": "animal",
+        "name": "chickens",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "jackfruit_tree",
+        "kind": "tree",
+        "name": "jackfruit tree",
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "toilet",
+        "kind": "other",
+        "name": "toilet out in the bamboo",
+        "turns": [
+          23
+        ]
+      },
+      {
+        "id": "bamboo_grove",
+        "kind": "plant",
+        "name": "bamboo grove",
+        "turns": [
+          23
+        ]
+      },
+      {
+        "id": "toilet_path",
+        "kind": "path",
+        "name": "little path through the bamboo",
+        "turns": [
+          23
+        ]
+      },
+      {
+        "id": "tubewell",
+        "kind": "handpump",
+        "name": "tubewell handpump",
+        "turns": [
+          25
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "pukur",
+        "rel": "in_front_of",
+        "b": "uthan",
+        "turns": [
+          3,
+          5
+        ]
+      },
+      {
+        "a": "ghat",
+        "rel": "next_to",
+        "b": "pukur",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "path",
+        "rel": "next_to",
+        "b": "pukur",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "opening",
+        "rel": "opens_into",
+        "b": "uthan",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "opening",
+        "rel": "next_to",
+        "b": "betel_trees",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "opening",
+        "rel": "in_front_of",
+        "b": "uthan",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "boro_ghor",
+        "rel": "behind",
+        "b": "uthan",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "boro_ghor",
+        "rel": "on_top_of",
+        "b": "plinth",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "dawa",
+        "rel": "in_front_of",
+        "b": "boro_ghor",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "mama_ghor",
+        "rel": "left_of",
+        "b": "uthan",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "kachari_ghor",
+        "rel": "right_of",
+        "b": "uthan",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "front_room",
+        "rel": "inside",
+        "b": "boro_ghor",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "back_room",
+        "rel": "inside",
+        "b": "boro_ghor",
+        "turns": [
+          9,
+          19
+        ]
+      },
+      {
+        "a": "back_room",
+        "rel": "behind",
+        "b": "front_room",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "chouki",
+        "rel": "inside",
+        "b": "front_room",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "trunk",
+        "rel": "below",
+        "b": "chouki",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "big_bed",
+        "rel": "inside",
+        "b": "back_room",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "macha",
+        "rel": "inside",
+        "b": "boro_ghor",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "macha",
+        "rel": "below",
+        "b": "tin_roof",
+        "turns": [
+          19
+        ]
+      },
+      {
+        "a": "rannaghor",
+        "rel": "behind",
+        "b": "boro_ghor",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "rannaghor",
+        "rel": "left_of",
+        "b": "boro_ghor",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "chulas",
+        "rel": "inside",
+        "b": "rannaghor",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "goyal",
+        "rel": "behind",
+        "b": "rannaghor",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "cows",
+        "rel": "inside",
+        "b": "goyal",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "jackfruit_tree",
+        "rel": "next_to",
+        "b": "mama_ghor",
+        "turns": [
+          17
+        ]
+      },
+      {
+        "a": "toilet",
+        "rel": "behind",
+        "b": "goyal",
+        "turns": [
+          23
+        ]
+      },
+      {
+        "a": "toilet",
+        "rel": "inside",
+        "b": "bamboo_grove",
+        "turns": [
+          23
+        ]
+      },
+      {
+        "a": "toilet_path",
+        "rel": "inside",
+        "b": "bamboo_grove",
+        "turns": [
+          23
+        ]
+      },
+      {
+        "a": "tubewell",
+        "rel": "next_to",
+        "b": "rannaghor",
+        "turns": [
+          25
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "uthan",
+        "dim": "length",
+        "metres": 12.192,
+        "turns": [
+          21
+        ]
+      },
+      {
+        "id": "uthan",
+        "dim": "width",
+        "metres": 12.192,
+        "turns": [
+          21
+        ]
+      },
+      {
+        "id": "boro_ghor",
+        "dim": "length",
+        "metres": 9.144,
+        "turns": [
+          21
+        ]
+      }
+    ]
+  }
+}

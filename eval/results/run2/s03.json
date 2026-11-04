@@ -1,0 +1,32 @@
+{
+ "id": "s03",
+ "setting": "A grandfather's adobe ranch house outside Jerez, Zacatecas, Mexico, 1970s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 11,
+    "total": 11
+   },
+   "relation": {
+    "pass": 10,
+    "total": 10
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 22,
+   "total": 22,
+   "extras": [
+    "kitchen_back_wall"
+   ],
+   "failed": []
+  },
+  "rounds": 1,
+  "ownChecks": "30/30",
+  "usd": 0.12144619999999999,
+  "ms": 60085,
+  "elements": 12,
+  "error": null
+ }
+}

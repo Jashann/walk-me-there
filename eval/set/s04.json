@@ -1,0 +1,505 @@
+{
+  "id": "s04",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A grandmother's thatched khata in a village near Poltava, Ukraine, 1950s to 1960s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "My baba's khata, in a village near Poltava. Fifties, sixties. Whitewashed, with the thatched roof, and the windows with blue frames."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "How did you get in?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "Through the gate in the wooden fence, the tyn, it was woven from branches. The gate was on the south side. Then a path straight across the yard to the door, and the door faced south too, she always said a house must look at the sun."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "What's inside the door?"
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "First the sinyi, the entry, cold, where she kept the buckets and the tools. From there, to the left, the big room, the khata itself, and to the right the komora, a storeroom, for the food."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "What was in the big room?"
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "The pich. The stove. Huge, white, it took up, I would say, a quarter of the room, in the corner as you come in. We slept on top of it as children, on the lezhanka, the flat part. And across from the stove, in the far corner, the pokuttya, the holy corner, with the icons and the embroidered towels."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "Tables, beds?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "A long bench along the wall under the windows, and the table in front of the icons. My grandmother's bed was... I want to say by the stove. No, it was along the back wall. Along the back wall."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "And outside?"
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "A well with the long pole, the zhuravel, the crane, in the yard near the gate. The cherry orchard behind the house. And a barn for the cow on the right side of the yard, as you come in."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "How big was the room?"
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "Maybe five metres by five. Low ceiling, my father had to bend coming in."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "Did it have an upstairs?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "No upstairs, just the attic under the thatch where she hung things to dry. You went up a ladder from the sinyi."
+    }
+  ],
+  "key": {
+    "entrance": "gate",
+    "entrance_faces": "south",
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "khata, the whitewashed house",
+        "turns": [
+          1,
+          11
+        ]
+      },
+      {
+        "id": "roof",
+        "kind": "roof",
+        "name": "thatched roof",
+        "turns": [
+          1,
+          15
+        ]
+      },
+      {
+        "id": "windows",
+        "kind": "window",
+        "name": "windows with blue frames",
+        "turns": [
+          1,
+          9
+        ]
+      },
+      {
+        "id": "fence",
+        "kind": "boundary_wall",
+        "name": "tyn, woven wooden fence",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "gate",
+        "kind": "gate",
+        "name": "gate in the fence",
+        "turns": [
+          3,
+          11
+        ]
+      },
+      {
+        "id": "yard",
+        "kind": "courtyard",
+        "name": "yard",
+        "turns": [
+          3,
+          11
+        ]
+      },
+      {
+        "id": "path",
+        "kind": "path",
+        "name": "path across the yard to the door",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "front_door",
+        "kind": "door",
+        "name": "house door",
+        "turns": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": "sinyi",
+        "kind": "room",
+        "name": "sinyi, cold entry",
+        "turns": [
+          5,
+          15
+        ]
+      },
+      {
+        "id": "buckets",
+        "kind": "object",
+        "name": "buckets",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "tools",
+        "kind": "object",
+        "name": "tools",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "big_room",
+        "kind": "room",
+        "name": "big room, the khata itself",
+        "turns": [
+          5,
+          7,
+          13
+        ]
+      },
+      {
+        "id": "komora",
+        "kind": "storage",
+        "name": "komora, food storeroom",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "id": "pich",
+        "kind": "stove",
+        "name": "pich, big white stove with the lezhanka on top",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "id": "pokuttya",
+        "kind": "other",
+        "name": "pokuttya, holy corner",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "icons",
+        "kind": "object",
+        "name": "icons",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "id": "towels",
+        "kind": "object",
+        "name": "embroidered towels",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "bench",
+        "kind": "furniture",
+        "name": "long bench",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "table",
+        "kind": "furniture",
+        "name": "table",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "bed",
+        "kind": "bed",
+        "name": "grandmother's bed",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "well",
+        "kind": "well",
+        "name": "well with the zhuravel pole",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "orchard",
+        "kind": "tree",
+        "name": "cherry orchard",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "barn",
+        "kind": "animal_shed",
+        "name": "cow barn",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "cow",
+        "kind": "animal",
+        "name": "cow",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "attic",
+        "kind": "upper_floor",
+        "name": "attic under the thatch",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "ladder",
+        "kind": "ladder",
+        "name": "ladder to the attic",
+        "turns": [
+          15
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "path",
+        "rel": "inside",
+        "b": "yard",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "front_door",
+        "rel": "opens_into",
+        "b": "sinyi",
+        "turns": [
+          4,
+          5
+        ]
+      },
+      {
+        "a": "buckets",
+        "rel": "inside",
+        "b": "sinyi",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "tools",
+        "rel": "inside",
+        "b": "sinyi",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "big_room",
+        "rel": "left_of",
+        "b": "sinyi",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "komora",
+        "rel": "right_of",
+        "b": "sinyi",
+        "turns": [
+          5
+        ]
+      },
+      {
+        "a": "pich",
+        "rel": "inside",
+        "b": "big_room",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "pokuttya",
+        "rel": "inside",
+        "b": "big_room",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "pokuttya",
+        "rel": "across_from",
+        "b": "pich",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "icons",
+        "rel": "inside",
+        "b": "pokuttya",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "towels",
+        "rel": "inside",
+        "b": "pokuttya",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "bench",
+        "rel": "against_wall_of",
+        "b": "big_room",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "bench",
+        "rel": "below",
+        "b": "windows",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "table",
+        "rel": "in_front_of",
+        "b": "icons",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "bed",
+        "rel": "against_wall_of",
+        "b": "big_room",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "inside",
+        "b": "yard",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "well",
+        "rel": "next_to",
+        "b": "gate",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "orchard",
+        "rel": "behind",
+        "b": "house",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "barn",
+        "rel": "right_of",
+        "b": "yard",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "cow",
+        "rel": "inside",
+        "b": "barn",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "attic",
+        "rel": "below",
+        "b": "roof",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "ladder",
+        "rel": "inside",
+        "b": "sinyi",
+        "turns": [
+          15
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "big_room",
+        "dim": "length",
+        "metres": 5.0,
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "big_room",
+        "dim": "width",
+        "metres": 5.0,
+        "turns": [
+          13
+        ]
+      }
+    ]
+  }
+}

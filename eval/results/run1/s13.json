@@ -1,0 +1,126 @@
+{
+ "id": "s13",
+ "setting": "A grandfather's farmstead near Bielsk Podlaski, Podlasie, Poland, 1970s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 31,
+    "total": 33
+   },
+   "relation": {
+    "pass": 24,
+    "total": 26
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 58,
+   "total": 62,
+   "extras": [],
+   "failed": [
+    "there is a windows with white surrounds -> no blocks carry this tag",
+    "there is a pillows -> no blocks carry this tag",
+    "the pillows is on top of the bed with piled pillows -> missing pillows",
+    "the holy pictures is against the wall of the izba, big good room -> gap between them is 1.0 m (touching means within 0.5 m)"
+   ]
+  },
+  "rounds": 2,
+  "ownChecks": "71/71",
+  "usd": 0.3001593,
+  "ms": 112980,
+  "elements": 31,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 29,
+    "total": 33
+   },
+   "relation": {
+    "pass": 22,
+    "total": 26
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 54,
+   "total": 62,
+   "extras": [
+    "chain",
+    "apple_tree",
+    "plum_tree"
+   ],
+   "failed": [
+    "there is a windows with white surrounds -> no blocks carry this tag",
+    "there is a road -> no blocks carry this tag",
+    "there is a kitchen window -> no blocks carry this tag",
+    "there is a kitchen door -> no blocks carry this tag",
+    "the kitchen is left of the sień, entry hall -> kitchen centre (-31.5, 17.5), sien centre (-31.5, 24.5) in x,z",
+    "the izba, big good room is right of the sień, entry hall -> izba centre (-31.5, 32.5), sien centre (-31.5, 24.5) in x,z",
+    "the stool is next to the kitchen door -> missing kitchen_door",
+    "the holy pictures is against the wall of the izba, big good room -> gap between them is 1.5 m (touching means within 0.5 m)"
+   ]
+  },
+  "usd": 0.1765152,
+  "ms": 70059,
+  "elements": 32,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 33
+   },
+   "relation": {
+    "pass": 10,
+    "total": 26
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 34,
+   "total": 60,
+   "extras": [
+    "apple_trees",
+    "plum_trees"
+   ],
+   "failed": [
+    "there is a windows with white surrounds -> no blocks carry this tag",
+    "there is a road -> no blocks carry this tag",
+    "there is a sień, entry hall -> no blocks carry this tag",
+    "there is a kitchen -> no blocks carry this tag",
+    "there is a kitchen window -> no blocks carry this tag",
+    "there is a izba, big good room -> no blocks carry this tag",
+    "there is a stool -> no blocks carry this tag",
+    "there is a kitchen door -> no blocks carry this tag",
+    "there is a strych, attic -> no blocks carry this tag",
+    "there is a orchard of apples and plums -> no blocks carry this tag",
+    "the sień, entry hall is inside the green wooden house -> missing sien",
+    "the kitchen is left of the sień, entry hall -> missing kitchen",
+    "the izba, big good room is right of the sień, entry hall -> missing izba",
+    "the kitchen stove with iron plate is inside the kitchen -> missing kitchen",
+    "the kitchen stove with iron plate is against the wall of the kitchen -> missing kitchen",
+    "the kitchen table is inside the kitchen -> missing kitchen",
+    "the benches is inside the kitchen -> missing kitchen",
+    "the bucket of water is on top of the stool -> missing stool",
+    "the stool is next to the kitchen door -> missing stool",
+    "the white tiled stove is inside the izba, big good room -> missing izba",
+    "the bed with piled pillows is inside the izba, big good room -> missing izba",
+    "the holy pictures is against the wall of the izba, big good room -> missing izba",
+    "the wardrobe is inside the izba, big good room -> missing izba",
+    "the ladder to the attic is inside the sień, entry hall -> missing sien",
+    "the orchard of apples and plums is further in than the green wooden house -> missing orchard",
+    "the six beehives is inside the orchard of apples and plums -> missing orchard"
+   ]
+  },
+  "usd": 0.31440080000000004,
+  "ms": 111663,
+  "elements": 25,
+  "error": null
+ }
+}

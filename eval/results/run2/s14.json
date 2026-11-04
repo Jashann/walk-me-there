@@ -1,0 +1,30 @@
+{
+ "id": "s14",
+ "setting": "A maternal grandfather's homestead (bari) with a pond in a village in Munshiganj, Bangladesh, remembered winter visits",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 32,
+    "total": 32
+   },
+   "relation": {
+    "pass": 29,
+    "total": 29
+   },
+   "size": {
+    "pass": 3,
+    "total": 3
+   },
+   "pass": 64,
+   "total": 64,
+   "extras": [],
+   "failed": []
+  },
+  "rounds": 2,
+  "ownChecks": "82/82",
+  "usd": 0.3218242,
+  "ms": 112532,
+  "elements": 34,
+  "error": null
+ }
+}

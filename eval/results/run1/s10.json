@@ -1,0 +1,119 @@
+{
+ "id": "s10",
+ "setting": "A mother's government-built house on posts in Happy Valley, Iqaluit, Nunavut, Canada, mid 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 19,
+    "total": 25
+   },
+   "relation": {
+    "pass": 17,
+    "total": 20
+   },
+   "size": {
+    "pass": 0,
+    "total": 1
+   },
+   "pass": 36,
+   "total": 46,
+   "extras": [
+    "bedroom_1",
+    "bedroom_3"
+   ],
+   "failed": [
+    "there is a posts under the house -> no blocks carry this tag",
+    "there is a the bay -> no blocks carry this tag",
+    "there is a boots -> no blocks carry this tag",
+    "there is a parkas -> no blocks carry this tag",
+    "combined kitchen and living room is about 6.096 m long -> built 10.5 m long",
+    "there is a the other two bedrooms -> no blocks carry this tag",
+    "there is a ulu -> no blocks carry this tag",
+    "the blue government house is on top of the posts under the house -> missing posts",
+    "the boots is inside the cold porch -> missing boots",
+    "the parkas is inside the cold porch -> missing parkas"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "52/54",
+  "usd": 0.7577286999999999,
+  "ms": 289268,
+  "elements": 21,
+  "error": null
+ },
+ "oneshot": {
+  "result": {
+   "exists": {
+    "pass": 22,
+    "total": 25
+   },
+   "relation": {
+    "pass": 17,
+    "total": 20
+   },
+   "size": {
+    "pass": 0,
+    "total": 1
+   },
+   "pass": 39,
+   "total": 46,
+   "extras": [
+    "bedroom_one",
+    "bedroom_three"
+   ],
+   "failed": [
+    "there is a the bay -> no blocks carry this tag",
+    "combined kitchen and living room is about 6.096 m long -> built 8.5 m long",
+    "there is a the other two bedrooms -> no blocks carry this tag",
+    "there is a ulu -> no blocks carry this tag",
+    "the bathroom at the end of the hallway is further in than the short hallway -> bathroom centre (7.0, 25.5), hallway centre (-2.0, 25.5) in x,z",
+    "the bunk bed is inside the middle bedroom -> bunk_bed spans x -3..-2, z 30..33; middle_bedroom spans x -2..2, z 29..35",
+    "the cardboard on the kitchen floor is inside the kitchen side of the main room -> cardboard spans x 4..6, z 14..17; kitchen spans x 7..8, z 11..20"
+   ]
+  },
+  "usd": 0.1509992,
+  "ms": 123411,
+  "elements": 24,
+  "error": null
+ },
+ "selfreview": {
+  "result": {
+   "exists": {
+    "pass": 22,
+    "total": 25
+   },
+   "relation": {
+    "pass": 12,
+    "total": 20
+   },
+   "size": {
+    "pass": 0,
+    "total": 0
+   },
+   "pass": 34,
+   "total": 45,
+   "extras": [
+    "living_room",
+    "left_bedroom",
+    "right_bedroom"
+   ],
+   "failed": [
+    "there is a the bay -> no blocks carry this tag",
+    "there is a combined kitchen and living room -> no blocks carry this tag",
+    "there is a the other two bedrooms -> no blocks carry this tag",
+    "the second door into the main room opens into the combined kitchen and living room -> missing main_room",
+    "the kitchen side of the main room is inside the combined kitchen and living room -> missing main_room",
+    "the kitchen side of the main room is right of the combined kitchen and living room -> missing main_room",
+    "the couch is left of the combined kitchen and living room -> missing main_room",
+    "the TV is left of the combined kitchen and living room -> missing main_room",
+    "the TV is next to the big window -> gap between them is 2.5 m (next to means within 2 m)",
+    "the short hallway is further in than the combined kitchen and living room -> missing main_room",
+    "the shelf in the living room is inside the combined kitchen and living room -> missing main_room"
+   ]
+  },
+  "usd": 0.37339920000000004,
+  "ms": 153685,
+  "elements": 25,
+  "error": null
+ }
+}

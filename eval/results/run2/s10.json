@@ -1,0 +1,36 @@
+{
+ "id": "s10",
+ "setting": "A mother's government-built house on posts in Happy Valley, Iqaluit, Nunavut, Canada, mid 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 25
+   },
+   "relation": {
+    "pass": 20,
+    "total": 20
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 44,
+   "total": 46,
+   "extras": [
+    "bedroom_1",
+    "bedroom_3"
+   ],
+   "failed": [
+    "there is a the bay -> no blocks carry this tag",
+    "there is a the other two bedrooms -> no blocks carry this tag"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "61/62",
+  "usd": 0.72981905,
+  "ms": 316498,
+  "elements": 25,
+  "error": null
+ }
+}

@@ -1,0 +1,669 @@
+{
+  "id": "s12",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A grandfather's courtyard house in al-Qaymariyya, Old City of Damascus, Syria, 1990s to 2004",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "B",
+      "transcript": "Okay, go ahead."
+    },
+    {
+      "turnId": 2,
+      "speaker": "A",
+      "transcript": "It was my grandfather's house in the old city of Damascus, in al-Qaymariyya, near the Umayyad Mosque. We lived there until 2004. I was fourteen when we left."
+    },
+    {
+      "turnId": 3,
+      "speaker": "B",
+      "transcript": "What was the street like?"
+    },
+    {
+      "turnId": 4,
+      "speaker": "A",
+      "transcript": "A narrow lane, cobbles, and the house had no windows on the street, just a plain wall and a wooden door. A small door inside the big door, you know, so you'd duck through the little one. The door was on the north side, facing north."
+    },
+    {
+      "turnId": 5,
+      "speaker": "B",
+      "transcript": "And after the door?"
+    },
+    {
+      "turnId": 6,
+      "speaker": "A",
+      "transcript": "A dark corridor, the dihliz, with a bend in it, and a stone bench. My grandfather's friends sat on that bench and smoked. Then you come out into the courtyard, the ard al-dar, and it's like, the light hits you."
+    },
+    {
+      "turnId": 7,
+      "speaker": "B",
+      "transcript": "What was in it?"
+    },
+    {
+      "turnId": 8,
+      "speaker": "A",
+      "transcript": "In the middle, the bahra, the fountain, octagonal, black and white stone. And trees. A lemon tree and a bitter orange tree, the narenj, on either side of the fountain. Lemon on the left, narenj on the right. Wait. I think it's the other way. Yes, narenj on the left, lemon on the right, because the lemon was near the kitchen and my mother would just reach out."
+    },
+    {
+      "turnId": 9,
+      "speaker": "B",
+      "transcript": "So the kitchen's on the right?"
+    },
+    {
+      "turnId": 10,
+      "speaker": "A",
+      "transcript": "The kitchen was on the right side of the courtyard, yes, near the entrance end. Small, with a gas stove and a big stone sink. And next to it the room where my grandmother kept the mouneh, the winter stores, the jars of makdous and jam and the dried things."
+    },
+    {
+      "turnId": 11,
+      "speaker": "B",
+      "transcript": "What's straight ahead?"
+    },
+    {
+      "turnId": 12,
+      "speaker": "A",
+      "transcript": "Straight ahead, at the far end, the liwan. It's like a big open room, three walls and a big arch, open to the courtyard, raised up a few steps. In summer we lived in the liwan. It faced north, so it was in shade all afternoon."
+    },
+    {
+      "turnId": 13,
+      "speaker": "B",
+      "transcript": "Was there furniture there?"
+    },
+    {
+      "turnId": 14,
+      "speaker": "A",
+      "transcript": "Low sofas, long cushions, along the three walls. A copper tray table in the middle for tea."
+    },
+    {
+      "turnId": 15,
+      "speaker": "B",
+      "transcript": "And the left side of the courtyard?"
+    },
+    {
+      "turnId": 16,
+      "speaker": "A",
+      "transcript": "On the left was the qa'a, the reception hall, the fancy room, with a painted wooden ceiling, and a little fountain inside it too, in the floor. We weren't allowed in there except when there were guests. It had big windows onto the courtyard."
+    },
+    {
+      "turnId": 17,
+      "speaker": "B",
+      "transcript": "How big was the courtyard?"
+    },
+    {
+      "turnId": 18,
+      "speaker": "A",
+      "transcript": "Hmm. Maybe twelve metres long, from the corridor to the liwan, and eight wide? Something like that. The qa'a was big too, maybe ten metres long."
+    },
+    {
+      "turnId": 19,
+      "speaker": "B",
+      "transcript": "And the liwan?"
+    },
+    {
+      "turnId": 20,
+      "speaker": "A",
+      "transcript": "The arch, the arch was very high, like two floors high. I don't know the number."
+    },
+    {
+      "turnId": 21,
+      "speaker": "B",
+      "transcript": "Was there an upstairs?"
+    },
+    {
+      "turnId": 22,
+      "speaker": "A",
+      "transcript": "Yes. Stone stairs in the corner, next to the kitchen, going up to the bedrooms. Upstairs the bedrooms were around a wooden gallery, the tayyara, looking down onto the courtyard."
+    },
+    {
+      "turnId": 23,
+      "speaker": "B",
+      "transcript": "Whose room was whose?"
+    },
+    {
+      "turnId": 24,
+      "speaker": "A",
+      "transcript": "My parents' room was above the kitchen. My room with my brother was, um, above the qa'a? No, above the dihliz, the entrance. It was cold, the cold came up from the street."
+    },
+    {
+      "turnId": 25,
+      "speaker": "B",
+      "transcript": "Roof?"
+    },
+    {
+      "turnId": 26,
+      "speaker": "A",
+      "transcript": "The stairs kept going to the roof. Flat roof, with the water tanks, two of them, and the washing lines. My mother was up there with the washing every morning."
+    },
+    {
+      "turnId": 27,
+      "speaker": "B",
+      "transcript": "Any plants besides the trees?"
+    },
+    {
+      "turnId": 28,
+      "speaker": "A",
+      "transcript": "Jasmine. A big jasmine climbing up the wall by the liwan, the full, the white kind. And pots, lots of pots of basil and geranium around the fountain."
+    },
+    {
+      "turnId": 29,
+      "speaker": "B",
+      "transcript": "What do you miss?"
+    },
+    {
+      "turnId": 30,
+      "speaker": "A",
+      "transcript": "The sound of the fountain at night. And my grandfather calling us from the liwan."
+    }
+  ],
+  "key": {
+    "entrance": "big_door",
+    "entrance_faces": "north",
+    "elements": [
+      {
+        "id": "lane",
+        "kind": "street",
+        "name": "narrow cobbled lane",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "street_wall",
+        "kind": "wall",
+        "name": "plain wall on the street",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "big_door",
+        "kind": "door",
+        "name": "big wooden street door",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "small_door",
+        "kind": "door",
+        "name": "small door set in the big door",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "dihliz",
+        "kind": "room",
+        "name": "dihliz, bent entrance corridor",
+        "turns": [
+          6,
+          18,
+          24
+        ]
+      },
+      {
+        "id": "bench",
+        "kind": "furniture",
+        "name": "stone bench",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "id": "courtyard",
+        "kind": "courtyard",
+        "name": "ard al-dar, courtyard",
+        "turns": [
+          6,
+          8,
+          10,
+          12,
+          16,
+          18,
+          22
+        ]
+      },
+      {
+        "id": "bahra",
+        "kind": "other",
+        "name": "bahra, octagonal fountain",
+        "turns": [
+          8,
+          28,
+          30
+        ]
+      },
+      {
+        "id": "narenj_tree",
+        "kind": "tree",
+        "name": "narenj, bitter orange tree",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "lemon_tree",
+        "kind": "tree",
+        "name": "lemon tree",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "kitchen",
+        "turns": [
+          8,
+          10,
+          22,
+          24
+        ]
+      },
+      {
+        "id": "gas_stove",
+        "kind": "stove",
+        "name": "gas stove",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "sink",
+        "kind": "object",
+        "name": "big stone sink",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "mouneh_room",
+        "kind": "storage",
+        "name": "mouneh room for winter stores",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "jars",
+        "kind": "object",
+        "name": "jars of makdous and jam",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "liwan",
+        "kind": "room",
+        "name": "liwan, raised arched open room",
+        "turns": [
+          12,
+          14,
+          18,
+          28,
+          30
+        ]
+      },
+      {
+        "id": "liwan_steps",
+        "kind": "stairs",
+        "name": "few steps up to the liwan",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "id": "sofas",
+        "kind": "furniture",
+        "name": "low sofas and long cushions",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "id": "tray_table",
+        "kind": "furniture",
+        "name": "copper tray table",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "id": "qaa",
+        "kind": "room",
+        "name": "qa'a, reception hall",
+        "turns": [
+          16,
+          18,
+          24
+        ]
+      },
+      {
+        "id": "qaa_fountain",
+        "kind": "other",
+        "name": "small floor fountain in the qa'a",
+        "turns": [
+          16
+        ]
+      },
+      {
+        "id": "qaa_windows",
+        "kind": "window",
+        "name": "big windows onto the courtyard",
+        "turns": [
+          16
+        ]
+      },
+      {
+        "id": "stairs",
+        "kind": "stairs",
+        "name": "stone stairs",
+        "turns": [
+          22,
+          26
+        ]
+      },
+      {
+        "id": "gallery",
+        "kind": "upper_floor",
+        "name": "tayyara, upstairs wooden gallery",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "id": "parents_room",
+        "kind": "room",
+        "name": "parents' bedroom",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "id": "brothers_room",
+        "kind": "room",
+        "name": "speaker and brother's bedroom",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "id": "roof",
+        "kind": "roof",
+        "name": "flat roof",
+        "turns": [
+          26
+        ]
+      },
+      {
+        "id": "water_tanks",
+        "kind": "water_tank",
+        "name": "two water tanks",
+        "turns": [
+          26
+        ]
+      },
+      {
+        "id": "washing_lines",
+        "kind": "other",
+        "name": "washing lines",
+        "turns": [
+          26
+        ]
+      },
+      {
+        "id": "jasmine",
+        "kind": "plant",
+        "name": "big white jasmine",
+        "turns": [
+          28
+        ]
+      },
+      {
+        "id": "pots",
+        "kind": "plant",
+        "name": "pots of basil and geranium",
+        "turns": [
+          28
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "small_door",
+        "rel": "inside",
+        "b": "big_door",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "big_door",
+        "rel": "opens_into",
+        "b": "dihliz",
+        "turns": [
+          4,
+          6
+        ]
+      },
+      {
+        "a": "bench",
+        "rel": "inside",
+        "b": "dihliz",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "dihliz",
+        "rel": "opens_into",
+        "b": "courtyard",
+        "turns": [
+          6
+        ]
+      },
+      {
+        "a": "bahra",
+        "rel": "inside",
+        "b": "courtyard",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "narenj_tree",
+        "rel": "left_of",
+        "b": "bahra",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "lemon_tree",
+        "rel": "right_of",
+        "b": "bahra",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "lemon_tree",
+        "rel": "next_to",
+        "b": "kitchen",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "right_of",
+        "b": "courtyard",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "gas_stove",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "sink",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "mouneh_room",
+        "rel": "next_to",
+        "b": "kitchen",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "jars",
+        "rel": "inside",
+        "b": "mouneh_room",
+        "turns": [
+          10
+        ]
+      },
+      {
+        "a": "liwan",
+        "rel": "behind",
+        "b": "courtyard",
+        "turns": [
+          12
+        ]
+      },
+      {
+        "a": "sofas",
+        "rel": "inside",
+        "b": "liwan",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "a": "sofas",
+        "rel": "against_wall_of",
+        "b": "liwan",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "a": "tray_table",
+        "rel": "inside",
+        "b": "liwan",
+        "turns": [
+          14
+        ]
+      },
+      {
+        "a": "qaa",
+        "rel": "left_of",
+        "b": "courtyard",
+        "turns": [
+          16
+        ]
+      },
+      {
+        "a": "qaa_fountain",
+        "rel": "inside",
+        "b": "qaa",
+        "turns": [
+          16
+        ]
+      },
+      {
+        "a": "stairs",
+        "rel": "next_to",
+        "b": "kitchen",
+        "turns": [
+          22
+        ]
+      },
+      {
+        "a": "parents_room",
+        "rel": "on_top_of",
+        "b": "kitchen",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "a": "brothers_room",
+        "rel": "on_top_of",
+        "b": "dihliz",
+        "turns": [
+          24
+        ]
+      },
+      {
+        "a": "water_tanks",
+        "rel": "on_top_of",
+        "b": "roof",
+        "turns": [
+          26
+        ]
+      },
+      {
+        "a": "washing_lines",
+        "rel": "on_top_of",
+        "b": "roof",
+        "turns": [
+          26
+        ]
+      },
+      {
+        "a": "jasmine",
+        "rel": "next_to",
+        "b": "liwan",
+        "turns": [
+          28
+        ]
+      },
+      {
+        "a": "pots",
+        "rel": "next_to",
+        "b": "bahra",
+        "turns": [
+          28
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "courtyard",
+        "dim": "length",
+        "metres": 12.0,
+        "turns": [
+          18
+        ]
+      },
+      {
+        "id": "courtyard",
+        "dim": "width",
+        "metres": 8.0,
+        "turns": [
+          18
+        ]
+      },
+      {
+        "id": "qaa",
+        "dim": "length",
+        "metres": 10.0,
+        "turns": [
+          18
+        ]
+      }
+    ]
+  }
+}

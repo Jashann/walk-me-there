@@ -1,0 +1,36 @@
+{
+ "id": "h02",
+ "setting": "A Sikh family's two-storey house with a basement suite in Newton, Surrey, BC, 2006 onward",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 26,
+    "total": 27
+   },
+   "relation": {
+    "pass": 17,
+    "total": 21
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 44,
+   "total": 49,
+   "extras": [],
+   "failed": [
+    "there is a upstairs -> nothing in the build carries this tag",
+    "the speaker's bedroom is inside the upstairs -> missing upper_floor",
+    "the parents' bedroom is inside the upstairs -> missing upper_floor",
+    "the sister's bedroom is inside the upstairs -> missing upper_floor",
+    "the washroom is inside the upstairs -> missing upper_floor"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "68/68",
+  "usd": 0.8722124,
+  "ms": 288954,
+  "elements": 26,
+  "error": null
+ }
+}

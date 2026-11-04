@@ -1,0 +1,32 @@
+{
+ "id": "h01",
+ "setting": "Maternal grandparents' village house with a courtyard and roof room near Jalandhar, Punjab, 1990s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 25,
+    "total": 25
+   },
+   "relation": {
+    "pass": 26,
+    "total": 26
+   },
+   "size": {
+    "pass": 5,
+    "total": 5
+   },
+   "pass": 56,
+   "total": 56,
+   "extras": [
+    "buffalo_second"
+   ],
+   "failed": []
+  },
+  "rounds": 3,
+  "ownChecks": "72/72",
+  "usd": 0.5037600499999999,
+  "ms": 171667,
+  "elements": 26,
+  "error": null
+ }
+}

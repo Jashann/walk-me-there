@@ -1,0 +1,33 @@
+{
+ "id": "s11",
+ "setting": "A family's nipa house on posts in a barrio outside Catbalogan, Samar, Philippines, early 1980s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 30,
+    "total": 30
+   },
+   "relation": {
+    "pass": 27,
+    "total": 27
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 59,
+   "total": 59,
+   "extras": [
+    "bamboo_floor",
+    "front_wall"
+   ],
+   "failed": []
+  },
+  "rounds": 3,
+  "ownChecks": "66/66",
+  "usd": 0.42921475,
+  "ms": 146304,
+  "elements": 32,
+  "error": null
+ }
+}

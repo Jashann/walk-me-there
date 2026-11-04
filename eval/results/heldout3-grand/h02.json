@@ -1,0 +1,30 @@
+{
+ "id": "h02",
+ "setting": "A Sikh family's two-storey house with a basement suite in Newton, Surrey, BC, 2006 onward",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 27,
+    "total": 27
+   },
+   "relation": {
+    "pass": 21,
+    "total": 21
+   },
+   "size": {
+    "pass": 1,
+    "total": 1
+   },
+   "pass": 49,
+   "total": 49,
+   "extras": [],
+   "failed": []
+  },
+  "rounds": 3,
+  "ownChecks": "62/62",
+  "usd": 0.6944267999999999,
+  "ms": 237842,
+  "elements": 27,
+  "error": null
+ }
+}

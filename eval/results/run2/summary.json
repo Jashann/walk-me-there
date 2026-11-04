@@ -1,0 +1,16 @@
+{
+ "at": "2026-10-28T03:53:29.751Z",
+ "builder": "muse-wonder-1.0",
+ "summary": [
+  {
+   "arm": "graph",
+   "cases": 15,
+   "facts": "703/726 (96.8%)",
+   "positions": "315/324 (97.2%)",
+   "extraThingsPerHouse": "2.33",
+   "usdPerHouse": "0.429",
+   "secondsPerHouse": "185"
+  }
+ ],
+ "spend": 6.550346649999998
+}

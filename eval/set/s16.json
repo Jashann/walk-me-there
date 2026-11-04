@@ -1,0 +1,594 @@
+{
+  "id": "s16",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A maternal grandfather's brick courtyard house in a village near Gujrat, Punjab, Pakistan, 2000s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "A",
+      "transcript": "This is my nana's house, in a village near Gujrat, in Pakistan. Pakka house, brick, built in the seventies I think. I went every summer till 2010 or so."
+    },
+    {
+      "turnId": 2,
+      "speaker": "B",
+      "transcript": "What's the first thing you see?"
+    },
+    {
+      "turnId": 3,
+      "speaker": "A",
+      "transcript": "The big iron gate, green, and then the deorhi, a covered entrance passage, with a charpai in it, always. Someone was always lying there, usually my nana's old helper, Bashir."
+    },
+    {
+      "turnId": 4,
+      "speaker": "B",
+      "transcript": "Then?"
+    },
+    {
+      "turnId": 5,
+      "speaker": "A",
+      "transcript": "Then you're in the vehra, the courtyard. Brick floor, laid in a pattern, like a fish bone."
+    },
+    {
+      "turnId": 6,
+      "speaker": "B",
+      "transcript": "What's on each side?"
+    },
+    {
+      "turnId": 7,
+      "speaker": "A",
+      "transcript": "Okay, so, the baithak, the guest room for the men, that's on the right, but you enter it from the deorhi, not from the courtyard, so the guests don't see the women. Then along the back, straight ahead, three rooms in a row, with a verandah in front of them, the barandah, with pillars."
+    },
+    {
+      "turnId": 8,
+      "speaker": "B",
+      "transcript": "Whose rooms?"
+    },
+    {
+      "turnId": 9,
+      "speaker": "A",
+      "transcript": "Middle one was nana and nani's. The left one my mamu's family. The right one was the storeroom, all the peti, the metal trunks, stacked up to the ceiling."
+    },
+    {
+      "turnId": 10,
+      "speaker": "B",
+      "transcript": "Kitchen?"
+    },
+    {
+      "turnId": 11,
+      "speaker": "A",
+      "transcript": "On the left side of the courtyard, near the front. The rasoi, a small room, and outside it, in the courtyard, the tandoor. My nani made roti in the tandoor every afternoon and we'd stand there and steal them hot."
+    },
+    {
+      "turnId": 12,
+      "speaker": "B",
+      "transcript": "Any water?"
+    },
+    {
+      "turnId": 13,
+      "speaker": "A",
+      "transcript": "There was a nalka, a handpump, by the kitchen, and later a motor pump, and a water tank on the roof. The bathroom, the ghusalkhana, was in the back corner on the left, next to mamu's room."
+    },
+    {
+      "turnId": 14,
+      "speaker": "B",
+      "transcript": "How do you get to the roof?"
+    },
+    {
+      "turnId": 15,
+      "speaker": "A",
+      "transcript": "Stairs, concrete, open, no railing. Going up from the courtyard on the left. No, right, the right side, against the wall of the baithak."
+    },
+    {
+      "turnId": 16,
+      "speaker": "B",
+      "transcript": "What's up there?"
+    },
+    {
+      "turnId": 17,
+      "speaker": "A",
+      "transcript": "The chhat, the roof, flat, with a low wall around it. And a chaubara, one room on the roof, at the front, over the deorhi, where my cousin studied for his exams, or said he did."
+    },
+    {
+      "turnId": 18,
+      "speaker": "B",
+      "transcript": "Did you sleep on the roof?"
+    },
+    {
+      "turnId": 19,
+      "speaker": "A",
+      "transcript": "In June, everyone. And the big water tank, black, was up there in the corner."
+    },
+    {
+      "turnId": 20,
+      "speaker": "B",
+      "transcript": "Animals?"
+    },
+    {
+      "turnId": 21,
+      "speaker": "A",
+      "transcript": "Not in the house. There was a separate haveli, a cattle yard, across the gali, the lane, for the buffaloes."
+    },
+    {
+      "turnId": 22,
+      "speaker": "B",
+      "transcript": "How big?"
+    },
+    {
+      "turnId": 23,
+      "speaker": "A",
+      "transcript": "The courtyard, I'd say thirty feet wide and forty feet deep, from the deorhi to the verandah. The baithak was big, you could fit four charpais end to end along it."
+    }
+  ],
+  "key": {
+    "entrance": "gate",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "house",
+        "kind": "other",
+        "name": "brick pakka house",
+        "turns": [
+          1,
+          21
+        ]
+      },
+      {
+        "id": "gate",
+        "kind": "gate",
+        "name": "big green iron gate",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "deorhi",
+        "kind": "room",
+        "name": "deorhi, covered entrance passage",
+        "turns": [
+          3,
+          7,
+          17,
+          23
+        ]
+      },
+      {
+        "id": "charpai",
+        "kind": "cot",
+        "name": "charpai in the deorhi",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "id": "vehra",
+        "kind": "courtyard",
+        "name": "vehra, brick-floored courtyard",
+        "turns": [
+          5,
+          7,
+          11,
+          15,
+          23
+        ]
+      },
+      {
+        "id": "baithak",
+        "kind": "room",
+        "name": "baithak, men's guest room",
+        "turns": [
+          7,
+          15,
+          23
+        ]
+      },
+      {
+        "id": "barandah",
+        "kind": "verandah",
+        "name": "barandah with pillars",
+        "turns": [
+          7,
+          23
+        ]
+      },
+      {
+        "id": "pillars",
+        "kind": "other",
+        "name": "verandah pillars",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "id": "nana_room",
+        "kind": "room",
+        "name": "nana and nani's room, middle",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "mamu_room",
+        "kind": "room",
+        "name": "mamu's family room, left",
+        "turns": [
+          9,
+          13
+        ]
+      },
+      {
+        "id": "storeroom",
+        "kind": "storage",
+        "name": "storeroom, right",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "trunks",
+        "kind": "chest",
+        "name": "peti, metal trunks",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "id": "rasoi",
+        "kind": "kitchen",
+        "name": "rasoi, small kitchen room",
+        "turns": [
+          11,
+          13
+        ]
+      },
+      {
+        "id": "tandoor",
+        "kind": "tandoor",
+        "name": "tandoor",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "id": "nalka",
+        "kind": "handpump",
+        "name": "nalka, handpump",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "motor_pump",
+        "kind": "object",
+        "name": "motor pump",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "water_tank",
+        "kind": "water_tank",
+        "name": "big black water tank",
+        "turns": [
+          13,
+          19
+        ]
+      },
+      {
+        "id": "ghusalkhana",
+        "kind": "room",
+        "name": "ghusalkhana, bathroom",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "id": "stairs",
+        "kind": "stairs",
+        "name": "open concrete stairs",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "id": "roof",
+        "kind": "roof",
+        "name": "chhat, flat roof",
+        "turns": [
+          13,
+          17,
+          19
+        ]
+      },
+      {
+        "id": "roof_wall",
+        "kind": "wall",
+        "name": "low wall around the roof",
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "chaubara",
+        "kind": "room",
+        "name": "chaubara, room on the roof",
+        "turns": [
+          17
+        ]
+      },
+      {
+        "id": "cattle_yard",
+        "kind": "animal_shed",
+        "name": "haveli, cattle yard",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "id": "buffaloes",
+        "kind": "animal",
+        "name": "buffaloes",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "id": "lane",
+        "kind": "street",
+        "name": "gali, lane",
+        "turns": [
+          21
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "gate",
+        "rel": "opens_into",
+        "b": "deorhi",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "charpai",
+        "rel": "inside",
+        "b": "deorhi",
+        "turns": [
+          3
+        ]
+      },
+      {
+        "a": "deorhi",
+        "rel": "opens_into",
+        "b": "vehra",
+        "turns": [
+          3,
+          5
+        ]
+      },
+      {
+        "a": "baithak",
+        "rel": "right_of",
+        "b": "vehra",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "deorhi",
+        "rel": "opens_into",
+        "b": "baithak",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "nana_room",
+        "rel": "behind",
+        "b": "vehra",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "a": "mamu_room",
+        "rel": "behind",
+        "b": "vehra",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "a": "storeroom",
+        "rel": "behind",
+        "b": "vehra",
+        "turns": [
+          7,
+          9
+        ]
+      },
+      {
+        "a": "barandah",
+        "rel": "in_front_of",
+        "b": "nana_room",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "barandah",
+        "rel": "in_front_of",
+        "b": "mamu_room",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "barandah",
+        "rel": "in_front_of",
+        "b": "storeroom",
+        "turns": [
+          7
+        ]
+      },
+      {
+        "a": "mamu_room",
+        "rel": "left_of",
+        "b": "nana_room",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "storeroom",
+        "rel": "right_of",
+        "b": "nana_room",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "trunks",
+        "rel": "inside",
+        "b": "storeroom",
+        "turns": [
+          9
+        ]
+      },
+      {
+        "a": "rasoi",
+        "rel": "left_of",
+        "b": "vehra",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "tandoor",
+        "rel": "inside",
+        "b": "vehra",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "tandoor",
+        "rel": "next_to",
+        "b": "rasoi",
+        "turns": [
+          11
+        ]
+      },
+      {
+        "a": "nalka",
+        "rel": "next_to",
+        "b": "rasoi",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "water_tank",
+        "rel": "on_top_of",
+        "b": "roof",
+        "turns": [
+          13,
+          19
+        ]
+      },
+      {
+        "a": "ghusalkhana",
+        "rel": "behind",
+        "b": "vehra",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "ghusalkhana",
+        "rel": "left_of",
+        "b": "vehra",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "ghusalkhana",
+        "rel": "next_to",
+        "b": "mamu_room",
+        "turns": [
+          13
+        ]
+      },
+      {
+        "a": "stairs",
+        "rel": "right_of",
+        "b": "vehra",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "stairs",
+        "rel": "against_wall_of",
+        "b": "baithak",
+        "turns": [
+          15
+        ]
+      },
+      {
+        "a": "chaubara",
+        "rel": "on_top_of",
+        "b": "deorhi",
+        "turns": [
+          17
+        ]
+      },
+      {
+        "a": "cattle_yard",
+        "rel": "across_from",
+        "b": "house",
+        "turns": [
+          21
+        ]
+      },
+      {
+        "a": "buffaloes",
+        "rel": "inside",
+        "b": "cattle_yard",
+        "turns": [
+          21
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "vehra",
+        "dim": "width",
+        "metres": 9.144,
+        "turns": [
+          23
+        ]
+      },
+      {
+        "id": "vehra",
+        "dim": "length",
+        "metres": 12.192,
+        "turns": [
+          23
+        ]
+      },
+      {
+        "id": "baithak",
+        "dim": "length",
+        "metres": 8.0,
+        "turns": [
+          23
+        ]
+      }
+    ]
+  }
+}

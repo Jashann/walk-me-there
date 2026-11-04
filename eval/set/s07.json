@@ -1,0 +1,351 @@
+{
+  "id": "s07",
+  "synthetic": true,
+  "note": "Synthetic transcript written for evaluation; not a real person's words.",
+  "setting": "A family's railroad apartment, third floor of a walk-up on Java Street, Greenpoint, Brooklyn, 1970s to early 1980s",
+  "turns": [
+    {
+      "turnId": 1,
+      "speaker": "B",
+      "transcript": "Where was it?"
+    },
+    {
+      "turnId": 2,
+      "speaker": "A",
+      "transcript": "Greenpoint, Brooklyn, on Java Street, third floor of a walk-up. Seventy-something to eighty-two. Railroad apartment, so all the rooms in a line, one after the other, no hallway. You walk through each room to get to the next."
+    },
+    {
+      "turnId": 3,
+      "speaker": "B",
+      "transcript": "Where's the door?"
+    },
+    {
+      "turnId": 4,
+      "speaker": "A",
+      "transcript": "You come up the stairs and the door opens into the kitchen. Kitchen first. The stove was on the left, and the bathtub was in the kitchen too, on the right, with a board over it we used as a counter."
+    },
+    {
+      "turnId": 5,
+      "speaker": "B",
+      "transcript": "Then?"
+    },
+    {
+      "turnId": 6,
+      "speaker": "A",
+      "transcript": "Then the middle room, my parents' bedroom, and you had to walk through it to get to the front room. Which, you know, was a lot of fun when you were sixteen. Then the front room, the living room, with the two windows on the street."
+    },
+    {
+      "turnId": 7,
+      "speaker": "B",
+      "transcript": "And your room?"
+    },
+    {
+      "turnId": 8,
+      "speaker": "A",
+      "transcript": "I didn't have one. I slept on the couch in the front room, under the windows. Oh, and the toilet was a separate little closet off the kitchen, just a toilet, with a pull chain."
+    },
+    {
+      "turnId": 9,
+      "speaker": "B",
+      "transcript": "How big?"
+    },
+    {
+      "turnId": 10,
+      "speaker": "A",
+      "transcript": "The whole place was maybe twelve feet wide and fifty feet long. The bedroom and the front room maybe twelve by twelve each, the kitchen a bit bigger."
+    }
+  ],
+  "key": {
+    "entrance": "apt_door",
+    "entrance_faces": null,
+    "elements": [
+      {
+        "id": "building",
+        "kind": "other",
+        "name": "walk-up building",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "id": "apartment",
+        "kind": "other",
+        "name": "railroad apartment",
+        "turns": [
+          2,
+          10
+        ]
+      },
+      {
+        "id": "street",
+        "kind": "street",
+        "name": "Java Street",
+        "turns": [
+          2,
+          6
+        ]
+      },
+      {
+        "id": "stairs",
+        "kind": "stairs",
+        "name": "building stairs",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "apt_door",
+        "kind": "door",
+        "name": "apartment door",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "kitchen",
+        "kind": "kitchen",
+        "name": "kitchen",
+        "turns": [
+          4,
+          8,
+          10
+        ]
+      },
+      {
+        "id": "stove",
+        "kind": "stove",
+        "name": "stove",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "bathtub",
+        "kind": "object",
+        "name": "bathtub in the kitchen",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "board",
+        "kind": "object",
+        "name": "board over the tub used as a counter",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "id": "bedroom",
+        "kind": "room",
+        "name": "middle room, parents' bedroom",
+        "turns": [
+          6,
+          10
+        ]
+      },
+      {
+        "id": "front_room",
+        "kind": "room",
+        "name": "front room, living room",
+        "turns": [
+          6,
+          8,
+          10
+        ]
+      },
+      {
+        "id": "windows",
+        "kind": "window",
+        "name": "two windows on the street",
+        "turns": [
+          6,
+          8
+        ]
+      },
+      {
+        "id": "couch",
+        "kind": "furniture",
+        "name": "couch",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "toilet_closet",
+        "kind": "room",
+        "name": "toilet closet",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "id": "toilet",
+        "kind": "object",
+        "name": "pull-chain toilet",
+        "turns": [
+          8
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "a": "apartment",
+        "rel": "inside",
+        "b": "building",
+        "turns": [
+          2
+        ]
+      },
+      {
+        "a": "apt_door",
+        "rel": "opens_into",
+        "b": "kitchen",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "stove",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "stove",
+        "rel": "left_of",
+        "b": "kitchen",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "bathtub",
+        "rel": "inside",
+        "b": "kitchen",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "bathtub",
+        "rel": "right_of",
+        "b": "kitchen",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "board",
+        "rel": "on_top_of",
+        "b": "bathtub",
+        "turns": [
+          4
+        ]
+      },
+      {
+        "a": "kitchen",
+        "rel": "opens_into",
+        "b": "bedroom",
+        "turns": [
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "a": "bedroom",
+        "rel": "opens_into",
+        "b": "front_room",
+        "turns": [
+          2,
+          6
+        ]
+      },
+      {
+        "a": "couch",
+        "rel": "inside",
+        "b": "front_room",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "couch",
+        "rel": "below",
+        "b": "windows",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "toilet_closet",
+        "rel": "next_to",
+        "b": "kitchen",
+        "turns": [
+          8
+        ]
+      },
+      {
+        "a": "toilet",
+        "rel": "inside",
+        "b": "toilet_closet",
+        "turns": [
+          8
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "id": "apartment",
+        "dim": "width",
+        "metres": 3.6576,
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "apartment",
+        "dim": "length",
+        "metres": 15.24,
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "bedroom",
+        "dim": "length",
+        "metres": 3.6576,
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "bedroom",
+        "dim": "width",
+        "metres": 3.6576,
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "front_room",
+        "dim": "length",
+        "metres": 3.6576,
+        "turns": [
+          10
+        ]
+      },
+      {
+        "id": "front_room",
+        "dim": "width",
+        "metres": 3.6576,
+        "turns": [
+          10
+        ]
+      }
+    ]
+  }
+}

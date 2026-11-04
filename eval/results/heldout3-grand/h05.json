@@ -1,0 +1,35 @@
+{
+ "id": "h05",
+ "setting": "Grandmother's two-floor granite village house near Ponte de Lima in the Minho, Portugal, 1970s",
+ "graph": {
+  "result": {
+   "exists": {
+    "pass": 23,
+    "total": 25
+   },
+   "relation": {
+    "pass": 20,
+    "total": 22
+   },
+   "size": {
+    "pass": 2,
+    "total": 2
+   },
+   "pass": 45,
+   "total": 49,
+   "extras": [],
+   "failed": [
+    "there is a upper floor -> nothing in the build carries this tag",
+    "there is a kitchen back wall -> nothing in the build carries this tag",
+    "the cow stable (corte) is below the upper floor -> missing upper_floor",
+    "the open fireplace (lareira) is against the wall of the kitchen back wall -> missing kitchen_back_wall"
+   ]
+  },
+  "rounds": 4,
+  "ownChecks": "63/64",
+  "usd": 0.7125155,
+  "ms": 223612,
+  "elements": 25,
+  "error": null
+ }
+}
