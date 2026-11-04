@@ -6,7 +6,7 @@ Describe a place out loud, in your own language, and walk through it a few minut
 
 *The Taj Mahal, built by the app from a typed description of a visit. You can walk through it on the live site.*
 
-**Demo film:** https://youtu.be/nMwBZWg3quU
+**Demo film:** https://youtu.be/iIRtdv87Whk
 
 **Try it:** https://34-59-251-94.sslip.io has the 15 places from the demo video, and you can build your own by uploading a recording, typing a description or talking live (with daily spending limits). Walking uses a keyboard and mouse, so open it on a computer. The app adapts to slower machines; the film was captured with `?quality=high` added to a place's link, which you can add on a strong GPU.
 

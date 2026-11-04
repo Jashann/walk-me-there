@@ -115,7 +115,7 @@ function homePage() {
     h("main", { class: "home" },
       h("h1", {}, "Walk Me There"),
       h("p", { class: "lede" }, "Describe a place out loud, in your own language. A few minutes later you can walk through it. Every block that was described keeps the words that put it there. Anything the app guessed stays grey, and the scenery around the place is only a backdrop."),
-      h("p", { class: "home-links" }, h("a", { href: "https://youtu.be/nMwBZWg3quU", target: "_blank", rel: "noopener" }, "Watch the film"), " · ", h("a", { href: "https://github.com/Jashann/walk-me-there", target: "_blank", rel: "noopener" }, "Read the code")),
+      h("p", { class: "home-links" }, h("a", { href: "https://youtu.be/iIRtdv87Whk", target: "_blank", rel: "noopener" }, "Watch the film"), " · ", h("a", { href: "https://github.com/Jashann/walk-me-there", target: "_blank", rel: "noopener" }, "Read the code")),
       h("div", { class: "setup" }, ctx, lang),
       h("div", { class: "actions" },
         h("button", { class: "big talk", onclick: () => go(`/h/new-live?${new URLSearchParams({ context: ctx.value, languages: lang.value })}`) }, "Talk"),
