@@ -150,7 +150,7 @@ Things and sizes alone were 94.8%, 85.7% and 85.0%. It got more facts right than
 
 Everything in this repository was written during the Meta Global AI Developer Hackathon (October 27 to November 4, 2026). No earlier code was reused. Libraries: three.js, ws, Vite, puppeteer-core. All colours, ripples, skies and clouds are drawn in code; there are no texture files. The project is not affiliated with Mojang or Minecraft; the Minecraft export writes a plain data pack.
 
-Published as one commit, so the history does not show the build dates; each saved place records when it was built (`createdAt`). Milestones from the working history:
+Milestones:
 
 - October 27: first spoken description to a walkable place; evaluation runner and the three-way comparison.
 - October 28: real-size landmarks, scenery and the building kit.
